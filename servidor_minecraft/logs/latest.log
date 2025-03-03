@@ -1,231 +1,318 @@
-[11:15:52] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.5.0-1025-azure (amd64)
-[11:15:52] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-187-main@1d5e5a5 (2025-02-28T19:53:30Z) for Minecraft 1.21.4
-[11:15:52] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[11:15:52] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/EntityOptimizer.jar'...
-[11:15:53] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/EntityOptimizer.jar' in 537ms.
-[11:15:53] [ServerMain/INFO]: [PluginInitializerManager] Initialized 18 plugins
-[11:15:53] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (18):
- - AuthMe (5.6.0-bCUSTOM), Chunky (1.4.28), ClearLaggPlugin (1.0), EntityOptimizer (1.0), Essentials (2.21.0-dev+167-4e64782), EssentialsChat (2.21.0-dev+167-4e64782), EssentialsSpawn (2.21.0-dev+167-4e64782), FakeLogin (1.0), HerobrineTroll (1.0), LightningHoe (1.0), LuckPerms (5.4.156), NoPluginsv2 (2.0), NoSleep (1.0), PlugManX (2.4.1), PrivateWarps (1.0), TrollMaster (1.0), WorldEdit (7.3.10+7004-768a436), voicechat (2.5.26)
-[11:15:59] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[11:16:00] [ServerMain/INFO]: Loaded 1370 recipes
-[11:16:00] [ServerMain/INFO]: Loaded 1481 advancements
-[11:16:00] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
-[11:16:01] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 196.6ms
-[11:16:01] [Server thread/INFO]: Starting minecraft server version 1.21.4
-[11:16:01] [Server thread/INFO]: Loading properties
-[11:16:01] [Server thread/INFO]: This server is running Paper version 1.21.4-187-main@1d5e5a5 (2025-02-28T19:53:30Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
-[11:16:01] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[11:16:01] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[11:16:01] [Server thread/INFO]: Using 4 threads for Netty based IO
-[11:16:02] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[11:16:02] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[11:16:02] [Server thread/INFO]: Default game type: SURVIVAL
-[11:16:02] [Server thread/INFO]: Generating keypair
-[11:16:02] [Server thread/INFO]: Starting Minecraft server on *:25565
-[11:16:02] [Server thread/INFO]: Using epoll channel type
-[11:16:02] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[11:16:02] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[11:16:03] [Server thread/WARN]: [org.bukkit.craftbukkit.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[11:16:10] [Server thread/WARN]: Legacy plugin PrivateWarps v1.0 does not specify an api-version.
-[11:16:10] [Server thread/WARN]: Legacy plugin FakeLogin v1.0 does not specify an api-version.
-[11:16:10] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.156
-[11:16:10] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+167-4e64782
-[11:16:10] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.0-dev+167-4e64782
-[11:16:10] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.10+7004-768a436
-[11:16:10] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@69c081bd]
-[11:16:10] [Server thread/INFO]: [AuthMe] Loading server plugin AuthMe v5.6.0-bCUSTOM
-[11:16:10] [Server thread/INFO]: [PlugManX] Loading server plugin PlugManX v2.4.1
-[11:16:10] [Server thread/INFO]: [HerobrineTroll] Loading server plugin HerobrineTroll v1.0
-[11:16:10] [Server thread/INFO]: [NoSleep] Loading server plugin NoSleep v1.0
-[11:16:10] [Server thread/INFO]: [TrollMaster] Loading server plugin TrollMaster v1.0
-[11:16:10] [Server thread/INFO]: [PrivateWarps] Loading server plugin PrivateWarps v1.0
-[11:16:10] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.5.26
-[11:16:10] [Server thread/INFO]: [LightningHoe] Loading server plugin LightningHoe v1.0
-[11:16:10] [Server thread/INFO]: [ClearLaggPlugin] Loading server plugin ClearLaggPlugin v1.0
-[11:16:10] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.21.0-dev+167-4e64782
-[11:16:10] [Server thread/INFO]: [FakeLogin] Loading server plugin FakeLogin v1.0
-[11:16:10] [Server thread/INFO]: [NoPluginsv2] Loading server plugin NoPluginsv2 v2.0
-[11:16:10] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.28
-[11:16:10] [Server thread/INFO]: [EntityOptimizer] Loading server plugin EntityOptimizer v1.0
-[11:16:10] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[11:16:10] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.156
-[11:16:11] [Server thread/INFO]:         __    
-[11:16:11] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.156
-[11:16:11] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[11:16:11] [Server thread/INFO]: 
-[11:16:11] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[11:16:11] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[11:16:12] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[11:16:12] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[11:16:12] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1362ms)
-[11:16:12] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.10+7004-768a436
-[11:16:12] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[11:16:12] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[11:16:12] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_4.PaperweightAdapter as the Bukkit adapter
-[11:16:13] [Server thread/INFO]: [PlugManX] Enabling PlugManX v2.4.1
-[11:16:13] [Server thread/WARN]: [PlugManX] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-[11:16:13] [Server thread/WARN]: [PlugManX] It seems like you're running on paper.
-[11:16:13] [Server thread/WARN]: [PlugManX] PlugManX cannot interact with paper-plugins, yet.
-[11:16:13] [Server thread/WARN]: [PlugManX] Also, if you encounter any issues, please join my discord: https://discord.gg/GxEFhVY6ff
-[11:16:13] [Server thread/WARN]: [PlugManX] Or create an issue on GitHub: https://github.com/TheBlackEntity/PlugMan
-[11:16:13] [Server thread/WARN]: [PlugManX] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-[11:16:14] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[11:16:14] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[11:16:14] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[11:16:14] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[11:16:14] [Server thread/INFO]: Preparing level "world"
-[11:16:14] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[11:16:15] [Server thread/INFO]: Preparing spawn area: 0%
-[11:16:15] [Server thread/INFO]: Preparing spawn area: 0%
-[11:16:15] [Server thread/INFO]: Time elapsed: 886 ms
-[11:16:15] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[11:16:15] [Server thread/INFO]: Preparing spawn area: 0%
-[11:16:16] [Server thread/INFO]: Time elapsed: 214 ms
-[11:16:16] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[11:16:16] [Server thread/INFO]: Preparing spawn area: 0%
-[11:16:16] [Server thread/INFO]: Time elapsed: 152 ms
-[11:16:16] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+167-4e64782
-[11:16:16] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[11:16:16] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[11:16:16] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
-[11:16:16] [Server thread/INFO]: [Essentials] Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
-[11:16:16] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
-[11:16:16] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
-[11:16:16] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
-[11:16:16] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
-[11:16:16] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
-[11:16:16] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
-[11:16:16] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
-[11:16:16] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
-[11:16:16] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
-[11:16:16] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
-[11:16:16] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
-[11:16:16] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
-[11:16:16] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
-[11:16:16] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
-[11:16:16] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
-[11:16:16] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
-[11:16:16] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
-[11:16:16] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
-[11:16:16] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
-[11:16:16] [Server thread/INFO]: [Essentials] Selected Reflection Spawner Block Provider as the provider for SpawnerBlockProvider
-[11:16:17] [Server thread/INFO]: [Essentials] Loaded 43465 items from items.json.
-[11:16:17] [Server thread/INFO]: [Essentials] Using locale en
-[11:16:17] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[11:16:17] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[11:16:17] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
-[11:16:17] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
-[11:16:17] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[11:16:17] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.0-dev+167-4e64782
-[11:16:17] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
-[11:16:17] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.6.0-bCUSTOM
-[11:16:18] [Server thread/INFO]: [AuthMe] SQLite Setup finished
-[11:16:18] [Server thread/INFO]: [AuthMe] Hooked into LuckPerms!
-[11:16:18] [Server thread/INFO]: [AuthMe] Hooked successfully into Essentials
-[11:16:18] [Server thread/WARN]: [AuthMe] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
-[11:16:18] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
-[11:16:18] [Server thread/INFO]: [HerobrineTroll] Enabling HerobrineTroll v1.0
-[11:16:18] [Server thread/INFO]: [NoSleep] Enabling NoSleep v1.0
-[11:16:18] [Server thread/INFO]: [TrollMaster] Enabling TrollMaster v1.0
-[11:16:18] [Server thread/INFO]: [PrivateWarps] Enabling PrivateWarps v1.0*
-[11:16:18] [Server thread/INFO]: [PrivateWarps] PrivateWarpsPlugin activado!
-[11:16:18] [Server thread/INFO]: [voicechat] Enabling voicechat v2.5.26
-[11:16:18] [Server thread/INFO]: [voicechat] Initializing compatibility for Bukkit version 1.21.4-R0.1
-[11:16:18] [Server thread/INFO]: [voicechat] Compatibility version 18
-[11:16:18] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
-[11:16:18] [Server thread/INFO]: [LightningHoe] Enabling LightningHoe v1.0
-[11:16:18] [Server thread/INFO]: [ClearLaggPlugin] Enabling ClearLaggPlugin v1.0
-[11:16:18] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.0-dev+167-4e64782
-[11:16:18] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
-[11:16:18] [Server thread/INFO]: [FakeLogin] Enabling FakeLogin v1.0*
-[11:16:18] [Server thread/INFO]: [NoPluginsv2] Enabling NoPluginsv2 v2.0
-[11:16:18] [Server thread/INFO]: [NoPluginsv2] BlockCommandsPlugin activado!
-[11:16:18] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.28
-[11:16:18] [Server thread/INFO]: [EntityOptimizer] Enabling EntityOptimizer v1.0
-[11:16:18] [Server thread/INFO]: [EntityOptimizer] EntityOptimizer activado.
-[11:16:19] [Server thread/INFO]: [spark] Starting background profiler...
-[11:16:19] [Server thread/INFO]: Done preparing level "world" (5.456s)
-[11:16:19] [Server thread/INFO]: Running delayed init tasks
-[11:16:19] [Craft Scheduler Thread - 3 - Essentials/INFO]: [Essentials] Fetching version information...
-[11:16:19] [Craft Scheduler Thread - 1 - AuthMe/INFO]: [AuthMe] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
-[11:16:19] [Craft Scheduler Thread - 1 - AuthMe/WARN]: [AuthMe] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
-[11:16:19] [Craft Scheduler Thread - 1 - AuthMe/INFO]: [AuthMe] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
-[11:16:19] [Craft Scheduler Thread - 1 - AuthMe/WARN]: [AuthMe] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
-[11:16:19] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[11:16:19] [Server thread/INFO]: Done (28.151s)! For help, type "help"
-[11:16:19] [Server thread/INFO]: [voicechat] Loading plugins
-[11:16:19] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
-[11:16:19] [Server thread/INFO]: [voicechat] Initializing plugins
-[11:16:19] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
-[11:16:19] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
-[11:16:19] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
-[11:16:19] [Craft Scheduler Thread - 3 - Essentials/WARN]: [Essentials] You're 18 EssentialsX dev build(s) out of date!
-[11:16:19] [Craft Scheduler Thread - 3 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
-[11:16:49] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[11:16:59] [Server thread/INFO]: [ClearLaggPlugin] Disabling ClearLaggPlugin v1.0
-[11:16:59] [Server thread/INFO]: [PlugMan] ClearLaggPlugin has been unloaded.
-[11:17:19] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[11:17:27] [User Authenticator #0/INFO]: UUID of player Zarickson is d1be33e8-0f45-3b2d-8d80-cabf1ca7e6a5
-[11:17:29] [Server thread/INFO]: Zarickson joined the game
-[11:17:29] [Server thread/INFO]: Zarickson[/127.109.230.223:54203] logged in with entity id 106 at ([world]72.23076675841247, 63.1875, -51.840520249565884)
-[11:17:34] [Craft Scheduler Thread - 8 - AuthMe/INFO]: [AuthMe] Zarickson logged in 127.109.230.223
-[11:17:49] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[11:18:00] [Server thread/INFO]: Zarickson issued server command: /entityoptimizer:entityoptimizer
-[11:18:03] [Server thread/INFO]: Zarickson issued server command: /entityoptimizer
-[11:18:11] [Server thread/INFO]: Zarickson issued server command: /time set day
-[11:18:19] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[11:18:49] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[11:19:19] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[11:19:49] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[11:20:19] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[11:20:49] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[11:21:09] [Server thread/INFO]: Zarickson issued server command: /time set day
-[11:21:10] [Server thread/INFO]: Zarickson issued server command: /sun
-[11:21:19] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[11:21:49] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[11:22:19] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[11:22:49] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[11:23:19] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[11:23:49] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[11:24:19] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[11:24:49] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[11:25:19] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[11:25:49] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[11:26:19] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[11:26:49] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[11:27:04] [Server thread/INFO]: Zarickson issued server command: /plugman load ItemFrameDuplicator
-[11:27:04] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/ItemFrameDuplicator.jar'...
-[11:27:04] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/ItemFrameDuplicator.jar' in 257ms.
-[11:27:04] [Server thread/INFO]: [ItemFrameDuplicator] Loading server plugin ItemFrameDuplicator v1.0
-[11:27:04] [Server thread/INFO]: [ItemFrameDuplicator] Enabling ItemFrameDuplicator v1.0
-[11:27:04] [Server thread/ERROR]: Error occurred while enabling ItemFrameDuplicator v1.0 (Is it up to date?)
-java.lang.IllegalArgumentException: Plugin already initialized!
-	at org.bukkit.plugin.java.PluginClassLoader.initialize(PluginClassLoader.java:281) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.java.PluginClassLoader.init(PluginClassLoader.java:153) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.java.JavaPlugin.<init>(JavaPlugin.java:63) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
-	at ItemFrameDuplicator-1741001224671.jar/ER.Ericson.init.PluginInit.<init>(PluginInit.java:7) ~[ItemFrameDuplicator-1741001224671.jar:?]
-	at ItemFrameDuplicator-1741001224671.jar/ER.Ericson.ItemFrameDuplicator.onEnable(ItemFrameDuplicator.java:10) ~[ItemFrameDuplicator-1741001224671.jar:?]
-	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:280) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at PlugManX-2.4.1.jar/com.rylinaux.plugman.pluginmanager.PaperPluginManager.load(PaperPluginManager.java:403) ~[PlugManX-2.4.1.jar:?]
-	at PlugManX-2.4.1.jar/com.rylinaux.plugman.command.LoadCommand.execute(LoadCommand.java:114) ~[PlugManX-2.4.1.jar:?]
-	at PlugManX-2.4.1.jar/com.rylinaux.plugman.PlugManCommandHandler.onCommand(PlugManCommandHandler.java:94) ~[PlugManX-2.4.1.jar:?]
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:82) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:105) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:450) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:357) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:347) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:341) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2204) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$11(ServerGamePacketListenerImpl.java:2177) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+[11:46:05] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.5.0-1025-azure (amd64)
+[11:46:05] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-187-main@1d5e5a5 (2025-02-28T19:53:30Z) for Minecraft 1.21.4
+[11:46:06] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[11:46:06] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/ItemFrameDuplicator.jar'...
+[11:46:06] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/ItemFrameDuplicator.jar' in 367ms.
+[11:46:06] [ServerMain/INFO]: [PluginInitializerManager] Initialized 19 plugins
+[11:46:06] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (19):
+ - AuthMe (5.6.0-bCUSTOM), Chunky (1.4.28), ClearLaggPlugin (1.0), EntityOptimizer (1.0), Essentials (2.21.0-dev+167-4e64782), EssentialsChat (2.21.0-dev+167-4e64782), EssentialsSpawn (2.21.0-dev+167-4e64782), FakeLogin (1.0), HerobrineTroll (1.0), ItemFrameDuplicator (1.0), LightningHoe (1.0), LuckPerms (5.4.156), NoPluginsv2 (2.0), NoSleep (1.0), PlugManX (2.4.1), PrivateWarps (1.0), TrollMaster (1.0), WorldEdit (7.3.10+7004-768a436), voicechat (2.5.26)
+[11:46:11] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[11:46:13] [ServerMain/INFO]: Loaded 1370 recipes
+[11:46:13] [ServerMain/INFO]: Loaded 1481 advancements
+[11:46:13] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[11:46:13] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 227.9ms
+[11:46:13] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[11:46:13] [Server thread/INFO]: Loading properties
+[11:46:14] [Server thread/INFO]: This server is running Paper version 1.21.4-187-main@1d5e5a5 (2025-02-28T19:53:30Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
+[11:46:14] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[11:46:14] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[11:46:14] [Server thread/INFO]: Using 4 threads for Netty based IO
+[11:46:14] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[11:46:14] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[11:46:15] [Server thread/INFO]: Default game type: SURVIVAL
+[11:46:15] [Server thread/INFO]: Generating keypair
+[11:46:15] [Server thread/INFO]: Starting Minecraft server on *:25565
+[11:46:15] [Server thread/INFO]: Using epoll channel type
+[11:46:15] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[11:46:15] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[11:46:15] [Server thread/WARN]: [org.bukkit.craftbukkit.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[11:46:22] [Server thread/WARN]: Legacy plugin PrivateWarps v1.0 does not specify an api-version.
+[11:46:22] [Server thread/WARN]: Legacy plugin FakeLogin v1.0 does not specify an api-version.
+[11:46:22] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.156
+[11:46:22] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+167-4e64782
+[11:46:22] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.0-dev+167-4e64782
+[11:46:22] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.10+7004-768a436
+[11:46:23] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@8d965d8]
+[11:46:23] [Server thread/INFO]: [AuthMe] Loading server plugin AuthMe v5.6.0-bCUSTOM
+[11:46:23] [Server thread/INFO]: [PlugManX] Loading server plugin PlugManX v2.4.1
+[11:46:23] [Server thread/INFO]: [HerobrineTroll] Loading server plugin HerobrineTroll v1.0
+[11:46:23] [Server thread/INFO]: [NoSleep] Loading server plugin NoSleep v1.0
+[11:46:23] [Server thread/INFO]: [TrollMaster] Loading server plugin TrollMaster v1.0
+[11:46:23] [Server thread/INFO]: [PrivateWarps] Loading server plugin PrivateWarps v1.0
+[11:46:23] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.5.26
+[11:46:23] [Server thread/INFO]: [ItemFrameDuplicator] Loading server plugin ItemFrameDuplicator v1.0
+[11:46:23] [Server thread/INFO]: [LightningHoe] Loading server plugin LightningHoe v1.0
+[11:46:23] [Server thread/INFO]: [ClearLaggPlugin] Loading server plugin ClearLaggPlugin v1.0
+[11:46:23] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.21.0-dev+167-4e64782
+[11:46:23] [Server thread/INFO]: [FakeLogin] Loading server plugin FakeLogin v1.0
+[11:46:23] [Server thread/INFO]: [NoPluginsv2] Loading server plugin NoPluginsv2 v2.0
+[11:46:23] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.28
+[11:46:23] [Server thread/INFO]: [EntityOptimizer] Loading server plugin EntityOptimizer v1.0
+[11:46:23] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[11:46:23] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.156
+[11:46:24] [Server thread/INFO]:         __    
+[11:46:24] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.156
+[11:46:24] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[11:46:24] [Server thread/INFO]: 
+[11:46:24] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[11:46:24] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[11:46:24] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[11:46:24] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[11:46:24] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1287ms)
+[11:46:24] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.10+7004-768a436
+[11:46:24] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[11:46:25] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[11:46:25] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_4.PaperweightAdapter as the Bukkit adapter
+[11:46:26] [Server thread/INFO]: [PlugManX] Enabling PlugManX v2.4.1
+[11:46:26] [Server thread/WARN]: [PlugManX] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[11:46:26] [Server thread/WARN]: [PlugManX] It seems like you're running on paper.
+[11:46:26] [Server thread/WARN]: [PlugManX] PlugManX cannot interact with paper-plugins, yet.
+[11:46:26] [Server thread/WARN]: [PlugManX] Also, if you encounter any issues, please join my discord: https://discord.gg/GxEFhVY6ff
+[11:46:26] [Server thread/WARN]: [PlugManX] Or create an issue on GitHub: https://github.com/TheBlackEntity/PlugMan
+[11:46:26] [Server thread/WARN]: [PlugManX] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[11:46:26] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[11:46:26] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[11:46:26] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[11:46:26] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[11:46:26] [Server thread/INFO]: Preparing level "world"
+[11:46:27] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[11:46:27] [Server thread/INFO]: Preparing spawn area: 0%
+[11:46:28] [Server thread/INFO]: Preparing spawn area: 0%
+[11:46:28] [Server thread/INFO]: Time elapsed: 945 ms
+[11:46:28] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[11:46:28] [Server thread/INFO]: Preparing spawn area: 0%
+[11:46:28] [Server thread/INFO]: Time elapsed: 253 ms
+[11:46:28] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[11:46:29] [Server thread/INFO]: Preparing spawn area: 0%
+[11:46:29] [Server thread/INFO]: Time elapsed: 156 ms
+[11:46:29] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+167-4e64782
+[11:46:29] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[11:46:29] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[11:46:29] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[11:46:29] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[11:46:29] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[11:46:29] [Server thread/INFO]: [Essentials] Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
+[11:46:29] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[11:46:29] [Server thread/INFO]: [Essentials] Selected Reflection Spawner Block Provider as the provider for SpawnerBlockProvider
+[11:46:29] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[11:46:29] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[11:46:29] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[11:46:29] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[11:46:29] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[11:46:29] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[11:46:29] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[11:46:29] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[11:46:29] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[11:46:29] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[11:46:29] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[11:46:29] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[11:46:29] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[11:46:29] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[11:46:29] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[11:46:29] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[11:46:29] [Server thread/INFO]: [Essentials] Loaded 43465 items from items.json.
+[11:46:30] [Server thread/INFO]: [Essentials] Using locale en
+[11:46:30] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[11:46:30] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[11:46:30] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
+[11:46:30] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[11:46:30] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[11:46:30] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.0-dev+167-4e64782
+[11:46:30] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[11:46:30] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.6.0-bCUSTOM
+[11:46:30] [Server thread/INFO]: [AuthMe] SQLite Setup finished
+[11:46:30] [Server thread/INFO]: [AuthMe] Hooked into LuckPerms!
+[11:46:31] [Server thread/INFO]: [AuthMe] Hooked successfully into Essentials
+[11:46:31] [Server thread/WARN]: [AuthMe] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[11:46:31] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
+[11:46:31] [Server thread/INFO]: [HerobrineTroll] Enabling HerobrineTroll v1.0
+[11:46:31] [Server thread/INFO]: [NoSleep] Enabling NoSleep v1.0
+[11:46:31] [Server thread/INFO]: [TrollMaster] Enabling TrollMaster v1.0
+[11:46:31] [Server thread/INFO]: [PrivateWarps] Enabling PrivateWarps v1.0*
+[11:46:31] [Server thread/INFO]: [PrivateWarps] PrivateWarpsPlugin activado!
+[11:46:31] [Server thread/INFO]: [voicechat] Enabling voicechat v2.5.26
+[11:46:31] [Server thread/INFO]: [voicechat] Initializing compatibility for Bukkit version 1.21.4-R0.1
+[11:46:31] [Server thread/INFO]: [voicechat] Compatibility version 18
+[11:46:31] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
+[11:46:31] [Server thread/INFO]: [ItemFrameDuplicator] Enabling ItemFrameDuplicator v1.0
+[11:46:31] [Server thread/INFO]: [ItemFrameDuplicator] ItemFrameDuplicator activado.
+[11:46:31] [Server thread/INFO]: [LightningHoe] Enabling LightningHoe v1.0
+[11:46:31] [Server thread/INFO]: [ClearLaggPlugin] Enabling ClearLaggPlugin v1.0
+[11:46:31] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.0-dev+167-4e64782
+[11:46:31] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[11:46:31] [Server thread/INFO]: [FakeLogin] Enabling FakeLogin v1.0*
+[11:46:31] [Server thread/INFO]: [NoPluginsv2] Enabling NoPluginsv2 v2.0
+[11:46:31] [Server thread/INFO]: [NoPluginsv2] BlockCommandsPlugin activado!
+[11:46:31] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.28
+[11:46:31] [Server thread/INFO]: [EntityOptimizer] Enabling EntityOptimizer v1.0
+[11:46:31] [Server thread/INFO]: [EntityOptimizer] EntityOptimizer activado.
+[11:46:31] [Server thread/INFO]: [spark] Starting background profiler...
+[11:46:32] [Server thread/INFO]: Done preparing level "world" (5.458s)
+[11:46:32] [Server thread/INFO]: Running delayed init tasks
+[11:46:32] [Craft Scheduler Thread - 1 - AuthMe/INFO]: [AuthMe] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[11:46:32] [Craft Scheduler Thread - 1 - AuthMe/WARN]: [AuthMe] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[11:46:32] [Craft Scheduler Thread - 1 - AuthMe/INFO]: [AuthMe] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[11:46:32] [Craft Scheduler Thread - 1 - AuthMe/WARN]: [AuthMe] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[11:46:32] [Craft Scheduler Thread - 3 - Essentials/INFO]: [Essentials] Fetching version information...
+[11:46:32] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[11:46:32] [Server thread/INFO]: Done (27.201s)! For help, type "help"
+[11:46:32] [Server thread/INFO]: [voicechat] Loading plugins
+[11:46:32] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
+[11:46:32] [Server thread/INFO]: [voicechat] Initializing plugins
+[11:46:32] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
+[11:46:32] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[11:46:32] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
+[11:46:32] [Craft Scheduler Thread - 3 - Essentials/WARN]: [Essentials] You're 18 EssentialsX dev build(s) out of date!
+[11:46:32] [Craft Scheduler Thread - 3 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
+[11:47:02] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[11:47:05] [User Authenticator #0/INFO]: UUID of player Zarickson is d1be33e8-0f45-3b2d-8d80-cabf1ca7e6a5
+[11:47:07] [Server thread/INFO]: Zarickson joined the game
+[11:47:07] [Server thread/INFO]: Zarickson[/127.109.230.223:50165] logged in with entity id 575 at ([world]128.4537466998585, 66.0, -53.603501664271064)
+[11:47:12] [Craft Scheduler Thread - 9 - AuthMe/INFO]: [AuthMe] Zarickson logged in 127.109.230.223
+[11:47:32] [Server thread/INFO]: ⚠ Limpieza de ítems en 10 segundos! Recoge tus cosas!
+[11:47:32] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[11:47:42] [Server thread/WARN]: [ClearLaggPlugin] Task #30 for ClearLaggPlugin v1.0 generated an exception
+java.lang.ClassCastException: class org.bukkit.craftbukkit.entity.CraftDrowned cannot be cast to class org.bukkit.entity.Item (org.bukkit.craftbukkit.entity.CraftDrowned and org.bukkit.entity.Item are in unnamed module of loader java.net.URLClassLoader @7591083d)
+	at ClearLaggPlugin.jar/ER.Ericson.ClearLaggPlugin.clearItems(ClearLaggPlugin.java:52) ~[ClearLaggPlugin.jar:?]
+	at ClearLaggPlugin.jar/ER.Ericson.ClearLaggPlugin$1$1.run(ClearLaggPlugin.java:41) ~[ClearLaggPlugin.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:474) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1659) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1529) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1251) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[11:48:02] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[11:48:32] [Server thread/INFO]: ⚠ Limpieza de ítems en 10 segundos! Recoge tus cosas!
+[11:48:32] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[11:48:42] [Server thread/WARN]: [ClearLaggPlugin] Task #31 for ClearLaggPlugin v1.0 generated an exception
+java.lang.ClassCastException: class org.bukkit.craftbukkit.entity.CraftDrowned cannot be cast to class org.bukkit.entity.Item (org.bukkit.craftbukkit.entity.CraftDrowned and org.bukkit.entity.Item are in unnamed module of loader java.net.URLClassLoader @7591083d)
+	at ClearLaggPlugin.jar/ER.Ericson.ClearLaggPlugin.clearItems(ClearLaggPlugin.java:52) ~[ClearLaggPlugin.jar:?]
+	at ClearLaggPlugin.jar/ER.Ericson.ClearLaggPlugin$1$1.run(ClearLaggPlugin.java:41) ~[ClearLaggPlugin.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:474) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1659) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1529) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1251) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[11:49:02] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[11:49:32] [Server thread/INFO]: ⚠ Limpieza de ítems en 10 segundos! Recoge tus cosas!
+[11:49:32] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[11:49:42] [Server thread/WARN]: [ClearLaggPlugin] Task #32 for ClearLaggPlugin v1.0 generated an exception
+java.lang.ClassCastException: class org.bukkit.craftbukkit.entity.CraftDrowned cannot be cast to class org.bukkit.entity.Item (org.bukkit.craftbukkit.entity.CraftDrowned and org.bukkit.entity.Item are in unnamed module of loader java.net.URLClassLoader @7591083d)
+	at ClearLaggPlugin.jar/ER.Ericson.ClearLaggPlugin.clearItems(ClearLaggPlugin.java:52) ~[ClearLaggPlugin.jar:?]
+	at ClearLaggPlugin.jar/ER.Ericson.ClearLaggPlugin$1$1.run(ClearLaggPlugin.java:41) ~[ClearLaggPlugin.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:474) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1659) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1529) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1251) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[11:50:02] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[11:50:06] [Server thread/INFO]: [ClearLaggPlugin] Disabling ClearLaggPlugin v1.0
+[11:50:06] [Server thread/INFO]: [PlugMan] ClearLaggPlugin has been unloaded.
+[11:50:19] [Server thread/INFO]: Zarickson issued server command: /plugman load rpghealth
+[11:50:19] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/rpghealth.jar'...
+[11:50:19] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/rpghealth.jar' in 130ms.
+[11:50:19] [Server thread/INFO]: [RPGHealthDisplay] Loading server plugin RPGHealthDisplay v1.1
+[11:50:19] [Server thread/INFO]: [RPGHealthDisplay] Enabling RPGHealthDisplay v1.1
+[11:50:32] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[11:51:02] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[11:51:32] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[11:52:02] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[11:52:32] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[11:53:02] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[11:53:32] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[11:54:02] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[11:54:09] [Server thread/INFO]: Zarickson issued server command: /plugman reload RPGHealthDisplay
+[11:54:09] [Server thread/INFO]: [RPGHealthDisplay] Disabling RPGHealthDisplay v1.1
+[11:54:09] [Paper Plugin Remapper Thread - 4/INFO]: [PluginRemapper] Remapping plugin 'plugins/rpghealth.jar'...
+[11:54:09] [Paper Plugin Remapper Thread - 4/INFO]: [PluginRemapper] Done remapping plugin 'plugins/rpghealth.jar' in 112ms.
+[11:54:09] [Server thread/INFO]: [RPGHealthDisplay] Loading server plugin RPGHealthDisplay v1.0
+[11:54:09] [Server thread/INFO]: [RPGHealthDisplay] Enabling RPGHealthDisplay v1.0
+[11:54:09] [Server thread/INFO]: [RPGHealthDisplay] RPGHealthDisplay ha sido activado.
+[11:54:32] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[11:55:02] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[11:55:32] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[11:56:02] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[11:56:32] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[11:57:02] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[11:57:32] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[11:58:02] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[11:58:05] [Server thread/INFO]: Zarickson issued server command: /plugman reload RPGHealthDisplay
+[11:58:05] [Server thread/INFO]: [RPGHealthDisplay] Disabling RPGHealthDisplay v1.0
+[11:58:05] [Server thread/INFO]: [RPGHealthDisplay] RPGHealthDisplay ha sido desactivado.
+[11:58:05] [Paper Plugin Remapper Thread - 5/INFO]: [PluginRemapper] Remapping plugin 'plugins/rpghealth.jar'...
+[11:58:05] [Paper Plugin Remapper Thread - 5/INFO]: [PluginRemapper] Done remapping plugin 'plugins/rpghealth.jar' in 95ms.
+[11:58:05] [Server thread/INFO]: [RPGHealthDisplay] Loading server plugin RPGHealthDisplay v1.0
+[11:58:05] [Server thread/INFO]: [RPGHealthDisplay] Enabling RPGHealthDisplay v1.0
+[11:58:05] [Server thread/INFO]: [RPGHealthDisplay] RPGHealthDisplay ha sido activado correctamente.
+[11:58:12] [Server thread/INFO]: Named entity ZombieHorse['❤ 0'/1949, uuid='3a1949ef-7442-4b68-9222-9613a82d375b', l='ServerLevel[world]', x=102.99, y=64.00, z=-48.60, cpos=[6, -4], tl=78, v=true] died: ❤ 0 was slain by Zarickson
+[11:58:17] [Server thread/INFO]: Named entity Cow['❤ 0'/561, uuid='f86aa2fe-e0b3-4feb-bf78-b8317eb0146b', l='ServerLevel[world]', x=103.60, y=63.00, z=-34.44, cpos=[6, -3], tl=13389, v=true] died: ❤ 0 was slain by Zarickson
+[11:58:22] [Server thread/INFO]: Named entity ZombieHorse['❤ 0'/140, uuid='e77d727f-b49e-4dcf-a7c4-e0aeea3e0dcf', l='ServerLevel[world]', x=113.72, y=64.00, z=-44.80, cpos=[7, -3], tl=13473, v=true] died: ❤ 0 was slain by Zarickson
+[11:58:32] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[11:58:34] [Server thread/INFO]: Named entity Cow['❤ 0'/583, uuid='cdc2f791-c40a-4564-ad0b-ad1b3bdc83a4', l='ServerLevel[world]', x=141.51, y=67.00, z=-31.72, cpos=[8, -2], tl=13737, v=true] died: ❤ 0 was slain by Zarickson
+[11:59:02] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[11:59:31] [Server thread/INFO]: Named entity ZombieHorse['❤ 0'/2147, uuid='6016d8db-d3d1-49e9-b7b7-ecada4683a9d', l='ServerLevel[world]', x=142.46, y=65.00, z=-22.65, cpos=[8, -2], tl=99, v=true] died: ❤ 0 was slain by Zarickson
+[11:59:32] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[11:59:34] [Server thread/INFO]: Named entity ZombieHorse['❤ 0'/2143, uuid='4fd73d18-1b43-457c-b69a-ebd5c7cf0205', l='ServerLevel[world]', x=147.77, y=67.00, z=-24.27, cpos=[9, -2], tl=190, v=true] died: ❤ 0 was slain by Zarickson
+[12:00:02] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[12:00:30] [Server thread/INFO]: Zarickson issued server command: /plugman reload RPGHealthDisplay
+[12:00:30] [Server thread/INFO]: [RPGHealthDisplay] Disabling RPGHealthDisplay v1.0
+[12:00:30] [Server thread/INFO]: [RPGHealthDisplay] RPGHealthDisplay ha sido desactivado.
+[12:00:30] [Paper Plugin Remapper Thread - 6/INFO]: [PluginRemapper] Remapping plugin 'plugins/rpghealth.jar'...
+[12:00:30] [Paper Plugin Remapper Thread - 6/INFO]: [PluginRemapper] Done remapping plugin 'plugins/rpghealth.jar' in 105ms.
+[12:00:30] [Server thread/INFO]: [RPGHealthDisplay] Loading server plugin RPGHealthDisplay v1.0
+[12:00:30] [Server thread/INFO]: [RPGHealthDisplay] Enabling RPGHealthDisplay v1.0
+[12:00:30] [Server thread/INFO]: [RPGHealthDisplay] RPGHealthDisplay ha sido activado correctamente.
+[12:00:32] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[12:00:34] [Server thread/INFO]: Named entity ZombieHorse['❤ 0 / 15'/2267, uuid='17807d42-b373-4cf5-84a8-1b7a0187649c', l='ServerLevel[world]', x=115.27, y=63.00, z=-30.99, cpos=[7, -2], tl=47, v=true] died: ❤ 0 / 15 was slain by Zarickson
+[12:00:40] [Server thread/INFO]: Named entity ZombieHorse['❤ 0 / 15'/2288, uuid='1e2e7334-2e56-4bee-ab6e-1da7895f5355', l='ServerLevel[world]', x=103.57, y=63.00, z=-48.92, cpos=[6, -4], tl=65, v=true] died: ❤ 0 / 15 was slain by Zarickson
+[12:00:45] [Server thread/INFO]: Named entity ZombieHorse['❤ 0 / 15'/2316, uuid='466e7f80-c07f-4c14-b04c-f4c05c57b2b6', l='ServerLevel[world]', x=95.04, y=63.00, z=-55.96, cpos=[5, -4], tl=64, v=true] died: ❤ 0 / 15 was slain by Zarickson
+[12:00:50] [Server thread/INFO]: Named entity ZombieHorse['❤ 0 / 15'/2339, uuid='0db6623d-db3d-4166-af7d-2a11d20edd77', l='ServerLevel[world]', x=85.78, y=63.00, z=-54.00, cpos=[5, -4], tl=58, v=true] died: ❤ 0 / 15 was slain by Zarickson
+[12:01:02] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[12:01:32] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[12:02:02] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[12:02:32] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[12:03:02] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[12:03:32] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[12:04:02] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[12:04:32] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[12:05:02] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[12:05:32] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[12:06:02] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[12:06:32] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[12:06:33] [Server thread/INFO]: Zarickson issued server command: /plugman load BossHealthBar
+[12:06:33] [Paper Plugin Remapper Thread - 7/INFO]: [PluginRemapper] Remapping plugin 'plugins/BossHealthBar.jar'...
+[12:06:33] [Paper Plugin Remapper Thread - 7/INFO]: [PluginRemapper] Done remapping plugin 'plugins/BossHealthBar.jar' in 83ms.
+[12:06:33] [Server thread/INFO]: [BossHealthBar] Loading server plugin BossHealthBar v1.0
+[12:06:33] [Server thread/INFO]: [BossHealthBar] Enabling BossHealthBar v1.0
+[12:06:59] [Server thread/INFO]: Zarickson has made the advancement [Spooky Scary Skeleton]
+[12:07:02] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[12:07:19] [Server thread/INFO]: Zarickson has made the advancement [Withering Heights]
+[12:07:32] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[12:07:43] [Server thread/INFO]: Named entity Creeper['❤ 0 / 20'/3164, uuid='ac52327a-893b-42b4-aa8c-e0e14ef65e7c', l='ServerLevel[world]', x=107.67, y=63.00, z=-231.62, cpos=[6, -15], tl=818, v=true] died: ❤ 0 / 20 was blown up by ❤ 298 / 300
+[12:07:47] [Server thread/INFO]: Named entity Cod['❤ 0 / 3'/3335, uuid='55d27369-87ce-4f93-989e-6da0268b64cb', l='ServerLevel[world]', x=141.53, y=58.43, z=-233.51, cpos=[8, -15], tl=154, v=true] died: ❤ 0 / 3 was shot by a skull from ❤ 298 / 300
+[12:07:48] [Server thread/INFO]: Named entity Cod['❤ 0 / 3'/3309, uuid='c0a9d150-9dc5-4a4e-a870-8226f0803a76', l='ServerLevel[world]', x=148.17, y=59.87, z=-237.17, cpos=[9, -15], tl=292, v=true] died: ❤ 0 / 3 was shot by a skull from ❤ 298 / 300
+[12:07:48] [Server thread/INFO]: Named entity Cod['❤ 0 / 3'/3222, uuid='a7b5a24f-ed74-41d2-96e3-7948eff09159', l='ServerLevel[world]', x=149.43, y=59.06, z=-237.53, cpos=[9, -15], tl=848, v=true] died: ❤ 0 / 3 was shot by a skull from ❤ 298 / 300
+[12:07:49] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to LightningHoe v1.0
+java.lang.NullPointerException: Cannot invoke "org.bukkit.block.Block.getLocation()" because the return value of "org.bukkit.entity.Player.getTargetBlockExact(int)" is null
+	at LightningHoe.jar/ER.Ericson.LightningHoe.onPlayerUseHoe(LightningHoe.java:25) ~[LightningHoe.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:603) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:559) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:554) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:550) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleAnimate(ServerGamePacketListenerImpl.java:2547) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.network.protocol.game.ServerboundSwingPacket.handle(ServerboundSwingPacket.java:34) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.network.protocol.game.ServerboundSwingPacket.handle(ServerboundSwingPacket.java:9) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:29) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
 	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
 	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
 	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
@@ -240,58 +327,22 @@ java.lang.IllegalArgumentException: Plugin already initialized!
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1264) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-Caused by: java.lang.IllegalStateException: Initial initialization
-	at org.bukkit.plugin.java.PluginClassLoader.initialize(PluginClassLoader.java:284) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.java.PluginClassLoader.init(PluginClassLoader.java:153) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.java.JavaPlugin.<init>(JavaPlugin.java:63) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
-	at ItemFrameDuplicator-1741001224671.jar/ER.Ericson.ItemFrameDuplicator.<init>(ItemFrameDuplicator.java:6) ~[ItemFrameDuplicator-1741001224671.jar:?]
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
-	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:98) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:125) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:35) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:116) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at io.papermc.paper.plugin.manager.SingularRuntimePluginProviderStorage.enter(SingularRuntimePluginProviderStorage.java:57) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at io.papermc.paper.plugin.manager.RuntimePluginEntrypointHandler.enter(RuntimePluginEntrypointHandler.java:40) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.loadPlugin(PaperPluginInstanceManager.java:116) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at PlugManX-2.4.1.jar/com.rylinaux.plugman.pluginmanager.PaperPluginManager.load(PaperPluginManager.java:399) ~[PlugManX-2.4.1.jar:?]
-	... 30 more
-[11:27:04] [Server thread/INFO]: [ItemFrameDuplicator] Disabling ItemFrameDuplicator v1.0
-[11:27:04] [Server thread/ERROR]: Error occurred while disabling ItemFrameDuplicator v1.0
-java.lang.IllegalArgumentException: Plugin already initialized!
-	at org.bukkit.plugin.java.PluginClassLoader.initialize(PluginClassLoader.java:281) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.java.PluginClassLoader.init(PluginClassLoader.java:153) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.java.JavaPlugin.<init>(JavaPlugin.java:63) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
-	at ItemFrameDuplicator-1741001224671.jar/ER.Ericson.init.PluginInit.<init>(PluginInit.java:7) ~[ItemFrameDuplicator-1741001224671.jar:?]
-	at ItemFrameDuplicator-1741001224671.jar/ER.Ericson.ItemFrameDuplicator.onDisable(ItemFrameDuplicator.java:15) ~[ItemFrameDuplicator-1741001224671.jar:?]
-	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:286) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugin(PaperPluginInstanceManager.java:237) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.disablePlugin(PaperPluginManagerImpl.java:114) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:550) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:206) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at PlugManX-2.4.1.jar/com.rylinaux.plugman.pluginmanager.PaperPluginManager.load(PaperPluginManager.java:403) ~[PlugManX-2.4.1.jar:?]
-	at PlugManX-2.4.1.jar/com.rylinaux.plugman.command.LoadCommand.execute(LoadCommand.java:114) ~[PlugManX-2.4.1.jar:?]
-	at PlugManX-2.4.1.jar/com.rylinaux.plugman.PlugManCommandHandler.onCommand(PlugManCommandHandler.java:94) ~[PlugManX-2.4.1.jar:?]
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:82) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:105) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:450) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:357) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:347) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:341) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2204) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$11(ServerGamePacketListenerImpl.java:2177) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+[12:07:49] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to LightningHoe v1.0
+java.lang.NullPointerException: Cannot invoke "org.bukkit.block.Block.getLocation()" because the return value of "org.bukkit.entity.Player.getTargetBlockExact(int)" is null
+	at LightningHoe.jar/ER.Ericson.LightningHoe.onPlayerUseHoe(LightningHoe.java:25) ~[LightningHoe.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:603) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:559) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:554) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:550) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleUseItem(ServerGamePacketListenerImpl.java:2004) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.network.protocol.game.ServerboundUseItemPacket.handle(ServerboundUseItemPacket.java:48) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.network.protocol.game.ServerboundUseItemPacket.handle(ServerboundUseItemPacket.java:9) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:29) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
 	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
 	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
 	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
@@ -306,64 +357,25 @@ java.lang.IllegalArgumentException: Plugin already initialized!
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1264) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-Caused by: java.lang.IllegalStateException: Initial initialization
-	at org.bukkit.plugin.java.PluginClassLoader.initialize(PluginClassLoader.java:284) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.java.PluginClassLoader.init(PluginClassLoader.java:153) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.java.JavaPlugin.<init>(JavaPlugin.java:63) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
-	at ItemFrameDuplicator-1741001224671.jar/ER.Ericson.ItemFrameDuplicator.<init>(ItemFrameDuplicator.java:6) ~[ItemFrameDuplicator-1741001224671.jar:?]
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
-	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:98) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:125) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:35) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:116) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at io.papermc.paper.plugin.manager.SingularRuntimePluginProviderStorage.enter(SingularRuntimePluginProviderStorage.java:57) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at io.papermc.paper.plugin.manager.RuntimePluginEntrypointHandler.enter(RuntimePluginEntrypointHandler.java:40) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.loadPlugin(PaperPluginInstanceManager.java:116) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at PlugManX-2.4.1.jar/com.rylinaux.plugman.pluginmanager.PaperPluginManager.load(PaperPluginManager.java:399) ~[PlugManX-2.4.1.jar:?]
-	... 30 more
-[11:27:19] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[11:27:49] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[11:28:19] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[11:28:49] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[11:29:19] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[11:29:25] [Server thread/INFO]: Zarickson issued server command: /plugman reload ItemFrameDuplicator
-[11:29:25] [Server thread/INFO]: [ItemFrameDuplicator] Loading server plugin ItemFrameDuplicator v1.0
-[11:29:25] [Server thread/INFO]: [ItemFrameDuplicator] Enabling ItemFrameDuplicator v1.0
-[11:29:25] [Server thread/ERROR]: Error occurred while enabling ItemFrameDuplicator v1.0 (Is it up to date?)
-java.lang.IllegalArgumentException: Plugin already initialized!
-	at org.bukkit.plugin.java.PluginClassLoader.initialize(PluginClassLoader.java:281) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.java.PluginClassLoader.init(PluginClassLoader.java:153) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.java.JavaPlugin.<init>(JavaPlugin.java:63) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
-	at ItemFrameDuplicator-1741001224671.jar/ER.Ericson.init.PluginInit.<init>(PluginInit.java:7) ~[ItemFrameDuplicator-1741001224671.jar:?]
-	at ItemFrameDuplicator-1741001224671.jar/ER.Ericson.ItemFrameDuplicator.onEnable(ItemFrameDuplicator.java:10) ~[ItemFrameDuplicator-1741001224671.jar:?]
-	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:280) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at PlugManX-2.4.1.jar/com.rylinaux.plugman.pluginmanager.PaperPluginManager.load(PaperPluginManager.java:403) ~[PlugManX-2.4.1.jar:?]
-	at PlugManX-2.4.1.jar/com.rylinaux.plugman.pluginmanager.PaperPluginManager.load(PaperPluginManager.java:356) ~[PlugManX-2.4.1.jar:?]
-	at PlugManX-2.4.1.jar/com.rylinaux.plugman.pluginmanager.PaperPluginManager.reload(PaperPluginManager.java:470) ~[PlugManX-2.4.1.jar:?]
-	at PlugManX-2.4.1.jar/com.rylinaux.plugman.command.ReloadCommand.execute(ReloadCommand.java:125) ~[PlugManX-2.4.1.jar:?]
-	at PlugManX-2.4.1.jar/com.rylinaux.plugman.PlugManCommandHandler.onCommand(PlugManCommandHandler.java:94) ~[PlugManX-2.4.1.jar:?]
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:82) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:105) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:450) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:357) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:347) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:341) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2204) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$11(ServerGamePacketListenerImpl.java:2177) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+[12:08:00] [Server thread/INFO]: Named entity Cod['❤ 0 / 3'/3329, uuid='a86d1f6f-4f09-41bd-b4e7-1c124f3dc154', l='ServerLevel[world]', x=147.68, y=55.89, z=-236.32, cpos=[9, -15], tl=436, v=true] died: ❤ 0 / 3 was shot by a skull from Wither
+[12:08:02] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[12:08:02] [Server thread/INFO]: Named entity Cod['❤ 0 / 3'/3225, uuid='a80cb6d7-7afe-420d-aee0-30196f02bb61', l='ServerLevel[world]', x=139.05, y=50.22, z=-228.28, cpos=[8, -15], tl=1127, v=true] died: ❤ 0 / 3 was blown up by Wither
+[12:08:03] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to LightningHoe v1.0
+java.lang.NullPointerException: Cannot invoke "org.bukkit.block.Block.getLocation()" because the return value of "org.bukkit.entity.Player.getTargetBlockExact(int)" is null
+	at LightningHoe.jar/ER.Ericson.LightningHoe.onPlayerUseHoe(LightningHoe.java:25) ~[LightningHoe.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:603) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:559) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:554) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:550) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleUseItem(ServerGamePacketListenerImpl.java:2004) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.network.protocol.game.ServerboundUseItemPacket.handle(ServerboundUseItemPacket.java:48) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.network.protocol.game.ServerboundUseItemPacket.handle(ServerboundUseItemPacket.java:9) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:29) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
 	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
 	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
 	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
@@ -378,60 +390,55 @@ java.lang.IllegalArgumentException: Plugin already initialized!
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1264) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-Caused by: java.lang.IllegalStateException: Initial initialization
-	at org.bukkit.plugin.java.PluginClassLoader.initialize(PluginClassLoader.java:284) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.java.PluginClassLoader.init(PluginClassLoader.java:153) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.java.JavaPlugin.<init>(JavaPlugin.java:63) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
-	at ItemFrameDuplicator-1741001224671.jar/ER.Ericson.ItemFrameDuplicator.<init>(ItemFrameDuplicator.java:6) ~[ItemFrameDuplicator-1741001224671.jar:?]
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
-	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:98) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:125) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:35) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:116) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at io.papermc.paper.plugin.manager.SingularRuntimePluginProviderStorage.enter(SingularRuntimePluginProviderStorage.java:57) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at io.papermc.paper.plugin.manager.RuntimePluginEntrypointHandler.enter(RuntimePluginEntrypointHandler.java:40) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.loadPlugin(PaperPluginInstanceManager.java:116) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at PlugManX-2.4.1.jar/com.rylinaux.plugman.pluginmanager.PaperPluginManager.load(PaperPluginManager.java:399) ~[PlugManX-2.4.1.jar:?]
-	... 32 more
-[11:29:25] [Server thread/INFO]: [ItemFrameDuplicator] Disabling ItemFrameDuplicator v1.0
-[11:29:25] [Server thread/ERROR]: Error occurred while disabling ItemFrameDuplicator v1.0
-java.lang.IllegalArgumentException: Plugin already initialized!
-	at org.bukkit.plugin.java.PluginClassLoader.initialize(PluginClassLoader.java:281) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.java.PluginClassLoader.init(PluginClassLoader.java:153) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.java.JavaPlugin.<init>(JavaPlugin.java:63) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
-	at ItemFrameDuplicator-1741001224671.jar/ER.Ericson.init.PluginInit.<init>(PluginInit.java:7) ~[ItemFrameDuplicator-1741001224671.jar:?]
-	at ItemFrameDuplicator-1741001224671.jar/ER.Ericson.ItemFrameDuplicator.onDisable(ItemFrameDuplicator.java:15) ~[ItemFrameDuplicator-1741001224671.jar:?]
-	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:286) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugin(PaperPluginInstanceManager.java:237) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.disablePlugin(PaperPluginManagerImpl.java:114) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:550) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:206) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at PlugManX-2.4.1.jar/com.rylinaux.plugman.pluginmanager.PaperPluginManager.load(PaperPluginManager.java:403) ~[PlugManX-2.4.1.jar:?]
-	at PlugManX-2.4.1.jar/com.rylinaux.plugman.pluginmanager.PaperPluginManager.load(PaperPluginManager.java:356) ~[PlugManX-2.4.1.jar:?]
-	at PlugManX-2.4.1.jar/com.rylinaux.plugman.pluginmanager.PaperPluginManager.reload(PaperPluginManager.java:470) ~[PlugManX-2.4.1.jar:?]
-	at PlugManX-2.4.1.jar/com.rylinaux.plugman.command.ReloadCommand.execute(ReloadCommand.java:125) ~[PlugManX-2.4.1.jar:?]
-	at PlugManX-2.4.1.jar/com.rylinaux.plugman.PlugManCommandHandler.onCommand(PlugManCommandHandler.java:94) ~[PlugManX-2.4.1.jar:?]
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:82) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:105) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:450) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:357) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:347) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:341) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2204) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$11(ServerGamePacketListenerImpl.java:2177) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+[12:08:04] [Server thread/INFO]: Named entity Cod['❤ 0 / 3'/3145, uuid='af8b8ece-9870-480a-818f-6737ae1a1b9a', l='ServerLevel[world]', x=136.14, y=50.18, z=-228.22, cpos=[8, -15], tl=1246, v=true] died: ❤ 0 / 3 was shot by a skull from Wither
+[12:08:04] [Server thread/INFO]: Named entity Cod['❤ 0 / 3'/3125, uuid='a0ee286f-4b6d-4f21-9efc-42275314c545', l='ServerLevel[world]', x=136.06, y=50.00, z=-228.85, cpos=[8, -15], tl=1614, v=true] died: ❤ 0 / 3 was blown up by Wither
+[12:08:04] [Server thread/INFO]: Named entity Cod['❤ 0 / 3'/3310, uuid='0aa50d6f-17c6-4d69-88c1-dbfe1ccbed68', l='ServerLevel[world]', x=135.27, y=50.00, z=-228.57, cpos=[8, -15], tl=619, v=true] died: ❤ 0 / 3 was blown up by Wither
+[12:08:05] [Server thread/INFO]: Named entity Cod['❤ 0 / 3'/3205, uuid='dee821c1-af5b-4fc1-b2cb-65943962bd97', l='ServerLevel[world]', x=134.33, y=54.44, z=-222.63, cpos=[8, -14], tl=1186, v=true] died: ❤ 0 / 3 was shot by a skull from ❤ 300 / 300
+[12:08:05] [Server thread/INFO]: Named entity Cod['❤ 0 / 3'/3207, uuid='8a0178a5-253a-4552-8122-88c9c05a3b3c', l='ServerLevel[world]', x=134.82, y=53.98, z=-223.81, cpos=[8, -14], tl=1186, v=true] died: ❤ 0 / 3 was blown up by ❤ 300 / 300
+[12:08:05] [Server thread/INFO]: Named entity Cod['❤ 0 / 3'/3206, uuid='691a534d-b902-4bca-9ece-f11c261fce14', l='ServerLevel[world]', x=133.67, y=54.01, z=-222.49, cpos=[8, -14], tl=1186, v=true] died: ❤ 0 / 3 was blown up by ❤ 300 / 300
+[12:08:07] [Server thread/INFO]: Named entity Cod['❤ 0 / 3'/3236, uuid='c79ff30f-a2b1-43dc-a112-c38e9082c862', l='ServerLevel[world]', x=151.44, y=58.35, z=-230.71, cpos=[9, -15], tl=1207, v=true] died: ❤ 0 / 3 was shot by a skull from ❤ 299 / 300
+[12:08:07] [Server thread/INFO]: Named entity Cod['❤ 0 / 3'/3344, uuid='04a935d0-6869-423e-a30e-e0ac031e62f9', l='ServerLevel[world]', x=151.54, y=58.70, z=-231.47, cpos=[9, -15], tl=525, v=true] died: ❤ 0 / 3 was blown up by ❤ 299 / 300
+[12:08:07] [Server thread/INFO]: Named entity Cod['❤ 0 / 3'/3235, uuid='c24781ac-4681-4de1-a109-23c1a077e691', l='ServerLevel[world]', x=150.64, y=59.26, z=-230.55, cpos=[9, -15], tl=1207, v=true] died: ❤ 0 / 3 was blown up by ❤ 299 / 300
+[12:08:10] [Server thread/INFO]: Named entity Cod['❤ 0 / 3'/3144, uuid='77a7b842-9285-4c18-9b59-dfc253d24d07', l='ServerLevel[world]', x=131.43, y=51.42, z=-231.57, cpos=[8, -15], tl=1362, v=true] died: ❤ 0 / 3 was shot by a skull from ❤ 299 / 300
+[12:08:12] [Server thread/INFO]: Named entity Cod['❤ 0 / 3'/3612, uuid='27f582e8-4f1c-413f-b2fc-fd184a86205d', l='ServerLevel[world]', x=139.50, y=50.02, z=-262.50, cpos=[8, -17], tl=3, v=true] died: ❤ 0 / 3 was struck by lightning
+[12:08:12] [Server thread/INFO]: Named entity Cod['❤ 0 / 3'/3146, uuid='c9adb00d-4ca5-42be-8db2-de63d6fe7ddb', l='ServerLevel[world]', x=134.17, y=48.59, z=-232.83, cpos=[8, -15], tl=1409, v=true] died: ❤ 0 / 3 was shot by a skull from ❤ 300 / 300
+[12:08:18] [Server thread/INFO]: Named entity Cod['❤ 0 / 3'/3331, uuid='3baf0f7a-2204-4bd1-9037-0119e3779318', l='ServerLevel[world]', x=141.75, y=53.04, z=-233.04, cpos=[8, -15], tl=775, v=true] died: ❤ 0 / 3 was shot by a skull from Wither
+[12:08:19] [Server thread/INFO]: Named entity Cod['❤ 0 / 3'/3377, uuid='a6e07925-5822-41ed-9b44-ea218242b02c', l='ServerLevel[world]', x=146.01, y=60.11, z=-244.99, cpos=[9, -16], tl=617, v=true] died: ❤ 0 / 3 was shot by a skull from Wither
+[12:08:20] [Server thread/INFO]: Zarickson has completed the challenge [Cover Me in Debris]
+[12:08:22] [Server thread/INFO]: Named entity Cod['❤ 0 / 3'/3604, uuid='db5c39b4-9d66-4924-ac3c-0e4a2d58d156', l='ServerLevel[world]', x=158.55, y=51.33, z=-257.52, cpos=[9, -17], tl=224, v=true] died: ❤ 0 / 3 was shot by a skull from Wither
+[12:08:23] [Server thread/INFO]: Named entity Cod['❤ 0 / 3'/3541, uuid='7b5cc6a8-a09b-4487-bede-e74f17a68866', l='ServerLevel[world]', x=148.88, y=58.99, z=-271.69, cpos=[9, -17], tl=362, v=true] died: ❤ 0 / 3 was shot by a skull from Wither
+[12:08:23] [Server thread/INFO]: Named entity Cod['❤ 0 / 3'/3540, uuid='7502d745-4caa-480f-957d-36ee15161090', l='ServerLevel[world]', x=147.71, y=59.96, z=-272.23, cpos=[9, -18], tl=362, v=true] died: ❤ 0 / 3 was blown up by Wither
+[12:08:24] [Server thread/INFO]: Named entity Cod['❤ 0 / 3'/3513, uuid='dd6e22bd-dee8-437c-9434-8becfea642b3', l='ServerLevel[world]', x=146.73, y=58.93, z=-272.76, cpos=[9, -18], tl=410, v=true] died: ❤ 0 / 3 was shot by a skull from Wither
+[12:08:24] [Server thread/INFO]: Named entity Cod['❤ 0 / 3'/3539, uuid='e0f5db27-f7e3-435e-92f8-d77b6b9a5f04', l='ServerLevel[world]', x=147.33, y=59.90, z=-272.84, cpos=[9, -18], tl=374, v=true] died: ❤ 0 / 3 was blown up by Wither
+[12:08:24] [Server thread/INFO]: Named entity Cod['❤ 0 / 3'/3379, uuid='83526abc-48bd-4a95-a0e3-20bfaa51e114', l='ServerLevel[world]', x=146.51, y=58.94, z=-273.69, cpos=[9, -18], tl=701, v=true] died: ❤ 0 / 3 was blown up by Wither
+[12:08:26] [Server thread/INFO]: Named entity Cod['❤ 0 / 3'/3692, uuid='c753e712-04a5-491f-a7f9-868c414f525f', l='ServerLevel[world]', x=140.76, y=52.70, z=-274.22, cpos=[8, -18], tl=219, v=true] died: ❤ 0 / 3 was shot by a skull from Wither
+[12:08:27] [Server thread/INFO]: Zarickson issued server command: /gm 0
+[12:08:28] [Server thread/INFO]: Named entity Cod['❤ 0 / 3'/3745, uuid='8c34618a-7d91-418f-865d-8d547bae22cb', l='ServerLevel[world]', x=143.45, y=54.61, z=-265.33, cpos=[8, -17], tl=69, v=true] died: ❤ 0 / 3 was shot by a skull from Wither
+[12:08:28] [Server thread/INFO]: Named entity Cod['❤ 0 / 3'/3744, uuid='280243a0-2107-4b51-939c-6676dc3616a8', l='ServerLevel[world]', x=142.16, y=54.81, z=-264.47, cpos=[8, -17], tl=69, v=true] died: ❤ 0 / 3 was blown up by Wither
+[12:08:32] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[12:08:33] [Server thread/INFO]: Named entity Cod['❤ 0 / 3'/3770, uuid='94c351e1-5445-462b-9571-306a734b1a66', l='ServerLevel[world]', x=148.51, y=58.98, z=-265.30, cpos=[9, -17], tl=78, v=true] died: ❤ 0 / 3 was shot by a skull from Wither
+[12:08:33] [Server thread/INFO]: Named entity Cod['❤ 0 / 3'/3769, uuid='132f6cca-f26e-4810-9c2d-f00c4e27ec01', l='ServerLevel[world]', x=149.10, y=58.94, z=-266.10, cpos=[9, -17], tl=78, v=true] died: ❤ 0 / 3 was blown up by Wither
+[12:08:36] [Server thread/INFO]: Named entity Cod['❤ 0 / 3'/3707, uuid='20e2bbd5-247e-40e1-b8a4-29bcc3220942', l='ServerLevel[world]', x=132.50, y=48.69, z=-273.25, cpos=[8, -18], tl=381, v=true] died: ❤ 0 / 3 was shot by a skull from Wither
+[12:08:36] [Server thread/INFO]: Named entity Cod['❤ 0 / 3'/3728, uuid='29f5b85a-056b-44a1-a827-7042c9ec68cf', l='ServerLevel[world]', x=132.86, y=48.86, z=-273.84, cpos=[8, -18], tl=267, v=true] died: ❤ 0 / 3 was blown up by Wither
+[12:08:37] [Server thread/INFO]: Named entity Cod['❤ 0 / 3'/3758, uuid='ab19743f-78ad-4c5c-ac3a-74a75b5af4ae', l='ServerLevel[world]', x=126.83, y=55.28, z=-285.83, cpos=[7, -18], tl=200, v=true] died: ❤ 0 / 3 was shot by a skull from Wither
+[12:08:41] [Server thread/INFO]: Named entity Cod['❤ 0 / 3'/3837, uuid='448278f7-7a6f-497e-bae5-71f2c344e111', l='ServerLevel[world]', x=136.96, y=57.14, z=-293.05, cpos=[8, -19], tl=67, v=true] died: ❤ 0 / 3 was shot by a skull from Wither
+[12:08:42] [Server thread/INFO]: Named entity Cod['❤ 0 / 3'/3775, uuid='ae03a4b6-bc87-4467-9182-05fb4ec4f4a3', l='ServerLevel[world]', x=119.60, y=55.07, z=-281.18, cpos=[7, -18], tl=223, v=true] died: ❤ 0 / 3 was shot by a skull from Wither
+[12:08:42] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to LightningHoe v1.0
+java.lang.NullPointerException: Cannot invoke "org.bukkit.block.Block.getLocation()" because the return value of "org.bukkit.entity.Player.getTargetBlockExact(int)" is null
+	at LightningHoe.jar/ER.Ericson.LightningHoe.onPlayerUseHoe(LightningHoe.java:25) ~[LightningHoe.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:603) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:559) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:554) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:550) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleAnimate(ServerGamePacketListenerImpl.java:2547) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.network.protocol.game.ServerboundSwingPacket.handle(ServerboundSwingPacket.java:34) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.network.protocol.game.ServerboundSwingPacket.handle(ServerboundSwingPacket.java:9) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:29) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
 	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
 	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
 	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
@@ -446,44 +453,429 @@ java.lang.IllegalArgumentException: Plugin already initialized!
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1264) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-Caused by: java.lang.IllegalStateException: Initial initialization
-	at org.bukkit.plugin.java.PluginClassLoader.initialize(PluginClassLoader.java:284) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.java.PluginClassLoader.init(PluginClassLoader.java:153) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.java.JavaPlugin.<init>(JavaPlugin.java:63) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
-	at ItemFrameDuplicator-1741001224671.jar/ER.Ericson.ItemFrameDuplicator.<init>(ItemFrameDuplicator.java:6) ~[ItemFrameDuplicator-1741001224671.jar:?]
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
-	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:98) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:125) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:35) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:116) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at io.papermc.paper.plugin.manager.SingularRuntimePluginProviderStorage.enter(SingularRuntimePluginProviderStorage.java:57) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at io.papermc.paper.plugin.manager.RuntimePluginEntrypointHandler.enter(RuntimePluginEntrypointHandler.java:40) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.loadPlugin(PaperPluginInstanceManager.java:116) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at PlugManX-2.4.1.jar/com.rylinaux.plugman.pluginmanager.PaperPluginManager.load(PaperPluginManager.java:399) ~[PlugManX-2.4.1.jar:?]
-	... 32 more
-[11:29:34] [Server thread/INFO]: [Not Secure] [Server] a
-[11:29:49] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[11:30:19] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[11:30:49] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[11:31:00] [Server thread/INFO]: Zarickson issued server command: /plugman reload ItemFrameDuplicator
-[11:31:00] [Paper Plugin Remapper Thread - 4/INFO]: [PluginRemapper] Remapping plugin 'plugins/ItemFrameDuplicator.jar'...
-[11:31:00] [Paper Plugin Remapper Thread - 4/INFO]: [PluginRemapper] Done remapping plugin 'plugins/ItemFrameDuplicator.jar' in 93ms.
-[11:31:00] [Server thread/INFO]: [ItemFrameDuplicator] Loading server plugin ItemFrameDuplicator v1.0
-[11:31:00] [Server thread/INFO]: [ItemFrameDuplicator] Enabling ItemFrameDuplicator v1.0
-[11:31:00] [Server thread/INFO]: [ItemFrameDuplicator] ItemFrameDuplicator activado.
-[11:31:19] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[11:31:49] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[11:32:19] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[11:32:49] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[11:33:08] [Server thread/INFO]: Zarickson issued server command: /time set day
-[11:33:19] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[11:33:49] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[11:34:19] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[11:34:49] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[11:35:19] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[11:35:49] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[12:08:42] [Server thread/INFO]: Named entity Skeleton['Skeleton'/3251, uuid='bd85fc56-851e-4da0-98a6-da98f05e74df', l='ServerLevel[world]', x=118.75, y=59.00, z=-237.30, cpos=[7, -15], tl=1893, v=true] died: Skeleton went up in flames
+[12:08:43] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to LightningHoe v1.0
+java.lang.NullPointerException: Cannot invoke "org.bukkit.block.Block.getLocation()" because the return value of "org.bukkit.entity.Player.getTargetBlockExact(int)" is null
+	at LightningHoe.jar/ER.Ericson.LightningHoe.onPlayerUseHoe(LightningHoe.java:25) ~[LightningHoe.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:603) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:559) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:554) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:550) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleAnimate(ServerGamePacketListenerImpl.java:2547) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.network.protocol.game.ServerboundSwingPacket.handle(ServerboundSwingPacket.java:34) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.network.protocol.game.ServerboundSwingPacket.handle(ServerboundSwingPacket.java:9) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:29) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1448) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:176) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1428) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1422) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1379) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1387) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1264) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[12:08:44] [Server thread/INFO]: Named entity Cod['❤ 0 / 3'/3811, uuid='6854affe-66c2-4734-979f-79561c6b2c8d', l='ServerLevel[world]', x=118.58, y=60.59, z=-296.71, cpos=[7, -19], tl=205, v=true] died: ❤ 0 / 3 was shot by a skull from Wither
+[12:08:44] [Server thread/INFO]: Named entity Cod['❤ 0 / 3'/3812, uuid='c6508a71-5d67-41f9-8d4e-3a957b9d441c', l='ServerLevel[world]', x=119.46, y=60.27, z=-296.66, cpos=[7, -19], tl=205, v=true] died: ❤ 0 / 3 was blown up by Wither
+[12:08:45] [Server thread/INFO]: Named entity Cod['❤ 0 / 3'/3845, uuid='17f78f4c-ead7-460c-b3fd-da11353f6427', l='ServerLevel[world]', x=135.62, y=58.55, z=-279.99, cpos=[8, -18], tl=137, v=true] died: ❤ 0 / 3 was shot by a skull from Wither
+[12:08:48] [Server thread/INFO]: Named entity Cod['❤ 0 / 3'/3836, uuid='ddd185ea-61f8-4f6d-8cf9-85b5e7075378', l='ServerLevel[world]', x=140.60, y=56.94, z=-297.60, cpos=[8, -19], tl=220, v=true] died: ❤ 0 / 3 was shot by a skull from Wither
+[12:08:50] [Server thread/INFO]: Named entity Skeleton['❤ 15 / 20'/3538, uuid='7cd5e0ff-aa08-4e4d-9160-27e0f5f51e7b', l='ServerLevel[world]', x=118.70, y=63.00, z=-255.94, cpos=[7, -16], tl=891, v=true] died: ❤ 15 / 20 blew up
+[12:08:54] [Server thread/INFO]: Named entity Cod['❤ 0 / 3'/3506, uuid='75aee28c-21ef-40f6-955d-452009aede8a', l='ServerLevel[world]', x=133.14, y=62.62, z=-265.89, cpos=[8, -17], tl=1062, v=true] died: ❤ 0 / 3 was shot by a skull from Wither
+[12:08:56] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to LightningHoe v1.0
+java.lang.NullPointerException: Cannot invoke "org.bukkit.block.Block.getLocation()" because the return value of "org.bukkit.entity.Player.getTargetBlockExact(int)" is null
+	at LightningHoe.jar/ER.Ericson.LightningHoe.onPlayerUseHoe(LightningHoe.java:25) ~[LightningHoe.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:603) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:559) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:554) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:550) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleUseItem(ServerGamePacketListenerImpl.java:2004) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.network.protocol.game.ServerboundUseItemPacket.handle(ServerboundUseItemPacket.java:48) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.network.protocol.game.ServerboundUseItemPacket.handle(ServerboundUseItemPacket.java:9) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:29) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1448) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:176) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1428) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1422) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1379) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1387) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1264) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[12:08:58] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to LightningHoe v1.0
+java.lang.NullPointerException: Cannot invoke "org.bukkit.block.Block.getLocation()" because the return value of "org.bukkit.entity.Player.getTargetBlockExact(int)" is null
+	at LightningHoe.jar/ER.Ericson.LightningHoe.onPlayerUseHoe(LightningHoe.java:25) ~[LightningHoe.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:603) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:559) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:554) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:550) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleAnimate(ServerGamePacketListenerImpl.java:2547) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.network.protocol.game.ServerboundSwingPacket.handle(ServerboundSwingPacket.java:34) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.network.protocol.game.ServerboundSwingPacket.handle(ServerboundSwingPacket.java:9) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:29) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1448) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:176) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1428) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1422) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1379) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1387) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1264) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[12:08:59] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to LightningHoe v1.0
+java.lang.NullPointerException: Cannot invoke "org.bukkit.block.Block.getLocation()" because the return value of "org.bukkit.entity.Player.getTargetBlockExact(int)" is null
+	at LightningHoe.jar/ER.Ericson.LightningHoe.onPlayerUseHoe(LightningHoe.java:25) ~[LightningHoe.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:603) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:559) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:554) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:550) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleUseItem(ServerGamePacketListenerImpl.java:2004) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.network.protocol.game.ServerboundUseItemPacket.handle(ServerboundUseItemPacket.java:48) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.network.protocol.game.ServerboundUseItemPacket.handle(ServerboundUseItemPacket.java:9) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:29) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1448) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:176) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1428) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1422) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1379) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1387) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1264) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[12:09:00] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to LightningHoe v1.0
+java.lang.NullPointerException: Cannot invoke "org.bukkit.block.Block.getLocation()" because the return value of "org.bukkit.entity.Player.getTargetBlockExact(int)" is null
+	at LightningHoe.jar/ER.Ericson.LightningHoe.onPlayerUseHoe(LightningHoe.java:25) ~[LightningHoe.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:603) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:559) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:554) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:550) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleAnimate(ServerGamePacketListenerImpl.java:2547) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.network.protocol.game.ServerboundSwingPacket.handle(ServerboundSwingPacket.java:34) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.network.protocol.game.ServerboundSwingPacket.handle(ServerboundSwingPacket.java:9) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:29) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1448) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:176) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1428) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1422) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1379) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1387) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1264) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[12:09:00] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to LightningHoe v1.0
+java.lang.NullPointerException: Cannot invoke "org.bukkit.block.Block.getLocation()" because the return value of "org.bukkit.entity.Player.getTargetBlockExact(int)" is null
+	at LightningHoe.jar/ER.Ericson.LightningHoe.onPlayerUseHoe(LightningHoe.java:25) ~[LightningHoe.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:603) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:559) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:554) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:550) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleAnimate(ServerGamePacketListenerImpl.java:2547) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.network.protocol.game.ServerboundSwingPacket.handle(ServerboundSwingPacket.java:34) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.network.protocol.game.ServerboundSwingPacket.handle(ServerboundSwingPacket.java:9) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:29) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1448) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:176) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1428) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1422) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1379) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1387) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1264) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[12:09:00] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to LightningHoe v1.0
+java.lang.NullPointerException: Cannot invoke "org.bukkit.block.Block.getLocation()" because the return value of "org.bukkit.entity.Player.getTargetBlockExact(int)" is null
+	at LightningHoe.jar/ER.Ericson.LightningHoe.onPlayerUseHoe(LightningHoe.java:25) ~[LightningHoe.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:603) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:559) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:554) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:550) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleAnimate(ServerGamePacketListenerImpl.java:2547) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.network.protocol.game.ServerboundSwingPacket.handle(ServerboundSwingPacket.java:34) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.network.protocol.game.ServerboundSwingPacket.handle(ServerboundSwingPacket.java:9) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:29) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1448) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:176) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1428) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1422) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1379) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1387) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1264) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[12:09:00] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to LightningHoe v1.0
+java.lang.NullPointerException: Cannot invoke "org.bukkit.block.Block.getLocation()" because the return value of "org.bukkit.entity.Player.getTargetBlockExact(int)" is null
+	at LightningHoe.jar/ER.Ericson.LightningHoe.onPlayerUseHoe(LightningHoe.java:25) ~[LightningHoe.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:603) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:559) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:554) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:550) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleAnimate(ServerGamePacketListenerImpl.java:2547) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.network.protocol.game.ServerboundSwingPacket.handle(ServerboundSwingPacket.java:34) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.network.protocol.game.ServerboundSwingPacket.handle(ServerboundSwingPacket.java:9) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:29) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1448) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:176) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1428) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1422) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1379) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1387) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1264) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[12:09:00] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to LightningHoe v1.0
+java.lang.NullPointerException: Cannot invoke "org.bukkit.block.Block.getLocation()" because the return value of "org.bukkit.entity.Player.getTargetBlockExact(int)" is null
+	at LightningHoe.jar/ER.Ericson.LightningHoe.onPlayerUseHoe(LightningHoe.java:25) ~[LightningHoe.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:603) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:559) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:554) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:550) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleAnimate(ServerGamePacketListenerImpl.java:2547) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.network.protocol.game.ServerboundSwingPacket.handle(ServerboundSwingPacket.java:34) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.network.protocol.game.ServerboundSwingPacket.handle(ServerboundSwingPacket.java:9) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:29) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1448) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:176) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1428) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1422) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1379) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1387) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1264) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[12:09:02] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[12:09:07] [Server thread/INFO]: Zarickson issued server command: /gm 1
+[12:09:10] [Server thread/INFO]: Named entity Cod['❤ 0 / 3'/3880, uuid='311884ff-b897-4574-93db-f81e28b89c0e', l='ServerLevel[world]', x=122.66, y=53.00, z=-275.27, cpos=[7, -18], tl=612, v=true] died: ❤ 0 / 3 was shot by a skull from ❤ 300 / 300
+[12:09:12] [Server thread/INFO]: Zarickson issued server command: /gm 0
+[12:09:15] [Server thread/INFO]: Named entity Cod['❤ 0 / 3'/4093, uuid='db88bc04-d08e-4375-81c5-84e432b12e06', l='ServerLevel[world]', x=140.43, y=58.91, z=-277.57, cpos=[8, -18], tl=383, v=true] died: ❤ 0 / 3 was shot by a skull from Wither
+[12:09:17] [Server thread/INFO]: Named entity Cod['❤ 0 / 3'/4147, uuid='a309c041-03dc-4b8e-8aea-fb2cfe558c8c', l='ServerLevel[world]', x=144.55, y=57.73, z=-281.64, cpos=[9, -18], tl=186, v=true] died: ❤ 0 / 3 was shot by a skull from Wither
+[12:09:20] [Server thread/INFO]: Named entity Cod['❤ 0 / 3'/4107, uuid='723b7cba-349b-4946-ad2a-c9f6789d378d', l='ServerLevel[world]', x=153.64, y=53.48, z=-298.51, cpos=[9, -19], tl=428, v=true] died: ❤ 0 / 3 was shot by a skull from Wither
+[12:09:20] [Server thread/INFO]: Named entity Cod['❤ 0 / 3'/3909, uuid='bd9867d7-e72c-4246-807c-604f410fc71a', l='ServerLevel[world]', x=153.75, y=53.57, z=-299.42, cpos=[9, -19], tl=746, v=true] died: ❤ 0 / 3 was blown up by Wither
+[12:09:21] [Server thread/INFO]: Named entity Cod['❤ 0 / 3'/4092, uuid='559533ce-934c-4994-9719-3f2566ed878d', l='ServerLevel[world]', x=151.50, y=56.41, z=-311.50, cpos=[9, -20], tl=505, v=true] died: ❤ 0 / 3 was shot by a skull from Wither
+[12:09:21] [Server thread/INFO]: Named entity Cod['❤ 0 / 3'/4084, uuid='ccdafdca-bbd6-491b-b2b3-d2e73957faa4', l='ServerLevel[world]', x=150.61, y=57.08, z=-311.01, cpos=[9, -20], tl=526, v=true] died: ❤ 0 / 3 was blown up by Wither
+[12:09:24] [Server thread/INFO]: Zarickson issued server command: /plugman unload RPGHealthDisplay
+[12:09:24] [Server thread/INFO]: [RPGHealthDisplay] Disabling RPGHealthDisplay v1.0
+[12:09:24] [Server thread/INFO]: [RPGHealthDisplay] RPGHealthDisplay ha sido desactivado.
+[12:09:32] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[12:09:43] [Server thread/INFO]: Zarickson issued server command: /gm 1
+[12:10:02] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[12:10:02] [Server thread/INFO]: Zarickson issued server command: /plugman load rpghealth
+[12:10:02] [Server thread/INFO]: [RPGHealthDisplay] Loading server plugin RPGHealthDisplay v1.0
+[12:10:02] [Server thread/INFO]: [RPGHealthDisplay] Enabling RPGHealthDisplay v1.0
+[12:10:02] [Server thread/INFO]: [RPGHealthDisplay] RPGHealthDisplay ha sido activado correctamente.
+[12:10:16] [Server thread/INFO]: Zarickson issued server command: /plugman unload BossHealthBar
+[12:10:16] [Server thread/INFO]: [BossHealthBar] Disabling BossHealthBar v1.0
+[12:10:20] [Server thread/INFO]: Named entity Cod['❤ 0 / 3'/4217, uuid='0f9995e3-a1d3-44e2-b2dd-454c17e04361', l='ServerLevel[world]', x=127.33, y=51.03, z=-319.92, cpos=[7, -20], tl=1086, v=true] died: ❤ 0 / 3 was shot by a skull from ❤ 216 / 300
+[12:10:20] [Server thread/INFO]: Named entity Cod['❤ 0 / 3'/4183, uuid='c6072169-cd55-4eeb-8905-e1d9ac3a090b', l='ServerLevel[world]', x=129.57, y=52.06, z=-325.35, cpos=[8, -21], tl=1234, v=true] died: ❤ 0 / 3 was shot by a skull from ❤ 213 / 300
+[12:10:29] [Server thread/INFO]: Named entity Cod['❤ 0 / 3'/4367, uuid='2b17ad64-f1e1-42d1-9569-8cb9cbea75de', l='ServerLevel[world]', x=140.53, y=51.76, z=-339.70, cpos=[8, -22], tl=579, v=true] died: ❤ 0 / 3 was blown up by ❤ 213 / 300
+[12:10:32] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[12:10:33] [Server thread/INFO]: Named entity Cod['❤ 0 / 3'/4355, uuid='971a5018-1657-4eb1-9c3c-f8ee8eebec10', l='ServerLevel[world]', x=160.59, y=59.13, z=-342.63, cpos=[10, -22], tl=714, v=true] died: ❤ 0 / 3 was shot by a skull from ❤ 176 / 300
+[12:10:33] [Server thread/INFO]: Named entity Cod['❤ 0 / 3'/4374, uuid='426c586e-4f49-42d4-b42b-1530f297ad5e', l='ServerLevel[world]', x=159.88, y=60.13, z=-343.20, cpos=[9, -22], tl=585, v=true] died: ❤ 0 / 3 was blown up by ❤ 176 / 300
+[12:10:33] [Server thread/INFO]: Named entity Cod['❤ 0 / 3'/4313, uuid='5e3da1a2-7435-472f-b24b-b890d62510ac', l='ServerLevel[world]', x=160.47, y=60.01, z=-341.62, cpos=[10, -22], tl=897, v=true] died: ❤ 0 / 3 was blown up by ❤ 176 / 300
+[12:10:39] [Server thread/INFO]: Named entity Cod['❤ 0 / 3'/4249, uuid='b70e7727-2ce8-459a-983f-ad8234318cba', l='ServerLevel[world]', x=134.88, y=56.04, z=-339.57, cpos=[8, -22], tl=1338, v=true] died: ❤ 0 / 3 was shot by a skull from ❤ 184 / 300
+[12:10:46] [Server thread/INFO]: Named entity Cod['❤ 0 / 3'/4327, uuid='b259b09f-e6c4-4910-bb01-9ded0ff485b0', l='ServerLevel[world]', x=137.79, y=52.21, z=-356.46, cpos=[8, -23], tl=1123, v=true] died: ❤ 0 / 3 was shot by a skull from ❤ 128 / 300
+[12:10:50] [Server thread/INFO]: Named entity Cod['❤ 0 / 3'/4549, uuid='8793aaad-d965-4aa3-b06d-f1edc08d1fa1', l='ServerLevel[world]', x=150.92, y=56.02, z=-337.96, cpos=[9, -22], tl=156, v=true] died: ❤ 0 / 3 was shot by a skull from ❤ 110 / 300
+[12:10:52] [Server thread/INFO]: Named entity Cod['❤ 0 / 3'/4339, uuid='06db7223-f61c-4994-bbe4-a016d030c6ba', l='ServerLevel[world]', x=155.45, y=52.74, z=-354.51, cpos=[9, -23], tl=1215, v=true] died: ❤ 0 / 3 was shot by a skull from ❤ 108 / 300
+[12:10:52] [Server thread/INFO]: Named entity Cod['❤ 0 / 3'/4407, uuid='e9a92894-ab9a-4f27-af51-707064acbc53', l='ServerLevel[world]', x=155.00, y=52.91, z=-353.98, cpos=[9, -23], tl=736, v=true] died: ❤ 0 / 3 was blown up by ❤ 108 / 300
+[12:10:57] [Server thread/INFO]: Named entity Cod['❤ 0 / 3'/4377, uuid='d1dd2c9e-14da-4fa0-baa5-1b776d4a52cb', l='ServerLevel[world]', x=154.47, y=54.97, z=-354.51, cpos=[9, -23], tl=1080, v=true] died: ❤ 0 / 3 was shot by a skull from ❤ 101 / 300
+[12:10:57] [Server thread/INFO]: Named entity Cod['❤ 0 / 3'/4330, uuid='5f269168-d73c-4509-94f7-187a589a1947', l='ServerLevel[world]', x=153.34, y=55.34, z=-354.54, cpos=[9, -23], tl=1340, v=true] died: ❤ 0 / 3 was blown up by ❤ 101 / 300
+[12:11:02] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[12:11:02] [Server thread/INFO]: Named entity Cod['❤ 0 / 3'/4473, uuid='f94e0af6-b410-46e8-b880-c625204fb3f3', l='ServerLevel[world]', x=171.86, y=58.40, z=-371.08, cpos=[10, -24], tl=671, v=true] died: ❤ 0 / 3 was shot by a skull from ❤ 101 / 300
+[12:11:12] [Server thread/INFO]: Named entity Cod['❤ 0 / 3'/4659, uuid='e2496ac6-65dc-466f-b422-3505c083b5cb', l='ServerLevel[world]', x=167.07, y=53.03, z=-386.56, cpos=[10, -25], tl=375, v=true] died: ❤ 0 / 3 was blown up by ❤ 6 / 300
+[12:11:12] [Server thread/INFO]: Named entity WitherBoss['❤ 0 / 300'/3275, uuid='d586b3a4-b083-40b7-9b20-487a035cce67', l='ServerLevel[world]', x=164.56, y=58.99, z=-387.29, cpos=[10, -25], tl=4659, v=true] died: ❤ 0 / 300 was slain by Zarickson
+[12:11:32] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[12:11:40] [Server thread/INFO]: Named entity Horse['❤ 13 / 19'/670, uuid='e21241f7-45a0-4af5-8546-cdcc918be0d8', l='ServerLevel[world]', x=84.97, y=62.23, z=-211.96, cpos=[5, -14], tl=26632, v=true] died: ❤ 13 / 19 blew up
+[12:12:02] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[12:12:28] [Server thread/INFO]: Zarickson issued server command: //set grass_block
+[12:12:32] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[12:13:02] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[12:13:24] [Server thread/INFO]: Zarickson issued server command: //set grass_block
+[12:13:32] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[12:13:33] [Server thread/INFO]: Zarickson issued server command: //set grass_block
+[12:14:02] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[12:14:32] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[12:15:02] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[12:15:32] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[12:16:02] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[12:16:32] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[12:17:02] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[12:17:29] [Server thread/INFO]: Zarickson issued server command: //set 0
+[12:17:32] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[12:17:48] [Server thread/INFO]: Zarickson issued server command: //set 0
+[12:18:02] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[12:18:14] [Server thread/INFO]: Zarickson issued server command: //set water
+[12:18:32] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[12:19:02] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[12:19:32] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[12:19:41] [Server thread/INFO]: Zarickson issued server command: //set water
+[12:19:45] [Server thread/INFO]: Zarickson issued server command: //set 0
+[12:19:59] [Server thread/INFO]: Zarickson issued server command: //set water
+[12:20:02] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[12:20:05] [Server thread/INFO]: Zarickson issued server command: //set 0
+[12:20:16] [Server thread/INFO]: Zarickson issued server command: //undo
+[12:20:17] [Server thread/INFO]: Zarickson issued server command: //undo
+[12:20:24] [Server thread/INFO]: Zarickson issued server command: //set grass_block
+[12:20:32] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[12:20:33] [Server thread/INFO]: Zarickson issued server command: //set grass_block
+[12:20:48] [Server thread/INFO]: Zarickson issued server command: //set grass_block
+[12:20:53] [Server thread/INFO]: Zarickson issued server command: //set grass_block
+[12:20:56] [Server thread/INFO]: Zarickson issued server command: //set grass_block
+[12:21:01] [Server thread/INFO]: Zarickson issued server command: //set grass_block
+[12:21:02] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[12:21:11] [Server thread/INFO]: Zarickson issued server command: //set grass_block
+[12:21:32] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[12:21:38] [Server thread/INFO]: Named entity Donkey['❤ 0 / 21'/605, uuid='9f324a1a-771b-4d94-855e-d1d218997e06', l='ServerLevel[world]', x=129.17, y=72.00, z=-121.86, cpos=[8, -8], tl=39222, v=true] died: ❤ 0 / 21 was slain by Zarickson
+[12:22:02] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[12:22:07] [Server thread/INFO]: Named entity Chicken['❤ 0 / 4'/630, uuid='a220517d-f7d9-41a8-8453-c70ef81a1747', l='ServerLevel[world]', x=153.92, y=69.00, z=-128.40, cpos=[9, -9], tl=40739, v=true] died: ❤ 0 / 4 was slain by Zarickson
+[12:22:13] [Server thread/INFO]: Zarickson lost connection: Disconnected
+[12:22:13] [Server thread/INFO]: [voicechat] Disconnecting client Zarickson
+[12:22:13] [Server thread/INFO]: Zarickson left the game
+[12:22:16] [Server thread/INFO]: Stopping the server
+[12:22:16] [Server thread/INFO]: Stopping server
+[12:22:16] [Server thread/INFO]: [RPGHealthDisplay] Disabling RPGHealthDisplay v1.0
+[12:22:16] [Server thread/INFO]: [RPGHealthDisplay] RPGHealthDisplay ha sido desactivado.
+[12:22:16] [Server thread/INFO]: [EntityOptimizer] Disabling EntityOptimizer v1.0
+[12:22:16] [Server thread/INFO]: [EntityOptimizer] EntityOptimizer desactivado.
+[12:22:16] [Server thread/INFO]: [Chunky] Disabling Chunky v1.4.28
+[12:22:16] [Server thread/INFO]: [NoPluginsv2] Disabling NoPluginsv2 v2.0
+[12:22:16] [Server thread/INFO]: [NoPluginsv2] BlockCommandsPlugin desactivado!
+[12:22:16] [Server thread/INFO]: [FakeLogin] Disabling FakeLogin v1.0
+[12:22:16] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.21.0-dev+167-4e64782
+[12:22:16] [Server thread/INFO]: [LightningHoe] Disabling LightningHoe v1.0
+[12:22:16] [Server thread/INFO]: [ItemFrameDuplicator] Disabling ItemFrameDuplicator v1.0
+[12:22:16] [Server thread/INFO]: [ItemFrameDuplicator] ItemFrameDuplicator desactivado.
+[12:22:16] [Server thread/INFO]: [voicechat] Disabling voicechat v2.5.26
+[12:22:16] [Server thread/INFO]: [PrivateWarps] Disabling PrivateWarps v1.0
+[12:22:16] [Server thread/INFO]: [TrollMaster] Disabling TrollMaster v1.0
+[12:22:16] [Server thread/INFO]: [NoSleep] Disabling NoSleep v1.0
+[12:22:16] [Server thread/INFO]: [HerobrineTroll] Disabling HerobrineTroll v1.0
+[12:22:16] [Server thread/INFO]: [PlugManX] Disabling PlugManX v2.4.1
+[12:22:16] [Server thread/INFO]: [AuthMe] Disabling AuthMe v5.6.0-bCUSTOM
+[12:22:16] [Server thread/INFO]: [AuthMe] Waiting for 0 tasks to finish
+[12:22:16] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0-bCUSTOM disabled!
+[12:22:16] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.10+7004-768a436
+[12:22:16] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[12:22:16] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.21.0-dev+167-4e64782
+[12:22:16] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+167-4e64782
+[12:22:16] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.156
+[12:22:16] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[12:22:16] [Server thread/INFO]: [LuckPerms] Closing storage...
+[12:22:16] [Server thread/INFO]: [LuckPerms] Goodbye!
+[12:22:16] [Server thread/INFO]: Saving players
+[12:22:16] [Server thread/INFO]: Saving worlds
+[12:22:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[12:22:16] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[12:22:16] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[12:22:16] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[12:22:16] [Server thread/INFO]: [ChunkHolderManager] Saved 221 block chunks, 176 entity chunks, 0 poi chunks in world 'world' in 0.33s
+[12:22:16] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[12:22:16] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[12:22:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[12:22:16] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[12:22:16] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[12:22:16] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[12:22:16] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[12:22:16] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[12:22:16] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[12:22:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[12:22:16] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[12:22:16] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[12:22:16] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[12:22:16] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[12:22:16] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[12:22:16] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[12:22:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[12:22:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[12:22:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[12:22:16] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[12:22:16] [Server thread/INFO]: Waiting for I/O tasks to complete...
+[12:22:16] [Server thread/INFO]: All I/O tasks to complete
+[12:22:16] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[12:22:16] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...

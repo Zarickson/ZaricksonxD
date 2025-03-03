@@ -1,0 +1,8 @@
+# Configuración de RPGHealthDisplay
+
+health-display:
+  enabled: true  # Si se muestra la vida de los mobs al mirarlos
+  format: "&c❤ {health}/{max_health}"  # Formato del texto de vida
+  show-on-hit: true  # Mostrar la cantidad de daño al golpear
+  damage-format: "&6-{damage}"  # Cómo se muestra el daño recibido
+  show-above-mob: true  # Si la vida se muestra sobre el mob o en el chat
