@@ -3132,3 +3132,151 @@ aa<--[HERE]
 [16:00:54] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
 [16:00:57] [Server thread/INFO]: Zarickson issued server command: /lp reload
 [16:01:01] [Async Chat Thread - #50/INFO]: [Not Secure] %luckperms_prefix% Quesitos > aa
+[16:01:11] [Async Chat Thread - #50/INFO]: [Not Secure] %luckperms_prefix% Zarickson > a
+[16:01:12] [Async Chat Thread - #50/INFO]: [Not Secure] %luckperms_prefix% Zarickson > aa
+[16:01:23] [Server thread/INFO]: Zarickson issued server command: /papi ecloud download LuckPerms
+[16:01:23] [placeholderapi-io-#1/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[16:01:24] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[16:01:24] [Async Chat Thread - #50/INFO]: [Not Secure] %luckperms_prefix% Zarickson > conrazon
+[16:01:27] [Server thread/INFO]: Zarickson issued server command: /papi reload
+[16:01:27] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[16:01:27] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[16:01:27] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: luckperms [5.4-R2]
+[16:01:28] [Async Chat Thread - #50/INFO]: [Not Secure] [Owner]  Zarickson > a
+[16:01:30] [Async Chat Thread - #50/INFO]: [Not Secure] [Owner]  Zarickson > soy repelotudo
+[16:01:39] [Async Chat Thread - #50/INFO]: [Not Secure] [Owner]  Quesitos > que pasaba JASJ
+[16:01:50] [Async Chat Thread - #50/INFO]: [Not Secure] [Owner]  Zarickson > olvide descargar pasar un archivo a la carpeta plugins
+[16:01:54] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[16:01:55] [Async Chat Thread - #50/INFO]: [Not Secure] [Owner]  Zarickson > Con razon no aba JAJ
+[16:02:09] [Async Chat Thread - #50/INFO]: [Not Secure] [Owner]  Quesitos > joder claude
+[16:02:24] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[16:02:26] [Async Chat Thread - #50/INFO]: [Not Secure] [Owner]  Zarickson > a
+[16:02:29] [Server thread/INFO]: Zarickson issued server command: /chatmanager reload
+[16:02:30] [Async Chat Thread - #50/INFO]: [Not Secure] [Owner]  Zarickson > a
+[16:02:33] [Async Chat Thread - #50/INFO]: [Not Secure] [Owner]  Quesitos > q paso?
+[16:02:33] [Server thread/INFO]: Zarickson issued server command: /chatmanager reload
+[16:02:34] [Async Chat Thread - #50/INFO]: [Not Secure] [Owner]  Zarickson > a
+[16:02:54] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[16:02:55] [Server thread/INFO]: Zarickson issued server command: /lp group owner meta removeprefix 10
+[16:02:55] [luckperms-command-executor/INFO]: [LP] LOG > (Zarickson) [G] (owner)
+[16:02:55] [luckperms-command-executor/INFO]: [LP] LOG > meta removeprefix 10 *
+[16:02:56] [Async Chat Thread - #50/INFO]: [Not Secure]  Zarickson > a
+[16:02:59] [Async Chat Thread - #50/INFO]: [Not Secure]  Quesitos > ala
+[16:03:21] [Server thread/INFO]: Zarickson issued server command: /lp group owner meta setprefix 10 "&b&l&k[&6&lOwner&b&l&k] "
+[16:03:21] [luckperms-command-executor/INFO]: [LP] LOG > (Zarickson) [G] (owner)
+[16:03:21] [luckperms-command-executor/INFO]: [LP] LOG > meta setprefix 10 &b&l&k[&6&lOwner&b&l&k] 
+[16:03:22] [Async Chat Thread - #50/INFO]: [Not Secure] [Owner]  Zarickson > a
+[16:03:24] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[16:03:25] [Async Chat Thread - #50/INFO]: [Not Secure] [Owner]  Quesitos > ala
+[16:03:34] [Server thread/INFO]: ¡DIOS HA LLEGADO!
+[16:03:34] [Server thread/INFO]: ¡DIOS HA LLEGADO!
+[16:03:39] [Server thread/INFO]: ¡DIOS HA LLEGADO!
+[16:03:39] [Server thread/INFO]: ¡DIOS HA LLEGADO!
+[16:03:40] [Server thread/INFO]: ¡DIOS HA LLEGADO!
+[16:03:43] [Server thread/INFO]: ¡DIOS HA LLEGADO!
+[16:03:43] [Server thread/INFO]: ¡DIOS HA LLEGADO!
+[16:03:46] [Server thread/INFO]: ¡DIOS HA LLEGADO!
+[16:03:49] [Server thread/INFO]: Zarickson issued server command: /lp group owner meta removeprefix 10
+[16:03:49] [luckperms-command-executor/INFO]: [LP] LOG > (Zarickson) [G] (owner)
+[16:03:49] [luckperms-command-executor/INFO]: [LP] LOG > meta removeprefix 10 *
+[16:03:50] [Async Chat Thread - #50/INFO]: [Not Secure]  Zarickson > a
+[16:03:53] [Server thread/INFO]: ¡DIOS HA LLEGADO!
+[16:03:53] [Server thread/INFO]: ¡DIOS HA LLEGADO!
+[16:03:54] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[16:03:59] [Server thread/INFO]: ¡DIOS HA LLEGADO!
+[16:04:02] [Server thread/INFO]: Zarickson issued server command: /chatmanager reload
+[16:04:03] [Async Chat Thread - #50/INFO]: [Not Secure] %vault_prefix% Zarickson > a
+[16:04:04] [Server thread/INFO]: ¡DIOS HA LLEGADO!
+[16:04:10] [Server thread/INFO]: ¡DIOS HA LLEGADO!
+[16:04:13] [Server thread/INFO]: Zarickson issued server command: /papi ecloud download Vault
+[16:04:13] [placeholderapi-io-#4/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[16:04:17] [Server thread/INFO]: Zarickson issued server command: /papi reload
+[16:04:17] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[16:04:17] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[16:04:17] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: luckperms [5.4-R2]
+[16:04:17] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: vault [1.8.3]
+[16:04:17] [Async Chat Thread - #50/INFO]: [Not Secure]  Zarickson > a
+[16:04:24] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[16:04:54] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[16:05:12] [Async Chat Thread - #50/INFO]: [Not Secure]  Quesitos > a
+[16:05:18] [Server thread/INFO]: ¡DIOS HA LLEGADO!
+[16:05:18] [Server thread/INFO]: ¡DIOS HA LLEGADO!
+[16:05:19] [Server thread/INFO]: ¡DIOS HA LLEGADO!
+[16:05:24] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[16:05:29] [Server thread/INFO]: ¡DIOS HA LLEGADO!
+[16:05:50] [Server thread/INFO]: ¡DIOS HA LLEGADO!
+[16:05:54] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[16:05:55] [Server thread/INFO]: Quesitos issued server command: /time set day
+[16:05:59] [Server thread/INFO]: Named entity Skeleton['❤ 0 / 20'/18400, uuid='7c4f0474-ad69-473c-96c8-8daa8e573505', l='ServerLevel[world]', x=-173.50, y=69.00, z=-321.50, cpos=[-11, -21], tl=208, v=true] died: ❤ 0 / 20 was slain by Quesitos
+[16:06:05] [Server thread/INFO]: ¡DIOS HA LLEGADO!
+[16:06:07] [Server thread/INFO]: ¡DIOS HA LLEGADO!
+[16:06:07] [Server thread/INFO]: ¡DIOS HA LLEGADO!
+[16:06:08] [Server thread/INFO]: ¡DIOS HA LLEGADO!
+[16:06:10] [Server thread/INFO]: ¡DIOS HA LLEGADO!
+[16:06:10] [Server thread/INFO]: ¡DIOS HA LLEGADO!
+[16:06:10] [Server thread/INFO]: ¡DIOS HA LLEGADO!
+[16:06:15] [Server thread/INFO]: Named entity Zombie['❤ 1 / 20'/18356, uuid='9550cb11-341e-4f52-9fdf-e69868568a05', l='ServerLevel[world]', x=-155.70, y=72.00, z=-302.45, cpos=[-10, -19], tl=839, v=true] died: ❤ 1 / 20 burned to death
+[16:06:15] [Server thread/INFO]: ¡DIOS HA LLEGADO!
+[16:06:24] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[16:06:27] [Server thread/INFO]: ¡DIOS HA LLEGADO!
+[16:06:29] [Server thread/INFO]: Named entity Skeleton['Skeleton'/18249, uuid='fab25f95-b7a5-456b-884c-79401404b94c', l='ServerLevel[world]', x=-198.30, y=75.00, z=-403.68, cpos=[-13, -26], tl=1424, v=true] died: Skeleton burned to death
+[16:06:54] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[16:07:20] [Async Chat Thread - #52/INFO]: [Not Secure]  Zarickson > a
+[16:07:22] [Server thread/INFO]: ¡DIOS HA LLEGADO!
+[16:07:24] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[16:07:28] [Async Chat Thread - #52/INFO]: [Not Secure]  Quesitos > mueran peruanos
+[16:07:29] [Async Chat Thread - #52/INFO]: [Not Secure]  Zarickson > tu madre tiene una polla que ya la quisiera yooo
+[16:07:37] [Async Chat Thread - #52/INFO]: [Not Secure]  Zarickson > me dio pena por su padre el dia que se entero
+[16:07:54] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[16:08:08] [Server thread/INFO]: Zarickson issued server command: /lp group owner meta setprefix 10 "&b&l[&6&lOwner&b&l] "
+[16:08:08] [luckperms-command-executor/INFO]: [LP] LOG > (Zarickson) [G] (owner)
+[16:08:08] [luckperms-command-executor/INFO]: [LP] LOG > meta setprefix 10 &b&l[&6&lOwner&b&l] 
+[16:08:09] [Server thread/INFO]: ¡DIOS HA LLEGADO!
+[16:08:09] [Async Chat Thread - #52/INFO]: [Not Secure] [Owner]  Zarickson > a
+[16:08:12] [Async Chat Thread - #52/INFO]: [Not Secure] [Owner]  Quesitos > EPA
+[16:08:16] [Server thread/INFO]: Zarickson issued server command: /lp group owner meta setprefix 10 "&b&l[&4&lOwner&b&l] "
+[16:08:16] [luckperms-command-executor/INFO]: [LP] LOG > (Zarickson) [G] (owner)
+[16:08:16] [luckperms-command-executor/INFO]: [LP] LOG > meta setprefix 10 &b&l[&4&lOwner&b&l] 
+[16:08:20] [Server thread/INFO]: Zarickson issued server command: /lp group owner meta setprefix 10 "&b&l[&4&lOwner&b&l] &b"
+[16:08:20] [luckperms-command-executor/INFO]: [LP] LOG > (Zarickson) [G] (owner)
+[16:08:20] [luckperms-command-executor/INFO]: [LP] LOG > meta setprefix 10 &b&l[&4&lOwner&b&l] &b
+[16:08:20] [Async Chat Thread - #52/INFO]: [Not Secure] [Owner]  Zarickson > a
+[16:08:21] [Async Chat Thread - #52/INFO]: [Not Secure] [Owner]  Quesitos > a
+[16:08:24] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[16:08:36] [Async Chat Thread - #52/INFO]: [Not Secure] [Owner]  Quesitos > me gusta mas el naranja ajsj
+[16:08:39] [Server thread/INFO]: Zarickson issued server command: /lp group owner meta setprefix 10 "&#E3123D[&#E3303DO&#E44E3Cw&#E46C3Cn&#E4893Be&#E5A73Br&#E5C53A]"
+[16:08:39] [luckperms-command-executor/INFO]: [LP] LOG > (Zarickson) [G] (owner)
+[16:08:39] [luckperms-command-executor/INFO]: [LP] LOG > meta setprefix 10 &#E3123D[&#E3303DO&#E44E3Cw&#E46C3Cn&#E4893Be&#E5A73Br&#E5C53A]
+[16:08:39] [Async Chat Thread - #52/INFO]: [Not Secure] &[&O&w&n&e&r&] Zarickson > a
+[16:08:42] [Server thread/INFO]: Zarickson issued server command: /lp group owner meta setprefix 10 "&b&l[&4&lOwner&b&l] "
+[16:08:42] [luckperms-command-executor/INFO]: [LP] LOG > (Zarickson) [G] (owner)
+[16:08:42] [luckperms-command-executor/INFO]: [LP] LOG > meta setprefix 10 &b&l[&4&lOwner&b&l] 
+[16:08:43] [Async Chat Thread - #52/INFO]: [Not Secure] [Owner]  Zarickson > a
+[16:08:47] [Server thread/INFO]: Zarickson issued server command: /lp group owner meta setprefix 10 "&b&l[&6&lOwner&b&l] "
+[16:08:47] [luckperms-command-executor/INFO]: [LP] LOG > (Zarickson) [G] (owner)
+[16:08:47] [luckperms-command-executor/INFO]: [LP] LOG > meta setprefix 10 &b&l[&6&lOwner&b&l] 
+[16:08:47] [Async Chat Thread - #52/INFO]: [Not Secure] [Owner]  Zarickson > a
+[16:08:54] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[16:09:08] [Server thread/INFO]: Zarickson issued server command: /lp user Zarickson meta info
+[16:09:24] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[16:09:27] [Server thread/INFO]: Zarickson issued server command: /chatmanager reload
+[16:09:27] [Async Chat Thread - #52/INFO]: [Not Secure] [Owner]  Zarickson > a
+[16:09:38] [Server thread/INFO]: Zarickson issued server command: /chatmanager reload
+[16:09:38] [Async Chat Thread - #52/INFO]: [Not Secure] [Owner]  Zarickson > a
+[16:09:54] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[16:09:58] [Server thread/INFO]: Zarickson issued server command: /lp user Zarickson parent set default
+[16:09:58] [luckperms-command-executor/INFO]: [LP] LOG > (Zarickson) [U] (zarickson)
+[16:09:58] [luckperms-command-executor/INFO]: [LP] LOG > parent set default
+[16:09:59] [Async Chat Thread - #52/INFO]: [Not Secure]  Zarickson > a
+[16:10:04] [Server thread/INFO]: Zarickson issued server command: /lp user Zarickson parent set miembro
+[16:10:04] [luckperms-command-executor/INFO]: [LP] LOG > (Zarickson) [U] (zarickson)
+[16:10:04] [luckperms-command-executor/INFO]: [LP] LOG > parent set miembro
+[16:10:05] [Async Chat Thread - #52/INFO]: [Not Secure]  Zarickson > a
+[16:10:21] [Server thread/INFO]: Zarickson issued server command: /lp user Zarickson parent set miembro
+[16:10:21] [luckperms-command-executor/INFO]: [LP] LOG > (Zarickson) [U] (zarickson)
+[16:10:21] [luckperms-command-executor/INFO]: [LP] LOG > parent set miembro
+[16:10:22] [Async Chat Thread - #52/INFO]: [Not Secure]  Zarickson > a
+[16:10:24] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[16:10:32] [Server thread/INFO]: Zarickson issued server command: /chatmanager reload
+[16:10:32] [Async Chat Thread - #52/INFO]: [Not Secure]  Zarickson > a
+[16:10:54] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.

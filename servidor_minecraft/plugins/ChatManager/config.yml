@@ -279,10 +279,10 @@ Chat_Format:
   # This will only be used if the players permission group isn't on the bottom of this section.
   Default_Format: "%luckperms_prefix% &b&l{player} &9> &7{message}"
   Groups:
-    Default: 
-      Format: "&8[&7Default&8] &7{player} &9> &7{message}"
-    Owner:
-      Format: "&b[&6Owner&b] &b{player} &9>> &e{message}"
+    default: 
+      Format: "&8[&aMiembro&8] &7{player} &9> &7{message}"
+    owner:
+      Format: "&b&l[&6&lOwner&b&l] &b{player} &9>> &4&l{message}"
 
 #=================================================================================================#     
 # Players can only send messages to other players that are in range.
