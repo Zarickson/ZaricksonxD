@@ -2794,3 +2794,113 @@ aa<--[HERE]
 [15:30:37] [Async Chat Thread - #36/INFO]: [Not Secure] <Quesitos> no se donde
 [15:30:39] [Async Chat Thread - #36/INFO]: [Not Secure] <Quesitos> ehh
 [15:30:41] [Async Chat Thread - #36/INFO]: [Not Secure] <Quesitos> ya se
+[15:30:54] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[15:31:01] [luckperms-worker-2/INFO]: [LP] LOG > (Zarickson) [G] (default)
+[15:31:01] [luckperms-worker-2/INFO]: [LP] LOG > webeditor add essentials.back.ondeath true
+[15:31:01] [luckperms-worker-2/INFO]: [LP] LOG > (Zarickson) [G] (owner)
+[15:31:01] [luckperms-worker-2/INFO]: [LP] LOG > webeditor add weight.2 true
+[15:31:01] [luckperms-worker-2/INFO]: [LP] LOG > (Zarickson) [G] (owner)
+[15:31:01] [luckperms-worker-2/INFO]: [LP] LOG > webeditor add group.0 true
+[15:31:01] [luckperms-worker-2/INFO]: [LP] LOG > (Zarickson) [G] (owner)
+[15:31:01] [luckperms-worker-2/INFO]: [LP] LOG > webeditor add * true
+[15:31:01] [luckperms-worker-2/INFO]: [LP] LOG > (Zarickson) [G] (owner)
+[15:31:01] [luckperms-worker-2/INFO]: [LP] LOG > webeditor add displayname.Owner true
+[15:31:01] [luckperms-worker-2/INFO]: [LP] LOG > (Zarickson) [G] (owner)
+[15:31:01] [luckperms-worker-2/INFO]: [LP] LOG > webeditor add essentials.* true
+[15:31:04] [Async Chat Thread - #36/INFO]: [Not Secure] <Zarickson> dime
+[15:31:06] [Async Chat Thread - #36/INFO]: [Not Secure] <Zarickson> cual?
+[15:31:13] [Server thread/INFO]: Zarickson issued server command: /lp user Zarickson parent set owner
+[15:31:13] [luckperms-command-executor/INFO]: [LP] LOG > (Zarickson) [U] (zarickson)
+[15:31:13] [luckperms-command-executor/INFO]: [LP] LOG > parent set owner
+[15:31:17] [Async Chat Thread - #36/INFO]: [Not Secure] <Quesitos> LaputamadreCraft
+[15:31:18] [Async Chat Thread - #36/INFO]: [Not Secure] <Quesitos> ya
+[15:31:21] [Async Chat Thread - #36/INFO]: [Not Secure] <Quesitos> :D
+[15:31:23] [Server thread/INFO]: Zarickson issued server command: /lp user Quesitos parent set owner
+[15:31:23] [luckperms-command-executor/INFO]: [LP] LOG > (Zarickson) [U] (quesitos)
+[15:31:23] [luckperms-command-executor/INFO]: [LP] LOG > parent set owner
+[15:31:24] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[15:31:24] [Async Chat Thread - #36/INFO]: [Not Secure] <Zarickson> nos banean D:
+[15:31:25] [Async Chat Thread - #36/INFO]: [Not Secure] <Zarickson> xd
+[15:31:27] [Async Chat Thread - #36/INFO]: [Not Secure] <Quesitos> JSAJASJ
+[15:31:41] [Async Chat Thread - #36/INFO]: [Not Secure] <Quesitos> Que tal algo como los planetas?
+[15:31:52] [Async Chat Thread - #36/INFO]: [Not Secure] <Quesitos> como, SaturnoCraft o algo asi de cliche
+[15:31:54] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[15:32:12] [Async Chat Thread - #36/INFO]: [Not Secure] <Zarickson> Anarquicocraft :d
+[15:32:13] [Async Chat Thread - #36/INFO]: [Not Secure] <Zarickson> JAJAJA
+[15:32:24] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[15:32:28] [Async Chat Thread - #36/INFO]: [Not Secure] <Zarickson> War of Anarquia
+[15:32:31] [Async Chat Thread - #36/INFO]: [Not Secure] <Zarickson> Guerra de anarquia
+[15:32:32] [Async Chat Thread - #36/INFO]: [Not Secure] <Zarickson> xd
+[15:32:38] [Async Chat Thread - #36/INFO]: [Not Secure] <Zarickson> no se JAJA
+[15:32:45] [Async Chat Thread - #36/INFO]: [Not Secure] <Quesitos> AJSKASKJ Esa vaina que
+[15:32:54] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[15:33:19] [Async Chat Thread - #36/INFO]: [Not Secure] <Quesitos> Ehmm
+[15:33:24] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[15:33:24] [Async Chat Thread - #36/INFO]: [Not Secure] <Quesitos> 5d7b
+[15:33:26] [Async Chat Thread - #36/INFO]: [Not Secure] <Quesitos> deah
+[15:33:28] [Async Chat Thread - #36/INFO]: [Not Secure] <Zarickson> XD
+[15:33:30] [Async Chat Thread - #36/INFO]: [Not Secure] <Zarickson> 2b2t 2.0
+[15:33:30] [Async Chat Thread - #36/INFO]: [Not Secure] <Zarickson> :V
+[15:33:33] [Async Chat Thread - #36/INFO]: [Not Secure] <Quesitos> noo mano
+[15:33:39] [Async Chat Thread - #36/INFO]: [Not Secure] <Quesitos> JASJ
+[15:33:51] [Async Chat Thread - #36/INFO]: [Not Secure] <Zarickson> el guebo mio en 3d
+[15:33:52] [Async Chat Thread - #36/INFO]: [Not Secure] <Zarickson> nah mentira
+[15:33:52] [Async Chat Thread - #36/INFO]: [Not Secure] <Zarickson> Xd
+[15:33:54] [Async Chat Thread - #36/INFO]: [Not Secure] <Zarickson> MMm
+[15:33:54] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[15:33:55] [Async Chat Thread - #36/INFO]: [Not Secure] <Zarickson> un nombre
+[15:33:57] [Async Chat Thread - #37/INFO]: [Not Secure] <Quesitos> AJSJASJ Re malo
+[15:34:24] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[15:34:54] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[15:35:09] [Async Chat Thread - #38/INFO]: [Not Secure] <Quesitos> ehh Mine algo
+[15:35:24] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[15:35:42] [Async Chat Thread - #38/INFO]: [Not Secure] <Zarickson> ya se
+[15:35:47] [Async Chat Thread - #38/INFO]: [Not Secure] <Zarickson> LXZ9
+[15:35:49] [Async Chat Thread - #38/INFO]: [Not Secure] <Zarickson> deah
+[15:35:51] [Async Chat Thread - #38/INFO]: [Not Secure] <Quesitos> que verga
+[15:35:53] [Async Chat Thread - #38/INFO]: [Not Secure] <Quesitos> me encanta
+[15:35:54] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[15:35:57] [Async Chat Thread - #38/INFO]: [Not Secure] <Zarickson> si?
+[15:35:58] [Async Chat Thread - #38/INFO]: [Not Secure] <Zarickson> :V
+[15:36:00] [Async Chat Thread - #38/INFO]: [Not Secure] <Quesitos> sisi mano JASJ
+[15:36:04] [Async Chat Thread - #38/INFO]: [Not Secure] <Quesitos> MineGround
+[15:36:07] [Async Chat Thread - #38/INFO]: [Not Secure] <Zarickson> MineGround dale
+[15:36:08] [Async Chat Thread - #38/INFO]: [Not Secure] <Zarickson> ese
+[15:36:08] [Async Chat Thread - #38/INFO]: [Not Secure] <Quesitos> yo que se
+[15:36:11] [Async Chat Thread - #38/INFO]: [Not Secure] <Zarickson> por que si no vamos a estar 1000 años
+[15:36:11] [Async Chat Thread - #38/INFO]: [Not Secure] <Zarickson> Xd
+[15:36:12] [Async Chat Thread - #38/INFO]: [Not Secure] <Quesitos> el tuyo me gusto mas
+[15:36:14] [Async Chat Thread - #38/INFO]: [Not Secure] <Quesitos> sisis
+[15:36:17] [Async Chat Thread - #38/INFO]: [Not Secure] <Quesitos> ya
+[15:36:19] [Async Chat Thread - #38/INFO]: [Not Secure] <Zarickson> cual ponemos tonce
+[15:36:24] [Async Chat Thread - #38/INFO]: [Not Secure] <Quesitos> LXZ9
+[15:36:24] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[15:36:25] [Async Chat Thread - #38/INFO]: [Not Secure] <Quesitos> ya
+[15:36:26] [Async Chat Thread - #38/INFO]: [Not Secure] <Zarickson> Bello
+[15:36:27] [Async Chat Thread - #38/INFO]: [Not Secure] <Quesitos> ese
+[15:36:30] [Async Chat Thread - #38/INFO]: [Not Secure] <Quesitos> sisi
+[15:36:36] [Async Chat Thread - #38/INFO]: [Not Secure] <Zarickson> ya todo ta listo, solo falta colocar los nombresitos
+[15:36:54] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[15:36:54] [Async Chat Thread - #38/INFO]: [Not Secure] <Quesitos> vava
+[15:36:57] [Async Chat Thread - #38/INFO]: [Not Secure] <Quesitos> mientras perame
+[15:37:02] [Async Chat Thread - #38/INFO]: [Not Secure] <Zarickson> ok
+[15:37:05] [Async Chat Thread - #38/INFO]: [Not Secure] <Quesitos> tengo asuntos pendientes (baño)
+[15:37:07] [Async Chat Thread - #38/INFO]: [Not Secure] <Quesitos> JSJ
+[15:37:09] [Async Chat Thread - #38/INFO]: [Not Secure] <Zarickson> dale xd
+[15:37:18] [Server thread/INFO]: Zarickson issued server command: /plugman load ChatManager-4.0.3
+[15:37:18] [Paper Plugin Remapper Thread - 4/INFO]: [PluginRemapper] Remapping plugin 'plugins/ChatManager-4.0.3.jar'...
+[15:37:19] [Paper Plugin Remapper Thread - 4/INFO]: [PluginRemapper] Done remapping plugin 'plugins/ChatManager-4.0.3.jar' in 482ms.
+[15:37:19] [Server thread/INFO]: [ChatManager] Loading server plugin ChatManager v4.0.3
+[15:37:19] [Server thread/INFO]: [ChatManager] Enabling ChatManager v4.0.3
+[15:37:19] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: chatmanager [4.0.3]
+[15:37:24] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[15:37:54] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[15:37:55] [Async Chat Thread - #38/INFO]: [Not Secure] <Zarickson> a
+[15:38:07] [Server thread/INFO]: [ChatManager] Config has been reloaded.
+[15:38:09] [Async Chat Thread - #38/INFO]: [Not Secure] %luckperms_prefix% Zarickson > a
+[15:38:20] [Async Chat Thread - #38/INFO]: [Not Secure] %luckperms_prefix% Zarickson > :v
+[15:38:24] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[15:38:54] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[15:39:24] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[15:39:54] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[15:40:24] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
