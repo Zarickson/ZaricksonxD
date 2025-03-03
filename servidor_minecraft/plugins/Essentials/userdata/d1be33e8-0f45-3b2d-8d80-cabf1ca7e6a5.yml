@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 127.4.64.75
+ip-address: 127.109.230.223
 afk: false
 socialspy: false
 npc: false
@@ -16,18 +16,18 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1740963389618
-  login: 1740956595132
+  logout: 1740993756903
+  login: 1741000649633
 money: '0'
 last-account-name: Zarickson
 logoutlocation:
   world: 8cddc2d8-6cc0-4564-b2fd-f2fc7646369c
   world-name: world
-  x: 69.23499561548212
-  y: 65.79020425192118
-  z: -40.377933824023096
-  yaw: 177.29981994628906
-  pitch: 19.20003890991211
+  x: 72.23076675841247
+  y: 63.1875
+  z: -51.840520249565884
+  yaw: 118.35028076171875
+  pitch: 16.49999237060547
 lastlocation:
   world: 8cddc2d8-6cc0-4564-b2fd-f2fc7646369c
   world-name: world

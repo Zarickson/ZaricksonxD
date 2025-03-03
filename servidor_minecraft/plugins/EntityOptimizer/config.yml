@@ -1,0 +1,8 @@
+entity-limits:
+  ZOMBIE: 5
+  SKELETON: 5
+  CREEPER: 3
+  COW: 10
+  SHEEP: 10
+
+item-cleanup-interval: 30  # Tiempo en segundos antes de eliminar los ítems en el suelo
