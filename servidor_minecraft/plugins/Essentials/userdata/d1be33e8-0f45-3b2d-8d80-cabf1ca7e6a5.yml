@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.4.64.75
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1740962227730
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1740963389618
+  login: 1740956595132
+money: '0'
+last-account-name: Zarickson
+logoutlocation:
+  world: 8cddc2d8-6cc0-4564-b2fd-f2fc7646369c
+  world-name: world
+  x: 69.23499561548212
+  y: 65.79020425192118
+  z: -40.377933824023096
+  yaw: 177.29981994628906
+  pitch: 19.20003890991211
+lastlocation:
+  world: 8cddc2d8-6cc0-4564-b2fd-f2fc7646369c
+  world-name: world
+  x: 115.55724000524664
+  y: 63.0
+  z: -248.80293493467974
+  yaw: 10.644901275634766
+  pitch: 20.85002899169922
