@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1741018780284
-  login: 1741018980177
+  logout: 1741021762337
+  login: 1741021507945
 money: '0'
 last-account-name: Quesitos
 lastlocation:
@@ -31,8 +31,8 @@ lastlocation:
 logoutlocation:
   world: 8cddc2d8-6cc0-4564-b2fd-f2fc7646369c
   world-name: world
-  x: -189.02375962405029
-  y: 67.0
-  z: -301.81502680820034
-  yaw: 77.46875
-  pitch: 60.69699478149414
+  x: -203.170972264304
+  y: 64.0
+  z: -292.85169938142917
+  yaw: -123.26416015625
+  pitch: 0.290441632270813

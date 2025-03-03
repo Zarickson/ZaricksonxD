@@ -16,18 +16,18 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1741019954559
-  login: 1741019957121
+  logout: 1741022566436
+  login: 1741021661444
 money: '0'
 last-account-name: Zarickson
 logoutlocation:
   world: 8cddc2d8-6cc0-4564-b2fd-f2fc7646369c
   world-name: world
-  x: -171.07078093307638
-  y: 69.0
-  z: -297.76487345983537
-  yaw: -132.18199157714844
-  pitch: 26.079116821289062
+  x: -202.8285925688738
+  y: 71.78847492159478
+  z: -301.0573117503795
+  yaw: -37.233978271484375
+  pitch: 35.850074768066406
 lastlocation:
   world: 8cddc2d8-6cc0-4564-b2fd-f2fc7646369c
   world-name: world

@@ -1,810 +1,409 @@
-[16:20:40] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.5.0-1025-azure (amd64)
-[16:20:40] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-187-main@1d5e5a5 (2025-02-28T19:53:30Z) for Minecraft 1.21.4
-[16:20:40] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[16:20:40] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/NetherineLightning.jar'...
-[16:20:40] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/PlaceholderAPI-2.11.6.jar'...
-[16:20:41] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Remapping plugin 'plugins/Vault.jar'...
-[16:20:41] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Remapping plugin 'plugins/ChatManager-4.0.3.jar'...
-[16:20:41] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/NetherineLightning.jar' in 564ms.
-[16:20:41] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Done remapping plugin 'plugins/Vault.jar' in 694ms.
-[16:20:42] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/PlaceholderAPI-2.11.6.jar' in 1126ms.
-[16:20:42] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Done remapping plugin 'plugins/ChatManager-4.0.3.jar' in 1025ms.
-[16:20:42] [ServerMain/INFO]: [PluginInitializerManager] Initialized 22 plugins
-[16:20:42] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (22):
- - AuthMe (5.6.0-bCUSTOM), ChatManager (4.0.3), Chunky (1.4.28), EntityOptimizer (1.0), Essentials (2.21.0-dev+167-4e64782), EssentialsSpawn (2.21.0-dev+167-4e64782), FakeLogin (1.0), HerobrineTroll (1.0), ItemFrameDuplicator (1.0), LightningHoe (1.0), LuckPerms (5.4.156), NetheriteLightning (1.0), NoPluginsv2 (2.0), NoSleep (1.0), PlaceholderAPI (2.11.6), PlugManX (2.4.1), PrivateWarps (1.0), RPGHealthDisplay (1.0), TrollMaster (1.0), Vault (1.7.3-b131), WorldEdit (7.3.10+7004-768a436), voicechat (2.5.26)
-[16:20:46] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[16:20:48] [ServerMain/INFO]: Loaded 1370 recipes
-[16:20:48] [ServerMain/INFO]: Loaded 1481 advancements
-[16:20:48] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
-[16:20:49] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 260.8ms
-[16:20:49] [Server thread/INFO]: Starting minecraft server version 1.21.4
-[16:20:49] [Server thread/INFO]: Loading properties
-[16:20:49] [Server thread/INFO]: This server is running Paper version 1.21.4-187-main@1d5e5a5 (2025-02-28T19:53:30Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
-[16:20:49] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[16:20:49] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[16:20:49] [Server thread/INFO]: Using 4 threads for Netty based IO
-[16:20:50] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[16:20:50] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[16:20:50] [Server thread/INFO]: Default game type: SURVIVAL
-[16:20:50] [Server thread/INFO]: Generating keypair
-[16:20:50] [Server thread/INFO]: Starting Minecraft server on *:25565
-[16:20:50] [Server thread/INFO]: Using epoll channel type
-[16:20:50] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[16:20:50] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[16:20:51] [Server thread/WARN]: [org.bukkit.craftbukkit.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[16:20:58] [Server thread/WARN]: Legacy plugin PrivateWarps v1.0 does not specify an api-version.
-[16:20:58] [Server thread/WARN]: Legacy plugin FakeLogin v1.0 does not specify an api-version.
-[16:20:58] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.156
-[16:20:58] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
-[16:20:58] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+167-4e64782
-[16:20:58] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.0-dev+167-4e64782
-[16:20:58] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
-[16:20:58] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.10+7004-768a436
-[16:20:59] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@9a390c6]
-[16:20:59] [Server thread/INFO]: [AuthMe] Loading server plugin AuthMe v5.6.0-bCUSTOM
-[16:20:59] [Server thread/INFO]: [PlugManX] Loading server plugin PlugManX v2.4.1
-[16:20:59] [Server thread/INFO]: [HerobrineTroll] Loading server plugin HerobrineTroll v1.0
-[16:20:59] [Server thread/INFO]: [NoSleep] Loading server plugin NoSleep v1.0
-[16:20:59] [Server thread/INFO]: [TrollMaster] Loading server plugin TrollMaster v1.0
-[16:20:59] [Server thread/INFO]: [PrivateWarps] Loading server plugin PrivateWarps v1.0
-[16:20:59] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.5.26
-[16:20:59] [Server thread/INFO]: [ChatManager] Loading server plugin ChatManager v4.0.3
-[16:20:59] [Server thread/INFO]: [RPGHealthDisplay] Loading server plugin RPGHealthDisplay v1.0
-[16:20:59] [Server thread/INFO]: [ItemFrameDuplicator] Loading server plugin ItemFrameDuplicator v1.0
-[16:20:59] [Server thread/INFO]: [LightningHoe] Loading server plugin LightningHoe v1.0
-[16:20:59] [Server thread/INFO]: [FakeLogin] Loading server plugin FakeLogin v1.0
-[16:20:59] [Server thread/INFO]: [NoPluginsv2] Loading server plugin NoPluginsv2 v2.0
-[16:20:59] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.28
-[16:20:59] [Server thread/INFO]: [NetheriteLightning] Loading server plugin NetheriteLightning v1.0
-[16:20:59] [Server thread/INFO]: [EntityOptimizer] Loading server plugin EntityOptimizer v1.0
-[16:20:59] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[16:20:59] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.156
-[16:21:00] [Server thread/INFO]:         __    
-[16:21:00] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.156
-[16:21:00] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[16:21:00] [Server thread/INFO]: 
-[16:21:00] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[16:21:00] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[16:21:00] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[16:21:00] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[16:21:01] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1611ms)
-[16:21:01] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[16:21:01] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[16:21:01] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[16:21:01] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[16:21:01] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[16:21:01] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.10+7004-768a436
-[16:21:01] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[16:21:01] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
-[16:21:01] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_4.PaperweightAdapter as the Bukkit adapter
-[16:21:02] [Server thread/INFO]: [PlugManX] Enabling PlugManX v2.4.1
-[16:21:02] [Server thread/WARN]: [PlugManX] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-[16:21:02] [Server thread/WARN]: [PlugManX] It seems like you're running on paper.
-[16:21:02] [Server thread/WARN]: [PlugManX] PlugManX cannot interact with paper-plugins, yet.
-[16:21:02] [Server thread/WARN]: [PlugManX] Also, if you encounter any issues, please join my discord: https://discord.gg/GxEFhVY6ff
-[16:21:02] [Server thread/WARN]: [PlugManX] Or create an issue on GitHub: https://github.com/TheBlackEntity/PlugMan
-[16:21:02] [Server thread/WARN]: [PlugManX] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-[16:21:03] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[16:21:03] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[16:21:03] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[16:21:03] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[16:21:03] [Server thread/INFO]: Preparing level "world"
-[16:21:04] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[16:21:04] [Server thread/INFO]: Preparing spawn area: 0%
-[16:21:04] [Server thread/INFO]: Preparing spawn area: 42%
-[16:21:05] [Server thread/INFO]: Preparing spawn area: 87%
-[16:21:05] [Server thread/INFO]: Time elapsed: 1125 ms
-[16:21:05] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[16:21:05] [Server thread/INFO]: Preparing spawn area: 0%
-[16:21:05] [Server thread/INFO]: Time elapsed: 227 ms
-[16:21:05] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[16:21:05] [Server thread/INFO]: Preparing spawn area: 0%
-[16:21:05] [Server thread/INFO]: Time elapsed: 121 ms
-[16:21:05] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+167-4e64782
-[16:21:06] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[16:21:06] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[16:21:06] [Server thread/INFO]: [Essentials] Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
-[16:21:06] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
-[16:21:06] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
-[16:21:06] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
-[16:21:06] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
-[16:21:06] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
-[16:21:06] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
-[16:21:06] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
-[16:21:06] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
-[16:21:06] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
-[16:21:06] [Server thread/INFO]: [Essentials] Selected Reflection Spawner Block Provider as the provider for SpawnerBlockProvider
-[16:21:06] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
-[16:21:06] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
-[16:21:06] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
-[16:21:06] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
-[16:21:06] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
-[16:21:06] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
-[16:21:06] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
-[16:21:06] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
-[16:21:06] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
-[16:21:06] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
-[16:21:06] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
-[16:21:06] [Server thread/INFO]: [Essentials] Loaded 43465 items from items.json.
-[16:21:06] [Server thread/INFO]: [Essentials] Using locale en
-[16:21:06] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[16:21:07] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[16:21:07] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
-[16:21:07] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
-[16:21:07] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.0-dev+167-4e64782
-[16:21:07] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
-[16:21:07] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
-[16:21:07] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[16:21:07] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.6.0-bCUSTOM
-[16:21:07] [Server thread/INFO]: [AuthMe] SQLite Setup finished
-[16:21:07] [Server thread/INFO]: [AuthMe] Hooked into LuckPerms!
-[16:21:07] [Server thread/INFO]: [AuthMe] Hooked successfully into Essentials
-[16:21:07] [Server thread/WARN]: [AuthMe] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
-[16:21:08] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
-[16:21:08] [Server thread/INFO]: [HerobrineTroll] Enabling HerobrineTroll v1.0
-[16:21:08] [Server thread/INFO]: [NoSleep] Enabling NoSleep v1.0
-[16:21:08] [Server thread/INFO]: [TrollMaster] Enabling TrollMaster v1.0
-[16:21:08] [Server thread/INFO]: [PrivateWarps] Enabling PrivateWarps v1.0*
-[16:21:08] [Server thread/INFO]: [PrivateWarps] PrivateWarpsPlugin activado!
-[16:21:08] [Server thread/INFO]: [voicechat] Enabling voicechat v2.5.26
-[16:21:08] [Server thread/INFO]: [voicechat] Initializing compatibility for Bukkit version 1.21.4-R0.1
-[16:21:08] [Server thread/INFO]: [voicechat] Compatibility version 18
-[16:21:08] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
-[16:21:08] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: voicechat [2.5.26]
-[16:21:08] [Server thread/INFO]: [voicechat] Successfully registered PlaceholderAPI expansion
-[16:21:08] [Server thread/INFO]: [ChatManager] Enabling ChatManager v4.0.3
-[16:21:08] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: chatmanager [4.0.3]
-[16:21:08] [Server thread/INFO]: [RPGHealthDisplay] Enabling RPGHealthDisplay v1.0
-[16:21:08] [Server thread/INFO]: [RPGHealthDisplay] RPGHealthDisplay ha sido activado correctamente.
-[16:21:08] [Server thread/INFO]: [ItemFrameDuplicator] Enabling ItemFrameDuplicator v1.0
-[16:21:08] [Server thread/INFO]: [ItemFrameDuplicator] ItemFrameDuplicator activado.
-[16:21:08] [Server thread/INFO]: [LightningHoe] Enabling LightningHoe v1.0
-[16:21:08] [Server thread/INFO]: [FakeLogin] Enabling FakeLogin v1.0*
-[16:21:08] [Server thread/INFO]: [NoPluginsv2] Enabling NoPluginsv2 v2.0
-[16:21:08] [Server thread/INFO]: [NoPluginsv2] BlockCommandsPlugin activado!
-[16:21:08] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.28
-[16:21:08] [Server thread/INFO]: [NetheriteLightning] Enabling NetheriteLightning v1.0
-[16:21:08] [Server thread/INFO]: [EntityOptimizer] Enabling EntityOptimizer v1.0
-[16:21:08] [Server thread/INFO]: [EntityOptimizer] EntityOptimizer activado.
-[16:21:08] [Server thread/INFO]: [spark] Starting background profiler...
-[16:21:09] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[16:21:09] [Server thread/INFO]: Done preparing level "world" (6.100s)
-[16:21:09] [Server thread/INFO]: Running delayed init tasks
-[16:21:09] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
-[16:21:09] [Craft Scheduler Thread - 0 - AuthMe/INFO]: [AuthMe] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
-[16:21:09] [Craft Scheduler Thread - 0 - AuthMe/WARN]: [AuthMe] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
-[16:21:09] [Craft Scheduler Thread - 0 - AuthMe/INFO]: [AuthMe] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
-[16:21:09] [Craft Scheduler Thread - 3 - Essentials/INFO]: [Essentials] Fetching version information...
-[16:21:09] [Craft Scheduler Thread - 0 - AuthMe/WARN]: [AuthMe] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
-[16:21:09] [Craft Scheduler Thread - 1 - Vault/INFO]: [Vault] Checking for Updates ... 
-[16:21:09] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[16:21:09] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: luckperms [5.4-R2]
-[16:21:09] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: vault [1.8.3]
-[16:21:09] [Server thread/INFO]: 2 placeholder hook(s) registered!
-[16:21:09] [Server thread/INFO]: Done (29.699s)! For help, type "help"
-[16:21:09] [Server thread/INFO]: [voicechat] Loading plugins
-[16:21:09] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
-[16:21:09] [Server thread/INFO]: [voicechat] Initializing plugins
-[16:21:09] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
-[16:21:09] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
-[16:21:09] [Craft Scheduler Thread - 1 - Vault/INFO]: [Vault] No new version available
-[16:21:09] [User Authenticator #0/INFO]: UUID of player Zarickson is d1be33e8-0f45-3b2d-8d80-cabf1ca7e6a5
-[16:21:09] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
-[16:21:09] [Server thread/INFO]: Zarickson (/127.4.64.75:49997) lost connection: Disconnected
-[16:21:09] [Craft Scheduler Thread - 3 - Essentials/WARN]: [Essentials] You're 18 EssentialsX dev build(s) out of date!
-[16:21:09] [Craft Scheduler Thread - 3 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
-[16:21:16] [Server thread/INFO]: [Not Secure] [Server] a
-[16:21:19] [User Authenticator #0/INFO]: UUID of player Zarickson is d1be33e8-0f45-3b2d-8d80-cabf1ca7e6a5
-[16:21:20] [Server thread/INFO]: Zarickson joined the game
-[16:21:20] [Server thread/INFO]: Zarickson[/127.4.64.75:35675] logged in with entity id 523 at ([world]-157.81745117552336, 73.0, -414.2950258593295)
-[16:21:23] [Craft Scheduler Thread - 3 - AuthMe/INFO]: [AuthMe] Zarickson logged in 127.4.64.75
-[16:21:24] [Async Chat Thread - #1/INFO]: [Not Secure]  Zarickson > a
-[16:21:39] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[16:21:43] [Server thread/INFO]: Zarickson issued server command: /lp user Zarickson parent set default
-[16:21:43] [luckperms-command-executor/INFO]: [LP] LOG > (Zarickson) [U] (zarickson)
-[16:21:43] [luckperms-command-executor/INFO]: [LP] LOG > parent set default
-[16:21:45] [Server thread/INFO]: Zarickson issued server command: /deop Zarickson
-[16:21:45] [Server thread/INFO]: [Zarickson: Made Zarickson no longer a server operator]
-[16:21:46] [Async Chat Thread - #1/INFO]: [Not Secure]  Zarickson > a
-[16:21:54] [luckperms-command-executor/INFO]: [LP] Set chatmanager.format to true for default in context global.
-[16:21:57] [Async Chat Thread - #1/INFO]: [Not Secure]  Zarickson > a
-[16:22:03] [Async Chat Thread - #1/INFO]: [Not Secure]  Zarickson > &3&la
-[16:22:09] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[16:22:36] [Server thread/INFO]: Made Zarickson a server operator
-[16:22:39] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[16:22:40] [Server thread/INFO]: Zarickson issued server command: /lp group miembro parent add default
-[16:22:40] [Async Chat Thread - #1/INFO]: [Not Secure]  Zarickson > a
-[16:22:59] [User Authenticator #1/INFO]: UUID of player Quesitos is abf4198c-c898-3d1e-a8f3-d6c3eac74c6a
-[16:23:00] [Server thread/INFO]: Quesitos joined the game
-[16:23:00] [Server thread/INFO]: Quesitos[/127.66.197.61:47893] logged in with entity id 965 at ([world]-189.02375962405029, 67.0, -301.81502680820034)
-[16:23:08] [Craft Scheduler Thread - 8 - AuthMe/INFO]: [AuthMe] Quesitos logged in 127.66.197.61
-[16:23:09] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[16:23:11] [Async Chat Thread - #1/INFO]: [Not Secure]  Zarickson > a
-[16:23:13] [Async Chat Thread - #1/INFO]: [Not Secure]  Quesitos > ahh
-[16:23:38] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[16:23:39] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[16:23:45] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[16:23:46] [Server thread/INFO]: Zarickson issued server command: /lp group miembro meta setprefix 10 "&8[&7M&8i&7e&8m&7b&8r&7o&8] &7"
-[16:23:46] [luckperms-command-executor/INFO]: [LP] LOG > (Zarickson) [G] (miembro)
-[16:23:46] [luckperms-command-executor/INFO]: [LP] LOG > meta setprefix 10 &8[&7M&8i&7e&8m&7b&8r&7o&8] &7
-[16:23:46] [Async Chat Thread - #1/INFO]: [Not Secure]  Zarickson > a
-[16:23:50] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[16:23:51] [Async Chat Thread - #1/INFO]: [Not Secure]  Zarickson > :
-[16:23:54] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[16:24:00] [Server thread/INFO]: Zarickson issued server command: /papi parse me %luckperms_prefix%
-[16:24:09] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[16:24:18] [Server thread/INFO]: Zarickson issued server command: /lp group default meta setprefix 10 "&8[&7M&8i&7e&8m&7b&8r&7o&8] &7"
-[16:24:18] [luckperms-command-executor/INFO]: [LP] LOG > (Zarickson) [G] (default)
-[16:24:18] [luckperms-command-executor/INFO]: [LP] LOG > meta setprefix 10 &8[&7M&8i&7e&8m&7b&8r&7o&8] &7
-[16:24:20] [Async Chat Thread - #1/INFO]: [Not Secure] [Miembro]  Zarickson > encular
-[16:24:21] [Async Chat Thread - #1/INFO]: [Not Secure] [Miembro]  Zarickson > transexual
-[16:24:22] [Async Chat Thread - #1/INFO]: [Not Secure] [Miembro]  Zarickson > :v
-[16:24:24] [Async Chat Thread - #1/INFO]: [Not Secure]  Quesitos > yeii
-[16:24:28] [Async Chat Thread - #1/INFO]: [Not Secure]  Quesitos > ala
-[16:24:39] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[16:24:41] [Server thread/INFO]: Zarickson issued server command: /lp group default meta setprefix 10 "&8[&aMiembro&8] &7"
-[16:24:41] [luckperms-command-executor/INFO]: [LP] LOG > (Zarickson) [G] (default)
-[16:24:41] [luckperms-command-executor/INFO]: [LP] LOG > meta setprefix 10 &8[&aMiembro&8] &7
-[16:24:42] [Async Chat Thread - #1/INFO]: [Not Secure] [Miembro]  Zarickson > a
-[16:24:44] [Async Chat Thread - #1/INFO]: [Not Secure]  Quesitos > a
-[16:24:48] [Server thread/INFO]: Named entity Creeper['❤ 0 / 20'/1151, uuid='ec8fde49-ea62-4def-9cea-e49d4333cb98', l='ServerLevel[world]', x=-198.70, y=67.00, z=-330.27, cpos=[-13, -21], tl=753, v=true] died: ❤ 0 / 20 was slain by Quesitos
-[16:24:49] [Server thread/INFO]: Zarickson issued server command: /lp group default meta setprefix 10 "&8[&a&lMiembro&8] &7"
-[16:24:49] [luckperms-command-executor/INFO]: [LP] LOG > (Zarickson) [G] (default)
-[16:24:49] [luckperms-command-executor/INFO]: [LP] LOG > meta setprefix 10 &8[&a&lMiembro&8] &7
-[16:24:49] [Async Chat Thread - #1/INFO]: [Not Secure] [Miembro]  Zarickson > a
-[16:24:51] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[16:24:51] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[16:24:55] [Server thread/INFO]: Zarickson issued server command: /lp group default meta setprefix 10 "&8[&a&lMiembro&8] &b"
-[16:24:55] [luckperms-command-executor/INFO]: [LP] LOG > (Zarickson) [G] (default)
-[16:24:55] [luckperms-command-executor/INFO]: [LP] LOG > meta setprefix 10 &8[&a&lMiembro&8] &b
-[16:24:55] [Async Chat Thread - #1/INFO]: [Not Secure] [Miembro]  Zarickson > a
-[16:25:08] [Server thread/INFO]: Zarickson issued server command: /lp group owner meta setprefix 100 "&b&l[&6&lO&b&lw&6&ln&b&le&6&lr&b&l] &b"
-[16:25:08] [luckperms-command-executor/INFO]: [LP] LOG > (Zarickson) [G] (owner)
-[16:25:08] [luckperms-command-executor/INFO]: [LP] LOG > meta setprefix 100 &b&l[&6&lO&b&lw&6&ln&b&le&6&lr&b&l] &b
-[16:25:09] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[16:25:09] [Async Chat Thread - #1/INFO]: [Not Secure] [Miembro]  Zarickson > a
-[16:25:35] [Server thread/INFO]: Zarickson issued server command: /lp group owner meta setprefix 100 "&b&l[&6Ownerb&l] &b"
-[16:25:35] [luckperms-command-executor/INFO]: [LP] LOG > (Zarickson) [G] (owner)
-[16:25:35] [luckperms-command-executor/INFO]: [LP] LOG > meta setprefix 100 &b&l[&6Ownerb&l] &b
-[16:25:36] [Async Chat Thread - #1/INFO]: [Not Secure] [Miembro]  Zarickson > a
-[16:25:39] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[16:25:42] [Server thread/INFO]: Zarickson issued server command: /lp group owner meta setprefix 100 "&b&l[&6&lOwner&b&l] &b"
-[16:25:42] [luckperms-command-executor/INFO]: [LP] LOG > (Zarickson) [G] (owner)
-[16:25:42] [luckperms-command-executor/INFO]: [LP] LOG > meta setprefix 100 &b&l[&6&lOwner&b&l] &b
-[16:25:42] [Async Chat Thread - #1/INFO]: [Not Secure] [Miembro]  Zarickson > a
-[16:25:48] [Server thread/INFO]: Zarickson issued server command: /lp group owner meta setprefix 100 "&c&l[&6&lOwner&c&l] &b"
-[16:25:48] [luckperms-command-executor/INFO]: [LP] LOG > (Zarickson) [G] (owner)
-[16:25:48] [luckperms-command-executor/INFO]: [LP] LOG > meta setprefix 100 &c&l[&6&lOwner&c&l] &b
-[16:25:53] [Async Chat Thread - #1/INFO]: [Not Secure] [Miembro]  Zarickson > bello
-[16:26:03] [Server thread/INFO]: Zarickson issued server command: /lp user Zarickson parent set owner
-[16:26:03] [luckperms-command-executor/INFO]: [LP] LOG > (Zarickson) [U] (zarickson)
-[16:26:03] [luckperms-command-executor/INFO]: [LP] LOG > parent set owner
-[16:26:04] [Async Chat Thread - #0/INFO]: [Not Secure] [Owner]  Zarickson > a
-[16:26:09] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[16:26:22] [Server thread/INFO]: Zarickson issued server command: /chatmanager reload
-[16:26:24] [Async Chat Thread - #0/INFO]: [Not Secure] [Owner]  Zarickson > a
-[16:26:27] [Async Chat Thread - #0/INFO]: [Not Secure] [Owner]  Zarickson > ahí vamos cracks
-[16:26:39] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[16:26:52] [Paper Plugin Remapper Thread - 4/INFO]: [PluginRemapper] Remapping plugin 'plugins/TAB v5.0.7.jar'...
-[16:26:52] [Paper Plugin Remapper Thread - 4/INFO]: [PluginRemapper] Done remapping plugin 'plugins/TAB v5.0.7.jar' in 784ms.
-[16:26:52] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.0.7
-[16:26:52] [Server thread/INFO]: [TAB] Enabling TAB v5.0.7
-[16:26:52] [Server thread/INFO]: [TAB] Loaded NMS hook in 31ms
-[16:26:53] [Server thread/INFO]: [TAB] Enabled in 252ms
-[16:26:53] [Server thread/INFO]: [PlugMan] TAB has been loaded and enabled.
-[16:26:55] [Server thread/INFO]: Failed to find an expansion named: TAB
-[16:27:03] [Server thread/INFO]: Zarickson issued server command: /papi ecloud download TAB
-[16:27:09] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[16:27:11] [Async Chat Thread - #0/INFO]: [Not Secure] [Owner]  Zarickson > Mira TAB
-[16:27:13] [Async Chat Thread - #0/INFO]: [Not Secure] [Owner]  Zarickson > presiona TAB
-[16:27:21] [Async Chat Thread - #0/INFO]: [Not Secure] [Owner]  Quesitos > que GODD
-[16:27:39] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[16:27:47] [Async Chat Thread - #0/INFO]: [Not Secure] [Owner]  Zarickson > QUE NOMBRE ERA
-[16:27:47] [Async Chat Thread - #1/INFO]: [Not Secure] [Owner]  Zarickson > ?
-[16:27:48] [Async Chat Thread - #1/INFO]: [Not Secure] [Owner]  Zarickson > EL SV
-[16:27:49] [Async Chat Thread - #0/INFO]: [Not Secure] [Owner]  Zarickson > XD
-[16:28:00] [Async Chat Thread - #0/INFO]: [Not Secure] [Owner]  Zarickson > LZX9
-[16:28:04] [Async Chat Thread - #0/INFO]: [Not Secure] [Owner]  Zarickson > LXZ9
-[16:28:05] [Async Chat Thread - #0/INFO]: [Not Secure] [Owner]  Quesitos > eso eso
-[16:28:09] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[16:28:39] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[16:28:52] [Async Chat Thread - #0/INFO]: [Not Secure] [Owner]  Quesitos > que hermoso
-[16:28:56] [Async Chat Thread - #0/INFO]: [Not Secure] [Owner]  Quesitos > rawr
-[16:29:09] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[16:29:12] [Server thread/INFO]: Zarickson issued server command: /tab reload
-[16:29:12] [Server thread/INFO]: [TAB] Disabled in 2ms
-[16:29:12] [Server thread/INFO]: [TAB] Enabled in 17ms
-[16:29:39] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[16:29:42] [Server thread/INFO]: Quesitos issued server command: /weather clear
-[16:30:09] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[16:30:13] [Server thread/INFO]: Zarickson issued server command: /plugman load BetterTeams-4.11.0
-[16:30:13] [Paper Plugin Remapper Thread - 5/INFO]: [PluginRemapper] Remapping plugin 'plugins/BetterTeams-4.11.0.jar'...
-[16:30:14] [Async Chat Thread - #2/INFO]: [Not Secure] [Owner]  Zarickson > a
-[16:30:14] [Paper Plugin Remapper Thread - 5/INFO]: [PluginRemapper] Done remapping plugin 'plugins/BetterTeams-4.11.0.jar' in 504ms.
-[16:30:14] [Server thread/INFO]: [BetterTeams] Loading server plugin BetterTeams v4.11.0
-[16:30:14] [Server thread/INFO]: [BetterTeams] Checking if the file config.yml is up to date
-[16:30:14] [Server thread/INFO]: [BetterTeams] File is up to date
-[16:30:14] [Server thread/INFO]: [BetterTeams] Enabling BetterTeams v4.11.0
-[16:30:14] [Server thread/INFO]: [BetterTeams] Checking if the file messages.yml is up to date
-[16:30:14] [Server thread/INFO]: [BetterTeams] File is up to date
-[16:30:14] [Server thread/INFO]: [BetterTeams] Converting storage type, this may take a while
-[16:30:14] [Server thread/INFO]: [BetterTeams] Backing up teams.yml file
-[16:30:14] [Server thread/INFO]: [BetterTeams] Loading team information
-[16:30:14] [Server thread/INFO]: [BetterTeams] Beginning convertion
-[16:30:14] [Server thread/INFO]: [BetterTeams] Convertion complete
-[16:30:14] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: betterTeams [4.11.0]
-[16:30:14] [Server thread/WARN]: Could not find the message with the reference command.check
-[16:30:14] [Server thread/WARN]: Could not find the message with the reference command.debug
-[16:30:14] [Server thread/WARN]: Could not find the message with the reference command.teleport
-[16:30:14] [Server thread/WARN]: Could not find the message with the reference command.importmessages
-[16:30:14] [Server thread/WARN]: Could not find the message with the reference command.money
-[16:30:14] [Server thread/WARN]: Could not find the message with the reference command.deposit
-[16:30:14] [Server thread/WARN]: Could not find the message with the reference command.bal
-[16:30:14] [Server thread/WARN]: Could not find the message with the reference command.withdraw
-[16:30:14] [Server thread/INFO]: Display team name config value: prefix
-[16:30:14] [Server thread/INFO]: Loading below name. Type: PREFIX
-[16:30:14] [Server thread/INFO]: teamManagement declared: com.booksaw.betterTeams.events.MCTeamManagement@10941d7a
-[16:30:15] [Async Chat Thread - #3/INFO]: [Not Secure] [Owner]  Zarickson > a
-[16:30:19] [Async Chat Thread - #3/INFO]: [Not Secure] [Owner]  Zarickson > listo
-[16:30:23] [Async Chat Thread - #3/INFO]: [Not Secure] [Owner]  Zarickson > ya se puede crear teams :D
-[16:30:30] [Async Chat Thread - #3/INFO]: [Not Secure] [Owner]  Quesitos > como funciona eso?
-[16:30:36] [Async Chat Thread - #3/INFO]: [Not Secure] [Owner]  Zarickson > ./team create (nombre)
-[16:30:39] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[16:30:42] [Server thread/INFO]: Quesitos issued server command: /team
-[16:30:43] [Async Chat Thread - #3/INFO]: [Not Secure] [Owner]  Zarickson > y luego si quieres tus colores
-[16:30:45] [Async Chat Thread - #3/INFO]: [Not Secure] [Owner]  Zarickson > ejemplo
-[16:30:50] [Async Chat Thread - #3/INFO]: [Not Secure] [Owner]  Quesitos > ala, eso es para hacer facciones?
-[16:30:51] [Async Chat Thread - #3/INFO]: [Not Secure] [Owner]  Zarickson > ./team color (color)
-[16:30:52] [Async Chat Thread - #3/INFO]: [Not Secure] [Owner]  Zarickson > si
-[16:30:54] [Server thread/INFO]: Zarickson issued server command: /team
-[16:31:09] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[16:31:12] [Server thread/INFO]: Zarickson issued server command: /tab reload
-[16:31:12] [Server thread/INFO]: [TAB] Disabled in 1ms
-[16:31:12] [Server thread/INFO]: [TAB] Enabled in 18ms
-[16:31:39] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[16:32:09] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[16:32:39] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[16:33:09] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[16:33:39] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[16:34:09] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[16:34:12] [Server thread/INFO]: Zarickson issued server command: /tab reload
-[16:34:12] [Server thread/INFO]: [TAB] Disabled in 1ms
-[16:34:12] [Server thread/INFO]: [TAB] Enabled in 27ms
-[16:34:13] [Async Chat Thread - #4/INFO]: [Not Secure] [Owner]  Quesitos > aa
-[16:34:16] [Async Chat Thread - #4/INFO]: [Not Secure] [Owner]  Quesitos > opa
-[16:34:16] [Server thread/INFO]: Zarickson issued server command: /team create a
-[16:34:20] [Server thread/INFO]: Zarickson issued server command: /team create KRATOS
-[16:34:39] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[16:34:56] [Server thread/INFO]: Zarickson issued server command: /tab reload
-[16:34:56] [Server thread/INFO]: [TAB] Disabled in 1ms
-[16:34:56] [Server thread/INFO]: [TAB] Enabled in 13ms
-[16:35:09] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[16:35:39] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[16:35:43] [Server thread/INFO]: Zarickson issued server command: /papi ecloud download Statistic
-[16:35:43] [placeholderapi-io-#1/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[16:35:46] [Server thread/INFO]: Zarickson issued server command: /papi reload
-[16:35:46] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[16:35:46] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[16:35:47] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: statistic [2.0.1]
-[16:35:47] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: luckperms [5.4-R2]
-[16:35:47] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: vault [1.8.3]
-[16:36:02] [Server thread/INFO]: Zarickson issued server command: /tab reload
-[16:36:02] [Server thread/INFO]: [TAB] Disabled in 2ms
-[16:36:02] [Server thread/INFO]: [TAB] Enabled in 18ms
-[16:36:03] [Async Chat Thread - #6/INFO]: [Not Secure] [Owner]  Zarickson > asd
-[16:36:09] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[16:36:11] [Async Chat Thread - #7/INFO]: [Not Secure] [Owner]  Quesitos > que tal CrystalCraft?
-[16:36:13] [Async Chat Thread - #7/INFO]: [Not Secure] [Owner]  Quesitos > JASJSA
-[16:36:15] [Async Chat Thread - #7/INFO]: [Not Secure] [Owner]  Zarickson > JAJA
-[16:36:15] [Async Chat Thread - #7/INFO]: [Not Secure] [Owner]  Zarickson > xd
-[16:36:25] [Async Chat Thread - #7/INFO]: [Not Secure] [Owner]  Zarickson > creo que ya todo está listo no?
-[16:36:30] [Async Chat Thread - #7/INFO]: [Not Secure] [Owner]  Quesitos > ala
-[16:36:34] [Async Chat Thread - #7/INFO]: [Not Secure] [Owner]  Quesitos > ya protegiste?
-[16:36:37] [Async Chat Thread - #7/INFO]: [Not Secure] [Owner]  Zarickson > solo dejame colocar algunos cosas en español y ya
-[16:36:39] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[16:36:41] [Async Chat Thread - #7/INFO]: [Not Secure] [Owner]  Zarickson > falta eso tambien proteger xd
-[16:36:42] [Async Chat Thread - #7/INFO]: [Not Secure] [Owner]  Quesitos > okk
-[16:36:45] [Async Chat Thread - #7/INFO]: [Not Secure] [Owner]  Quesitos > eso eso jasj
-[16:37:09] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[16:37:19] [Server thread/INFO]: Quesitos issued server command: /tp zarickson quesitos
-[16:37:24] [Async Chat Thread - #7/INFO]: [Not Secure] [Owner]  Quesitos > ou
-[16:37:30] [Async Chat Thread - #7/INFO]: [Not Secure] [Owner]  Quesitos > ese mensaje que JASJ
-[16:37:37] [Async Chat Thread - #7/INFO]: [Not Secure] [Owner]  Zarickson > XD
-[16:37:39] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[16:37:40] [Server thread/INFO]: Quesitos issued server command: /tp zarickson
-[16:37:45] [Async Chat Thread - #7/INFO]: [Not Secure] [Owner]  Quesitos > coño pero
-[16:37:46] [Async Chat Thread - #7/INFO]: [Not Secure] [Owner]  Quesitos > coño pero
-[16:37:49] [Server thread/INFO]: Quesitos issued server command: /tp zarickson
-[16:37:51] [Async Chat Thread - #7/INFO]: [Not Secure] [Owner]  Quesitos > JASJ
-[16:38:00] [Server thread/INFO]: Zarickson issued server command: /chatmanager reload
-[16:38:03] [Async Chat Thread - #7/INFO]: [Not Secure] [Owner]  Quesitos > ala vee
-[16:38:07] [Async Chat Thread - #7/INFO]: [Not Secure] [Owner]  Quesitos > que goddd
-[16:38:09] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[16:38:39] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[16:39:06] [Server thread/INFO]: Zarickson issued server command: /chatmanager reload
-[16:39:09] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[16:39:14] [Server thread/INFO]: Zarickson lost connection: Disconnected
-[16:39:14] [Server thread/INFO]: [voicechat] Disconnecting client Zarickson
-[16:39:14] [Server thread/INFO]: KRATOS Zarickson left the game
-[16:39:16] [User Authenticator #2/INFO]: UUID of player Zarickson is d1be33e8-0f45-3b2d-8d80-cabf1ca7e6a5
-[16:39:17] [Server thread/INFO]: Zarickson joined the game
-[16:39:17] [Server thread/INFO]: Zarickson[/127.4.64.75:39019] logged in with entity id 3134 at ([world]-170.999649347505, 69.0, -297.8197812172125)
-[16:39:20] [Craft Scheduler Thread - 22 - AuthMe/INFO]: [AuthMe] Zarickson logged in 127.4.64.75
-[16:39:39] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[16:39:57] [Server thread/INFO]: Zarickson issued server command: /chatmanager reload
-[16:40:09] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[16:40:35] [Async Chat Thread - #8/INFO]: [Not Secure] [Owner]  Quesitos > god
-[16:40:39] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[16:41:04] [Async Chat Thread - #8/INFO]: [Not Secure] [Owner]  Quesitos > uy
-[16:41:09] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[16:41:39] [Server thread/INFO]: Zarickson issued server command: /chatmanager reload
-[16:41:39] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[16:42:09] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[16:42:12] [Server thread/INFO]: Zarickson issued server command: /team reload
-[16:42:19] [Server thread/INFO]: [BetterTeams] Disabling BetterTeams v4.11.0
-[16:42:19] [Server thread/INFO]: [BetterTeams] Loading server plugin BetterTeams v4.11.0
-[16:42:19] [Server thread/INFO]: [BetterTeams] Checking if the file config.yml is up to date
-[16:42:19] [Server thread/INFO]: [BetterTeams] File is up to date
-[16:42:19] [Server thread/INFO]: [BetterTeams] Enabling BetterTeams v4.11.0
-[16:42:19] [Server thread/INFO]: [BetterTeams] Checking if the file es.yml is up to date
-[16:42:19] [Server thread/INFO]: [BetterTeams] File is up to date
-[16:42:19] [Server thread/INFO]: [BetterTeams] Checking if the file messages.yml is up to date
-[16:42:19] [Server thread/INFO]: [BetterTeams] File is up to date
-[16:42:19] [Server thread/INFO]: [BetterTeams] ==================================================================
-[16:42:19] [Server thread/INFO]: [BetterTeams] Messages are missing from your selected language, the following messages are using english:
-[16:42:19] [Server thread/INFO]: [BetterTeams] - create.minLength: &4That team name is too short
-[16:42:19] [Server thread/INFO]: [BetterTeams] - chest.check.self: &6Your team has claimed that chest
-[16:42:19] [Server thread/INFO]: [BetterTeams] - chest.check.notClaimed: &6That chest has not been claimed
-[16:42:19] [Server thread/INFO]: [BetterTeams] - chest.check.claimed: &6That chest is claimed by &a{0}
-[16:42:19] [Server thread/INFO]: [BetterTeams] - command.check: check
-[16:42:19] [Server thread/INFO]: [BetterTeams] If you are able to help with translation please join the discord server and make yourself known (https://discord.gg/JF9DNs3)
-[16:42:19] [Server thread/INFO]: [BetterTeams] A file called `missingmessages.txt` has been created within this plugins folder. To contribute to the community translations, translate the messages within it and submit it to the discord
-[16:42:19] [Server thread/INFO]: [BetterTeams] ==================================================================
-[16:42:19] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: betterTeams [4.11.0]
-[16:42:19] [Server thread/INFO]: Display team name config value: prefix
-[16:42:19] [Server thread/INFO]: Loading below name. Type: PREFIX
-[16:42:19] [Server thread/INFO]: teamManagement declared: com.booksaw.betterTeams.events.MCTeamManagement@afd031b
-[16:42:19] [Server thread/INFO]: [PlugMan] BetterTeams has been reloaded.
-[16:42:22] [Server thread/INFO]: Zarickson issued server command: /team
-[16:42:22] [Server thread/ERROR]: Command exception: /team
-org.bukkit.plugin.IllegalPluginAccessException: Plugin attempted to register task while disabled
-	at org.bukkit.craftbukkit.scheduler.CraftScheduler.validate(CraftScheduler.java:532) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at org.bukkit.craftbukkit.scheduler.CraftScheduler.runTaskTimerAsynchronously(CraftScheduler.java:242) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at org.bukkit.craftbukkit.scheduler.CraftScheduler.runTaskTimerAsynchronously(CraftScheduler.java:238) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at org.bukkit.craftbukkit.scheduler.CraftScheduler.runTaskLaterAsynchronously(CraftScheduler.java:189) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at org.bukkit.craftbukkit.scheduler.CraftScheduler.runTaskAsynchronously(CraftScheduler.java:158) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at BetterTeams-4.11.0-1741019413651.jar/com.booksaw.betterTeams.BooksawCommand.execute(BooksawCommand.java:58) ~[BetterTeams-4.11.0-1741019413651.jar:?]
-	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:82) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:105) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:450) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:357) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:347) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:341) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2204) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$11(ServerGamePacketListenerImpl.java:2177) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1448) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:176) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1428) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1422) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1379) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1387) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1264) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[16:42:26] [Server thread/INFO]: CONSOLE: Are you sure you wish to reload your server? Doing so may cause bugs and memory leaks. It is recommended to restart instead of using /reload. To confirm, please type /reload confirm
-[16:42:28] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
-[16:42:28] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
-[16:42:28] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[16:42:28] [Server thread/INFO]: Using 4 threads for Netty based IO
-[16:42:28] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[16:42:28] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[16:42:28] [Server thread/INFO]: [BetterTeams] Disabling BetterTeams v4.11.0
-[16:42:28] [Server thread/INFO]: [TAB] Disabling TAB v5.0.7
-[16:42:28] [Server thread/INFO]: [TAB] Disabled in 3ms
-[16:42:28] [Server thread/INFO]: [EntityOptimizer] Disabling EntityOptimizer v1.0
-[16:42:28] [Server thread/INFO]: [EntityOptimizer] EntityOptimizer desactivado.
-[16:42:28] [Server thread/INFO]: [NetheriteLightning] Disabling NetheriteLightning v1.0
-[16:42:28] [Server thread/INFO]: [NetheriteLightning] NetheriteLightning deshabilitado.
-[16:42:28] [Server thread/INFO]: [Chunky] Disabling Chunky v1.4.28
-[16:42:28] [Server thread/INFO]: [NoPluginsv2] Disabling NoPluginsv2 v2.0
-[16:42:28] [Server thread/INFO]: [NoPluginsv2] BlockCommandsPlugin desactivado!
-[16:42:28] [Server thread/INFO]: [FakeLogin] Disabling FakeLogin v1.0
-[16:42:28] [Server thread/INFO]: [LightningHoe] Disabling LightningHoe v1.0
-[16:42:28] [Server thread/INFO]: [ItemFrameDuplicator] Disabling ItemFrameDuplicator v1.0
-[16:42:28] [Server thread/INFO]: [ItemFrameDuplicator] ItemFrameDuplicator desactivado.
-[16:42:28] [Server thread/INFO]: [RPGHealthDisplay] Disabling RPGHealthDisplay v1.0
-[16:42:28] [Server thread/INFO]: [RPGHealthDisplay] RPGHealthDisplay ha sido desactivado.
-[16:42:28] [Server thread/INFO]: [ChatManager] Disabling ChatManager v4.0.3
-[16:42:28] [Server thread/INFO]: [voicechat] Disabling voicechat v2.5.26
-[16:42:28] [Server thread/INFO]: [PrivateWarps] Disabling PrivateWarps v1.0
-[16:42:28] [Server thread/INFO]: [TrollMaster] Disabling TrollMaster v1.0
-[16:42:28] [Server thread/INFO]: [NoSleep] Disabling NoSleep v1.0
-[16:42:28] [Server thread/INFO]: [HerobrineTroll] Disabling HerobrineTroll v1.0
-[16:42:28] [Server thread/INFO]: [PlugManX] Disabling PlugManX v2.4.1
-[16:42:28] [Server thread/INFO]: [AuthMe] Disabling AuthMe v5.6.0-bCUSTOM
-[16:42:28] [Server thread/INFO]: [AuthMe] Waiting for 0 tasks to finish
-[16:42:28] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0-bCUSTOM disabled!
-[16:42:28] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.10+7004-768a436
-[16:42:28] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[16:42:28] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.6
-[16:42:28] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.21.0-dev+167-4e64782
-[16:42:28] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+167-4e64782
-[16:42:28] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
-[16:42:28] [Server thread/ERROR]: [Essentials] There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
-[16:42:28] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
-[16:42:28] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.156
-[16:42:28] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[16:42:28] [Server thread/INFO]: [LuckPerms] Closing storage...
-[16:42:28] [Server thread/INFO]: [LuckPerms] Goodbye!
-[16:42:29] [Server thread/INFO]: Loaded 1370 recipes
-[16:42:29] [Server thread/INFO]: Loaded 1481 advancements
-[16:42:29] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
-[16:42:29] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Remapping plugin 'plugins/TAB v5.0.7.jar'...
-[16:42:29] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/BetterTeams-4.11.0.jar'...
-[16:42:30] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Done remapping plugin 'plugins/TAB v5.0.7.jar' in 394ms.
-[16:42:30] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/BetterTeams-4.11.0.jar' in 438ms.
-[16:42:30] [Server thread/INFO]: [PluginInitializerManager] Initialized 24 plugins
-[16:42:30] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (24):
- - AuthMe (5.6.0-bCUSTOM), BetterTeams (4.11.0), ChatManager (4.0.3), Chunky (1.4.28), EntityOptimizer (1.0), Essentials (2.21.0-dev+167-4e64782), EssentialsSpawn (2.21.0-dev+167-4e64782), FakeLogin (1.0), HerobrineTroll (1.0), ItemFrameDuplicator (1.0), LightningHoe (1.0), LuckPerms (5.4.156), NetheriteLightning (1.0), NoPluginsv2 (2.0), NoSleep (1.0), PlaceholderAPI (2.11.6), PlugManX (2.4.1), PrivateWarps (1.0), RPGHealthDisplay (1.0), TAB (5.0.7), TrollMaster (1.0), Vault (1.7.3-b131), WorldEdit (7.3.10+7004-768a436), voicechat (2.5.26)
-[16:42:30] [Server thread/WARN]: Legacy plugin PrivateWarps v1.0 does not specify an api-version.
-[16:42:30] [Server thread/WARN]: Legacy plugin FakeLogin v1.0 does not specify an api-version.
-[16:42:30] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.156
-[16:42:30] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
-[16:42:30] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+167-4e64782
-[16:42:30] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.0-dev+167-4e64782
-[16:42:30] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
-[16:42:30] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.10+7004-768a436
-[16:42:31] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@eb15ade]
-[16:42:31] [Server thread/INFO]: [AuthMe] Loading server plugin AuthMe v5.6.0-bCUSTOM
-[16:42:31] [Server thread/INFO]: [PlugManX] Loading server plugin PlugManX v2.4.1
-[16:42:31] [Server thread/INFO]: [HerobrineTroll] Loading server plugin HerobrineTroll v1.0
-[16:42:31] [Server thread/INFO]: [NoSleep] Loading server plugin NoSleep v1.0
-[16:42:31] [Server thread/INFO]: [TrollMaster] Loading server plugin TrollMaster v1.0
-[16:42:31] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.0.7
-[16:42:31] [Server thread/INFO]: [BetterTeams] Loading server plugin BetterTeams v4.11.0
-[16:42:31] [Server thread/INFO]: [BetterTeams] Checking if the file config.yml is up to date
-[16:42:31] [Server thread/INFO]: [BetterTeams] File is up to date
-[16:42:31] [Server thread/INFO]: [PrivateWarps] Loading server plugin PrivateWarps v1.0
-[16:42:31] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.5.26
-[16:42:31] [Server thread/INFO]: [ChatManager] Loading server plugin ChatManager v4.0.3
-[16:42:31] [Server thread/INFO]: [RPGHealthDisplay] Loading server plugin RPGHealthDisplay v1.0
-[16:42:31] [Server thread/INFO]: [ItemFrameDuplicator] Loading server plugin ItemFrameDuplicator v1.0
-[16:42:31] [Server thread/INFO]: [LightningHoe] Loading server plugin LightningHoe v1.0
-[16:42:31] [Server thread/INFO]: [FakeLogin] Loading server plugin FakeLogin v1.0
-[16:42:31] [Server thread/INFO]: [NoPluginsv2] Loading server plugin NoPluginsv2 v2.0
-[16:42:31] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.28
-[16:42:31] [Server thread/INFO]: [NetheriteLightning] Loading server plugin NetheriteLightning v1.0
-[16:42:31] [Server thread/INFO]: [EntityOptimizer] Loading server plugin EntityOptimizer v1.0
-[16:42:31] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[16:42:31] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.156
-[16:42:31] [Server thread/INFO]:         __    
-[16:42:31] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.156
-[16:42:31] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[16:42:31] [Server thread/INFO]: 
-[16:42:31] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[16:42:31] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[16:42:32] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[16:42:32] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[16:42:32] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1120ms)
-[16:42:32] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[16:42:32] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[16:42:32] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[16:42:32] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[16:42:32] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[16:42:32] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.10+7004-768a436
-[16:42:32] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[16:42:32] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
-[16:42:32] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
-[16:42:32] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_4.PaperweightAdapter as the Bukkit adapter
-[16:42:34] [Server thread/INFO]: [PlugManX] Enabling PlugManX v2.4.1
-[16:42:34] [Server thread/WARN]: [PlugManX] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-[16:42:34] [Server thread/WARN]: [PlugManX] It seems like you're running on paper.
-[16:42:34] [Server thread/WARN]: [PlugManX] PlugManX cannot interact with paper-plugins, yet.
-[16:42:34] [Server thread/WARN]: [PlugManX] Also, if you encounter any issues, please join my discord: https://discord.gg/GxEFhVY6ff
-[16:42:34] [Server thread/WARN]: [PlugManX] Or create an issue on GitHub: https://github.com/TheBlackEntity/PlugMan
-[16:42:34] [Server thread/WARN]: [PlugManX] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-[16:42:34] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+167-4e64782
-[16:42:34] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[16:42:34] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[16:42:34] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
-[16:42:34] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
-[16:42:34] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
-[16:42:34] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
-[16:42:34] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
-[16:42:34] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
-[16:42:34] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
-[16:42:34] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
-[16:42:34] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
-[16:42:34] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
-[16:42:34] [Server thread/INFO]: [Essentials] Selected Reflection Spawner Block Provider as the provider for SpawnerBlockProvider
-[16:42:34] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
-[16:42:34] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
-[16:42:34] [Server thread/INFO]: [Essentials] Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
-[16:42:34] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
-[16:42:34] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
-[16:42:34] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
-[16:42:34] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
-[16:42:34] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
-[16:42:34] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
-[16:42:34] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
-[16:42:34] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
-[16:42:34] [Server thread/INFO]: [Essentials] Loaded 43465 items from items.json.
-[16:42:34] [Server thread/INFO]: [Essentials] Using locale en
-[16:42:34] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[16:42:35] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[16:42:35] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
-[16:42:35] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
-[16:42:35] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.0-dev+167-4e64782
-[16:42:35] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
-[16:42:35] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
-[16:42:35] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[16:42:35] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.6.0-bCUSTOM
-[16:42:35] [Server thread/INFO]: [AuthMe] SQLite Setup finished
-[16:42:35] [Server thread/INFO]: [AuthMe] Hooked into LuckPerms!
-[16:42:35] [Server thread/INFO]: [AuthMe] Hooked successfully into Essentials
-[16:42:35] [Server thread/WARN]: [AuthMe] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
-[16:42:35] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
-[16:42:35] [Server thread/INFO]: [HerobrineTroll] Enabling HerobrineTroll v1.0
-[16:42:35] [Server thread/INFO]: [NoSleep] Enabling NoSleep v1.0
-[16:42:35] [Server thread/INFO]: [TrollMaster] Enabling TrollMaster v1.0
-[16:42:35] [Server thread/INFO]: [TAB] Enabling TAB v5.0.7
-[16:42:35] [Server thread/INFO]: [TAB] Loaded NMS hook in 21ms
-[16:42:36] [Server thread/INFO]: [TAB] Enabled in 249ms
-[16:42:36] [Server thread/INFO]: [BetterTeams] Enabling BetterTeams v4.11.0
-[16:42:36] [Server thread/INFO]: [BetterTeams] Checking if the file es.yml is up to date
-[16:42:36] [Server thread/INFO]: [BetterTeams] File is up to date
-[16:42:36] [Server thread/INFO]: [BetterTeams] Checking if the file messages.yml is up to date
-[16:42:36] [Server thread/INFO]: [BetterTeams] File is up to date
-[16:42:36] [Server thread/INFO]: [BetterTeams] ==================================================================
-[16:42:36] [Server thread/INFO]: [BetterTeams] Messages are missing from your selected language, the following messages are using english:
-[16:42:36] [Server thread/INFO]: [BetterTeams] - create.minLength: &4That team name is too short
-[16:42:36] [Server thread/INFO]: [BetterTeams] - chest.check.self: &6Your team has claimed that chest
-[16:42:36] [Server thread/INFO]: [BetterTeams] - chest.check.notClaimed: &6That chest has not been claimed
-[16:42:36] [Server thread/INFO]: [BetterTeams] - chest.check.claimed: &6That chest is claimed by &a{0}
-[16:42:36] [Server thread/INFO]: [BetterTeams] - command.check: check
-[16:42:36] [Server thread/INFO]: [BetterTeams] If you are able to help with translation please join the discord server and make yourself known (https://discord.gg/JF9DNs3)
-[16:42:36] [Server thread/INFO]: [BetterTeams] A file called `missingmessages.txt` has been created within this plugins folder. To contribute to the community translations, translate the messages within it and submit it to the discord
-[16:42:36] [Server thread/INFO]: [BetterTeams] ==================================================================
-[16:42:36] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: betterTeams [4.11.0]
-[16:42:36] [Server thread/INFO]: Display team name config value: prefix
-[16:42:36] [Server thread/INFO]: Loading below name. Type: PREFIX
-[16:42:36] [Server thread/INFO]: teamManagement declared: com.booksaw.betterTeams.events.MCTeamManagement@63d2b380
-[16:42:36] [Server thread/INFO]: [PrivateWarps] Enabling PrivateWarps v1.0*
-[16:42:36] [Server thread/INFO]: [PrivateWarps] PrivateWarpsPlugin activado!
-[16:42:36] [Server thread/INFO]: [voicechat] Enabling voicechat v2.5.26
-[16:42:36] [Server thread/INFO]: [voicechat] Initializing compatibility for Bukkit version 1.21.4-R0.1
-[16:42:36] [Server thread/INFO]: [voicechat] Compatibility version 18
-[16:42:36] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
-[16:42:36] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: voicechat [2.5.26]
-[16:42:36] [Server thread/INFO]: [voicechat] Successfully registered PlaceholderAPI expansion
-[16:42:36] [Server thread/ERROR]: [voicechat] Simple Voice Chat does not support reloads! Expect that things will break!
-[16:42:36] [Server thread/INFO]: [ChatManager] Enabling ChatManager v4.0.3
-[16:42:36] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: chatmanager [4.0.3]
-[16:42:36] [Server thread/INFO]: [RPGHealthDisplay] Enabling RPGHealthDisplay v1.0
-[16:42:36] [Server thread/INFO]: [RPGHealthDisplay] RPGHealthDisplay ha sido activado correctamente.
-[16:42:36] [Server thread/INFO]: [ItemFrameDuplicator] Enabling ItemFrameDuplicator v1.0
-[16:42:36] [Server thread/INFO]: [ItemFrameDuplicator] ItemFrameDuplicator activado.
-[16:42:36] [Server thread/INFO]: [LightningHoe] Enabling LightningHoe v1.0
-[16:42:36] [Server thread/INFO]: [FakeLogin] Enabling FakeLogin v1.0*
-[16:42:36] [Server thread/INFO]: [NoPluginsv2] Enabling NoPluginsv2 v2.0
-[16:42:36] [Server thread/INFO]: [NoPluginsv2] BlockCommandsPlugin activado!
-[16:42:36] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.28
-[16:42:36] [Server thread/INFO]: [NetheriteLightning] Enabling NetheriteLightning v1.0
-[16:42:36] [Server thread/INFO]: [EntityOptimizer] Enabling EntityOptimizer v1.0
-[16:42:36] [Server thread/INFO]: [EntityOptimizer] EntityOptimizer activado.
-[16:42:36] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[16:42:36] [Server thread/INFO]: CONSOLE: Reload complete.
-[16:42:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8255ms or 165 ticks behind
-[16:42:36] [Craft Scheduler Thread - 27 - Essentials/INFO]: [Essentials] Fetching version information...
-[16:42:36] [Craft Scheduler Thread - 29 - AuthMe/INFO]: [AuthMe] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
-[16:42:36] [Craft Scheduler Thread - 29 - AuthMe/WARN]: [AuthMe] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
-[16:42:36] [Craft Scheduler Thread - 29 - AuthMe/INFO]: [AuthMe] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
-[16:42:36] [Craft Scheduler Thread - 29 - AuthMe/WARN]: [AuthMe] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
-[16:42:36] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
-[16:42:36] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[16:42:36] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: statistic [2.0.1]
-[16:42:36] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: luckperms [5.4-R2]
-[16:42:36] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: vault [1.8.3]
-[16:42:36] [Server thread/INFO]: 3 placeholder hook(s) registered!
-[16:42:36] [Server thread/INFO]: [voicechat] Loading plugins
-[16:42:36] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
-[16:42:36] [Server thread/INFO]: [voicechat] Initializing plugins
-[16:42:36] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
-[16:42:36] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
-[16:42:36] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
-[16:42:37] [Craft Scheduler Thread - 26 - Vault/INFO]: [Vault] Checking for Updates ... 
-[16:42:37] [Craft Scheduler Thread - 27 - Essentials/WARN]: [Essentials] You're 18 EssentialsX dev build(s) out of date!
-[16:42:37] [Craft Scheduler Thread - 27 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
-[16:42:37] [Craft Scheduler Thread - 26 - Vault/INFO]: [Vault] No new version available
-[16:42:40] [Craft Scheduler Thread - 26 - AuthMe/INFO]: [AuthMe] Zarickson logged in 127.4.64.75
-[16:42:40] [Server thread/INFO]: Zarickson issued server command: /team
-[16:42:42] [Async Chat Thread - #10/INFO]: [Not Secure] [Owner]  Zarickson > a
-[16:42:48] [Async Chat Thread - #10/INFO]: [Not Secure] [Owner]  Zarickson > inicia sesion ./login
-[16:42:58] [Craft Scheduler Thread - 26 - AuthMe/INFO]: [AuthMe] Quesitos logged in 127.66.197.61
-[16:43:00] [Async Chat Thread - #10/INFO]: [Not Secure] [Owner]  Quesitos > yap
-[16:43:06] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[16:43:36] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[16:43:38] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/worldguard-bukkit-7.0.13-dist.jar'...
-[16:43:39] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/worldguard-bukkit-7.0.13-dist.jar' in 403ms.
-[16:43:39] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.13+82fdc65
-[16:43:39] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.13+82fdc65
-[16:43:39] [Server thread/INFO]: [WorldGuard] Default configuration file written: config.yml
-[16:43:39] [Server thread/INFO]: [WorldGuard] Default configuration file written: config_world.yml
-[16:43:39] [Server thread/INFO]: [WorldGuard] Default configuration file written: blacklist.txt
-[16:43:39] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
-[16:43:39] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
-[16:43:39] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
-[16:43:39] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
-[16:43:39] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
-[16:43:39] [Server thread/INFO]: [WorldGuard] Default configuration file written: config_world.yml
-[16:43:39] [Server thread/INFO]: [WorldGuard] Default configuration file written: blacklist.txt
-[16:43:39] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
-[16:43:39] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
-[16:43:39] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
-[16:43:39] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
-[16:43:39] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
-[16:43:39] [Server thread/INFO]: [WorldGuard] Default configuration file written: config_world.yml
-[16:43:39] [Server thread/INFO]: [WorldGuard] Default configuration file written: blacklist.txt
-[16:43:39] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
-[16:43:39] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
-[16:43:39] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
-[16:43:39] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
-[16:43:39] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
-[16:43:39] [Server thread/INFO]: [WorldGuard] Loading region data...
-[16:43:39] [Server thread/INFO]: [WorldGuard] Unloading and saving region data that is currently loaded...
-[16:43:39] [Server thread/INFO]: [WorldGuard] Loading region data for loaded worlds...
-[16:43:39] [Server thread/INFO]: [WorldGuard] Loading region data...
-[16:43:39] [Server thread/INFO]: [WorldGuard] Regions saved after UUID migration! This won't happen again unless you change the relevant configuration option in WorldGuard's config.
-[16:43:39] [Server thread/INFO]: [PlugMan] WorldGuard has been loaded and enabled.
-[16:44:06] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[16:44:17] [Async Chat Thread - #12/INFO]: [Not Secure] [Owner]  Quesitos > otra vez login?
-[16:44:21] [Async Chat Thread - #12/INFO]: [Not Secure] [Owner]  Zarickson > no xd
-[16:44:36] [Server thread/INFO]: Zarickson issued server command: //expand vert
-[16:44:36] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[16:44:54] [Server thread/INFO]: Zarickson issued server command: /region define spawn
-[16:45:06] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[16:45:09] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
-[16:45:16] [Server thread/INFO]: Zarickson issued server command: /rg flag
-[16:45:18] [Server thread/INFO]: Zarickson issued server command: /rg
-[16:45:36] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[16:46:06] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[16:46:15] [Server thread/INFO]: Zarickson issued server command: /rg flag spawn invincible deny
-[16:46:21] [Server thread/INFO]: Zarickson issued server command: /rg flag spawn invincible allow
-[16:46:27] [Server thread/INFO]: Zarickson issued server command: /claim
-[16:46:36] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[16:46:39] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
-[16:46:45] [Server thread/INFO]: Zarickson issued server command: /gm 0
-[16:46:48] [Server thread/INFO]: Zarickson issued server command: /gm 1
-[16:47:06] [Server thread/INFO]: Zarickson issued server command: /rg flag spawn mob-spawning deny
-[16:47:06] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[16:47:09] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
-[16:47:26] [Server thread/INFO]: Named entity Zombie['❤ 20 / 20'/3834, uuid='f3e8080c-e248-456c-8d9a-f7da1eae0427', l='ServerLevel[world]', x=-226.06, y=72.00, z=-319.52, cpos=[-15, -20], tl=2751, v=true] died: ❤ 20 / 20 burned to death
-[16:47:36] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[16:47:37] [Server thread/INFO]: Zarickson issued server command: /region list
-[16:48:06] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[16:48:07] [Server thread/INFO]: Zarickson issued server command: /rg
-[16:48:10] [Server thread/INFO]: Zarickson issued server command: /rg select
-[16:48:12] [Server thread/INFO]: Zarickson issued server command: /rg flag
-[16:48:25] [Server thread/INFO]: Zarickson issued server command: /rg flag spawn mob-spawning deny
-[16:48:36] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[16:48:39] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
-[16:48:44] [Server thread/INFO]: Named entity Spider['❤ 0 / 16'/3599, uuid='dbe81c7e-3cbd-4af8-a24c-b745d3e6a838', l='ServerLevel[world]', x=-181.72, y=66.71, z=-286.70, cpos=[-12, -18], tl=6243, v=true] died: ❤ 0 / 16 was slain by KRATOS Zarickson
-[16:49:06] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[16:49:22] [Server thread/INFO]: Zarickson issued server command: /time set night
-[16:49:36] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[16:50:06] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[16:50:35] [Server thread/INFO]: Zarickson issued server command: /chatmanager reload
-[16:50:36] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[16:50:45] [Server thread/INFO]: Zarickson issued server command: /team
-[16:50:46] [Server thread/INFO]: Zarickson issued server command: /tpa
-[16:50:48] [Server thread/INFO]: Zarickson issued server command: /pl
+[16:59:02] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.5.0-1025-azure (amd64)
+[16:59:02] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-187-main@1d5e5a5 (2025-02-28T19:53:30Z) for Minecraft 1.21.4
+[16:59:02] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[16:59:03] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/worldguard-bukkit-7.0.13-dist.jar'...
+[16:59:04] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/worldguard-bukkit-7.0.13-dist.jar' in 907ms.
+[16:59:04] [ServerMain/INFO]: [PluginInitializerManager] Initialized 25 plugins
+[16:59:04] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (25):
+ - AuthMe (5.6.0-bCUSTOM), BetterTeams (4.11.0), ChatManager (4.0.3), Chunky (1.4.28), EntityOptimizer (1.0), Essentials (2.21.0-dev+167-4e64782), EssentialsSpawn (2.21.0-dev+167-4e64782), FakeLogin (1.0), HerobrineTroll (1.0), ItemFrameDuplicator (1.0), LightningHoe (1.0), LuckPerms (5.4.156), NetheriteLightning (1.0), NoPluginsv2 (2.0), NoSleep (1.0), PlaceholderAPI (2.11.6), PlugManX (2.4.1), PrivateWarps (1.0), RPGHealthDisplay (1.0), TAB (5.0.7), TrollMaster (1.0), Vault (1.7.3-b131), WorldEdit (7.3.10+7004-768a436), WorldGuard (7.0.13+82fdc65), voicechat (2.5.26)
+[16:59:08] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[16:59:10] [ServerMain/INFO]: Loaded 1370 recipes
+[16:59:10] [ServerMain/INFO]: Loaded 1481 advancements
+[16:59:10] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[16:59:10] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 238.3ms
+[16:59:10] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[16:59:10] [Server thread/INFO]: Loading properties
+[16:59:10] [Server thread/INFO]: This server is running Paper version 1.21.4-187-main@1d5e5a5 (2025-02-28T19:53:30Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
+[16:59:11] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[16:59:11] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[16:59:11] [Server thread/INFO]: Using 4 threads for Netty based IO
+[16:59:11] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[16:59:11] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[16:59:12] [Server thread/INFO]: Default game type: SURVIVAL
+[16:59:12] [Server thread/INFO]: Generating keypair
+[16:59:12] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:59:12] [Server thread/INFO]: Using epoll channel type
+[16:59:12] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[16:59:12] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[16:59:13] [Server thread/WARN]: [org.bukkit.craftbukkit.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[16:59:20] [Server thread/WARN]: Legacy plugin PrivateWarps v1.0 does not specify an api-version.
+[16:59:20] [Server thread/WARN]: Legacy plugin FakeLogin v1.0 does not specify an api-version.
+[16:59:20] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.156
+[16:59:20] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[16:59:20] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+167-4e64782
+[16:59:20] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.10+7004-768a436
+[16:59:21] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@28beeb68]
+[16:59:21] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.0-dev+167-4e64782
+[16:59:21] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
+[16:59:21] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.13+82fdc65
+[16:59:21] [Server thread/INFO]: [AuthMe] Loading server plugin AuthMe v5.6.0-bCUSTOM
+[16:59:21] [Server thread/INFO]: [PlugManX] Loading server plugin PlugManX v2.4.1
+[16:59:21] [Server thread/INFO]: [HerobrineTroll] Loading server plugin HerobrineTroll v1.0
+[16:59:21] [Server thread/INFO]: [NoSleep] Loading server plugin NoSleep v1.0
+[16:59:21] [Server thread/INFO]: [TrollMaster] Loading server plugin TrollMaster v1.0
+[16:59:21] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.0.7
+[16:59:21] [Server thread/INFO]: [BetterTeams] Loading server plugin BetterTeams v4.11.0
+[16:59:21] [Server thread/INFO]: [BetterTeams] Checking if the file config.yml is up to date
+[16:59:21] [Server thread/INFO]: [BetterTeams] File is up to date
+[16:59:21] [Server thread/INFO]: [PrivateWarps] Loading server plugin PrivateWarps v1.0
+[16:59:21] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.5.26
+[16:59:21] [Server thread/INFO]: [ChatManager] Loading server plugin ChatManager v4.0.3
+[16:59:21] [Server thread/INFO]: [RPGHealthDisplay] Loading server plugin RPGHealthDisplay v1.0
+[16:59:21] [Server thread/INFO]: [ItemFrameDuplicator] Loading server plugin ItemFrameDuplicator v1.0
+[16:59:21] [Server thread/INFO]: [LightningHoe] Loading server plugin LightningHoe v1.0
+[16:59:21] [Server thread/INFO]: [FakeLogin] Loading server plugin FakeLogin v1.0
+[16:59:21] [Server thread/INFO]: [NoPluginsv2] Loading server plugin NoPluginsv2 v2.0
+[16:59:21] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.28
+[16:59:21] [Server thread/INFO]: [NetheriteLightning] Loading server plugin NetheriteLightning v1.0
+[16:59:21] [Server thread/INFO]: [EntityOptimizer] Loading server plugin EntityOptimizer v1.0
+[16:59:21] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[16:59:21] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.156
+[16:59:22] [Server thread/INFO]:         __    
+[16:59:22] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.156
+[16:59:22] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[16:59:22] [Server thread/INFO]: 
+[16:59:22] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[16:59:22] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[16:59:22] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[16:59:22] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[16:59:23] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1545ms)
+[16:59:23] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[16:59:23] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[16:59:23] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[16:59:23] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[16:59:23] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[16:59:23] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.10+7004-768a436
+[16:59:23] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[16:59:23] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[16:59:23] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_4.PaperweightAdapter as the Bukkit adapter
+[16:59:24] [Server thread/INFO]: [PlugManX] Enabling PlugManX v2.4.1
+[16:59:24] [Server thread/WARN]: [PlugManX] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[16:59:24] [Server thread/WARN]: [PlugManX] It seems like you're running on paper.
+[16:59:24] [Server thread/WARN]: [PlugManX] PlugManX cannot interact with paper-plugins, yet.
+[16:59:24] [Server thread/WARN]: [PlugManX] Also, if you encounter any issues, please join my discord: https://discord.gg/GxEFhVY6ff
+[16:59:24] [Server thread/WARN]: [PlugManX] Or create an issue on GitHub: https://github.com/TheBlackEntity/PlugMan
+[16:59:24] [Server thread/WARN]: [PlugManX] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[16:59:25] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:59:25] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:59:25] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[16:59:25] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:59:25] [Server thread/INFO]: Preparing level "world"
+[16:59:25] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[16:59:26] [Server thread/INFO]: Preparing spawn area: 0%
+[16:59:26] [Server thread/INFO]: Preparing spawn area: 26%
+[16:59:26] [Server thread/INFO]: Preparing spawn area: 61%
+[16:59:27] [Server thread/INFO]: Time elapsed: 1176 ms
+[16:59:27] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[16:59:27] [Server thread/INFO]: Preparing spawn area: 0%
+[16:59:27] [Server thread/INFO]: Time elapsed: 253 ms
+[16:59:27] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[16:59:27] [Server thread/INFO]: Preparing spawn area: 0%
+[16:59:27] [Server thread/INFO]: Time elapsed: 251 ms
+[16:59:27] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+167-4e64782
+[16:59:28] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[16:59:28] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[16:59:28] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[16:59:28] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[16:59:28] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[16:59:28] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[16:59:28] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[16:59:28] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[16:59:28] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[16:59:28] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[16:59:28] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[16:59:28] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[16:59:28] [Server thread/INFO]: [Essentials] Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
+[16:59:28] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[16:59:28] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[16:59:28] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[16:59:28] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[16:59:28] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[16:59:28] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[16:59:28] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[16:59:28] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[16:59:28] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[16:59:28] [Server thread/INFO]: [Essentials] Selected Reflection Spawner Block Provider as the provider for SpawnerBlockProvider
+[16:59:28] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[16:59:28] [Server thread/INFO]: [Essentials] Loaded 43465 items from items.json.
+[16:59:28] [Server thread/INFO]: [Essentials] Using locale en
+[16:59:28] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[16:59:29] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[16:59:29] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[16:59:29] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[16:59:29] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.0-dev+167-4e64782
+[16:59:29] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[16:59:29] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[16:59:29] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[16:59:29] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.13+82fdc65
+[16:59:29] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[16:59:29] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[16:59:29] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[16:59:29] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[16:59:29] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[16:59:29] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[16:59:29] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[16:59:29] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[16:59:29] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[16:59:29] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[16:59:29] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[16:59:29] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[16:59:29] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[16:59:29] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[16:59:29] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[16:59:29] [Server thread/INFO]: [WorldGuard] Loading region data...
+[16:59:29] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.6.0-bCUSTOM
+[16:59:30] [Server thread/INFO]: [AuthMe] SQLite Setup finished
+[16:59:30] [Server thread/INFO]: [AuthMe] Hooked into LuckPerms!
+[16:59:30] [Server thread/INFO]: [AuthMe] Hooked successfully into Essentials
+[16:59:30] [Server thread/WARN]: [AuthMe] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[16:59:30] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
+[16:59:30] [Server thread/INFO]: [HerobrineTroll] Enabling HerobrineTroll v1.0
+[16:59:30] [Server thread/INFO]: [NoSleep] Enabling NoSleep v1.0
+[16:59:30] [Server thread/INFO]: [TrollMaster] Enabling TrollMaster v1.0
+[16:59:30] [Server thread/INFO]: [TAB] Enabling TAB v5.0.7
+[16:59:30] [Server thread/INFO]: [TAB] Loaded NMS hook in 70ms
+[16:59:31] [Server thread/INFO]: [TAB] Enabled in 253ms
+[16:59:31] [Server thread/INFO]: [BetterTeams] Enabling BetterTeams v4.11.0
+[16:59:31] [Server thread/INFO]: [BetterTeams] Checking if the file es.yml is up to date
+[16:59:31] [Server thread/INFO]: [BetterTeams] File is up to date
+[16:59:31] [Server thread/INFO]: [BetterTeams] Checking if the file messages.yml is up to date
+[16:59:31] [Server thread/INFO]: [BetterTeams] File is up to date
+[16:59:31] [Server thread/INFO]: [BetterTeams] ==================================================================
+[16:59:31] [Server thread/INFO]: [BetterTeams] Messages are missing from your selected language, the following messages are using english:
+[16:59:31] [Server thread/INFO]: [BetterTeams] - create.minLength: &4That team name is too short
+[16:59:31] [Server thread/INFO]: [BetterTeams] - chest.check.self: &6Your team has claimed that chest
+[16:59:31] [Server thread/INFO]: [BetterTeams] - chest.check.notClaimed: &6That chest has not been claimed
+[16:59:31] [Server thread/INFO]: [BetterTeams] - chest.check.claimed: &6That chest is claimed by &a{0}
+[16:59:31] [Server thread/INFO]: [BetterTeams] - command.check: check
+[16:59:31] [Server thread/INFO]: [BetterTeams] If you are able to help with translation please join the discord server and make yourself known (https://discord.gg/JF9DNs3)
+[16:59:31] [Server thread/INFO]: [BetterTeams] A file called `missingmessages.txt` has been created within this plugins folder. To contribute to the community translations, translate the messages within it and submit it to the discord
+[16:59:31] [Server thread/INFO]: [BetterTeams] ==================================================================
+[16:59:31] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: betterTeams [4.11.0]
+[16:59:31] [Server thread/INFO]: Display team name config value: prefix
+[16:59:31] [Server thread/INFO]: Loading below name. Type: PREFIX
+[16:59:31] [Server thread/INFO]: teamManagement declared: com.booksaw.betterTeams.events.MCTeamManagement@a0ba6d4
+[16:59:31] [Server thread/INFO]: [PrivateWarps] Enabling PrivateWarps v1.0*
+[16:59:31] [Server thread/INFO]: [PrivateWarps] PrivateWarpsPlugin activado!
+[16:59:31] [Server thread/INFO]: [voicechat] Enabling voicechat v2.5.26
+[16:59:31] [Server thread/INFO]: [voicechat] Initializing compatibility for Bukkit version 1.21.4-R0.1
+[16:59:31] [Server thread/INFO]: [voicechat] Compatibility version 18
+[16:59:31] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
+[16:59:31] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: voicechat [2.5.26]
+[16:59:31] [Server thread/INFO]: [voicechat] Successfully registered PlaceholderAPI expansion
+[16:59:31] [Server thread/INFO]: [ChatManager] Enabling ChatManager v4.0.3
+[16:59:31] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: chatmanager [4.0.3]
+[16:59:31] [Server thread/INFO]: [RPGHealthDisplay] Enabling RPGHealthDisplay v1.0
+[16:59:31] [Server thread/INFO]: [RPGHealthDisplay] RPGHealthDisplay ha sido activado correctamente.
+[16:59:31] [Server thread/INFO]: [ItemFrameDuplicator] Enabling ItemFrameDuplicator v1.0
+[16:59:31] [Server thread/INFO]: [ItemFrameDuplicator] ItemFrameDuplicator activado.
+[16:59:31] [Server thread/INFO]: [LightningHoe] Enabling LightningHoe v1.0
+[16:59:31] [Server thread/INFO]: [FakeLogin] Enabling FakeLogin v1.0*
+[16:59:31] [Server thread/INFO]: [NoPluginsv2] Enabling NoPluginsv2 v2.0
+[16:59:31] [Server thread/INFO]: [NoPluginsv2] BlockCommandsPlugin activado!
+[16:59:31] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.28
+[16:59:31] [Server thread/INFO]: [NetheriteLightning] Enabling NetheriteLightning v1.0
+[16:59:31] [Server thread/INFO]: [EntityOptimizer] Enabling EntityOptimizer v1.0
+[16:59:31] [Server thread/INFO]: [EntityOptimizer] EntityOptimizer activado.
+[16:59:32] [Server thread/INFO]: [spark] Starting background profiler...
+[16:59:32] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[16:59:32] [Server thread/INFO]: Done preparing level "world" (7.144s)
+[16:59:32] [Server thread/INFO]: Running delayed init tasks
+[16:59:32] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[16:59:32] [Craft Scheduler Thread - 3 - Essentials/INFO]: [Essentials] Fetching version information...
+[16:59:32] [Craft Scheduler Thread - 2 - AuthMe/INFO]: [AuthMe] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[16:59:32] [Craft Scheduler Thread - 2 - AuthMe/WARN]: [AuthMe] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[16:59:32] [Craft Scheduler Thread - 2 - AuthMe/INFO]: [AuthMe] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[16:59:32] [Craft Scheduler Thread - 2 - AuthMe/WARN]: [AuthMe] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[16:59:32] [Craft Scheduler Thread - 4 - Vault/INFO]: [Vault] Checking for Updates ... 
+[16:59:32] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[16:59:32] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: statistic [2.0.1]
+[16:59:32] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: luckperms [5.4-R2]
+[16:59:32] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: vault [1.8.3]
+[16:59:32] [Server thread/INFO]: 3 placeholder hook(s) registered!
+[16:59:32] [Server thread/INFO]: Done (30.510s)! For help, type "help"
+[16:59:32] [Server thread/INFO]: [voicechat] Loading plugins
+[16:59:32] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
+[16:59:32] [Server thread/INFO]: [voicechat] Initializing plugins
+[16:59:32] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
+[16:59:32] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[16:59:32] [Craft Scheduler Thread - 4 - Vault/INFO]: [Vault] No new version available
+[16:59:32] [VoiceChatServerThread/INFO]: [voicechat] Voice host is 'need-glow.gl.at.ply.gg:1723'
+[16:59:32] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 1389
+[16:59:32] [Craft Scheduler Thread - 3 - Essentials/WARN]: [Essentials] You're 18 EssentialsX dev build(s) out of date!
+[16:59:32] [Craft Scheduler Thread - 3 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
+[17:00:02] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[17:00:32] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[17:01:02] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[17:01:32] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[17:01:50] [User Authenticator #0/INFO]: UUID of player Quesitos is abf4198c-c898-3d1e-a8f3-d6c3eac74c6a
+[17:01:52] [Server thread/INFO]: Quesitos joined the game
+[17:01:52] [Server thread/INFO]: Quesitos[/127.66.197.61:57887] logged in with entity id 523 at ([world]-189.01712888175607, 67.99323530006211, -301.13980821845547)
+[17:02:02] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[17:02:02] [Craft Scheduler Thread - 8 - AuthMe/INFO]: [AuthMe] Quesitos logged in 127.66.197.61
+[17:02:12] [Server thread/INFO]: Quesitos lost connection: Disconnected
+[17:02:12] [Server thread/INFO]: [voicechat] Disconnecting client Quesitos
+[17:02:12] [Server thread/INFO]: Quesitos left the game
+[17:02:32] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[17:03:02] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[17:03:32] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[17:04:02] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[17:04:32] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[17:05:02] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[17:05:06] [User Authenticator #1/INFO]: UUID of player Quesitos is abf4198c-c898-3d1e-a8f3-d6c3eac74c6a
+[17:05:07] [Server thread/INFO]: Quesitos joined the game
+[17:05:07] [Server thread/INFO]: Quesitos[/127.66.197.61:45057] logged in with entity id 753 at ([world]-193.99908346760597, 66.53292827534491, -280.69999998807907)
+[17:05:08] [Server thread/INFO]: [voicechat] Received secret request of Quesitos (18)
+[17:05:08] [Server thread/INFO]: [voicechat] Sent secret to Quesitos
+[17:05:15] [Craft Scheduler Thread - 15 - AuthMe/INFO]: [AuthMe] Quesitos logged in 127.66.197.61
+[17:05:32] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[17:06:02] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[17:06:32] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[17:07:02] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[17:07:32] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[17:07:40] [User Authenticator #2/INFO]: UUID of player Zarickson is d1be33e8-0f45-3b2d-8d80-cabf1ca7e6a5
+[17:07:41] [Server thread/INFO]: Zarickson joined the game
+[17:07:41] [Server thread/INFO]: Zarickson[/127.4.64.75:55419] logged in with entity id 1231 at ([world]-195.17349558542367, 63.0, -294.98183640572597)
+[17:07:41] [Server thread/INFO]: [voicechat] Received secret request of Zarickson (18)
+[17:07:41] [Server thread/INFO]: [voicechat] Sent secret to Zarickson
+[17:07:46] [Craft Scheduler Thread - 20 - AuthMe/INFO]: [AuthMe] Zarickson logged in 127.4.64.75
+[17:08:01] [Async Chat Thread - #0/INFO]: [Not Secure] [Miembro]  Zarickson > hay un problema en la config del sv
+[17:08:01] [Async Chat Thread - #0/INFO]: [Not Secure] [Miembro]  Zarickson > Xd
+[17:08:02] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[17:08:18] [Async Chat Thread - #0/INFO]: [Not Secure] [Owner]  Quesitos > cual
+[17:08:21] [Async Chat Thread - #0/INFO]: [Not Secure] [Owner]  Quesitos > asd
+[17:08:32] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[17:08:59] [Async Chat Thread - #0/INFO]: [Not Secure] [Miembro]  Zarickson > tengo que configurar el sv de dc
+[17:09:01] [Async Chat Thread - #0/INFO]: [Not Secure] [Miembro]  Zarickson > ya te vas para el liceo?
+[17:09:02] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[17:09:05] [Async Chat Thread - #0/INFO]: [Not Secure] [Owner]  Quesitos > sehhh
+[17:09:10] [Async Chat Thread - #0/INFO]: [Not Secure] [Miembro]  Zarickson > en que año estáS?
+[17:09:10] [Async Chat Thread - #0/INFO]: [Not Secure] [Owner]  Quesitos > de hecho voy tarde JASJ
+[17:09:13] [Async Chat Thread - #0/INFO]: [Not Secure] [Owner]  Quesitos > bye byee
+[17:09:13] [Async Chat Thread - #0/INFO]: [Not Secure] [Miembro]  Zarickson > Ah AJAJ
+[17:09:15] [Async Chat Thread - #0/INFO]: [Not Secure] [Owner]  Quesitos > ultimo año
+[17:09:16] [Async Chat Thread - #0/INFO]: [Not Secure] [Miembro]  Zarickson > dale mano bye
+[17:09:17] [Async Chat Thread - #0/INFO]: [Not Secure] [Owner]  Quesitos > bye paa
+[17:09:18] [Async Chat Thread - #0/INFO]: [Not Secure] [Miembro]  Zarickson > yo igual
+[17:09:19] [Async Chat Thread - #0/INFO]: [Not Secure] [Miembro]  Zarickson > Xd
+[17:09:19] [Async Chat Thread - #0/INFO]: [Not Secure] [Owner]  Quesitos > :D
+[17:09:20] [Async Chat Thread - #0/INFO]: [Not Secure] [Miembro]  Zarickson > dale a
+[17:09:22] [Server thread/INFO]: Quesitos lost connection: Disconnected
+[17:09:22] [Server thread/INFO]: [voicechat] Disconnecting client Quesitos
+[17:09:22] [Server thread/INFO]: Quesitos left the game
+[17:09:32] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[17:10:02] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[17:10:32] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[17:11:02] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[17:11:32] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[17:12:02] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[17:12:32] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[17:13:02] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[17:13:32] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[17:14:02] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[17:14:32] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[17:15:02] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[17:15:32] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[17:16:02] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[17:16:32] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[17:17:02] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[17:17:32] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[17:18:02] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[17:18:32] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[17:19:02] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[17:19:32] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[17:20:02] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[17:20:32] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[17:21:02] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[17:21:32] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[17:22:02] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[17:22:32] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[17:22:46] [Server thread/INFO]: Zarickson lost connection: Disconnected
+[17:22:46] [Server thread/INFO]: [voicechat] Disconnecting client Zarickson
+[17:22:46] [Server thread/INFO]: KRATOS Zarickson left the game
+[17:23:02] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[17:23:32] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[17:24:02] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[17:24:32] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[17:25:02] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[17:25:32] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[17:26:02] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[17:26:32] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[17:27:02] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[17:27:32] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[17:28:02] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[17:28:32] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[17:29:02] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[17:29:32] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[17:30:02] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[17:30:27] [Server thread/INFO]: Stopping the server
+[17:30:27] [Server thread/INFO]: Stopping server
+[17:30:27] [Server thread/INFO]: [EntityOptimizer] Disabling EntityOptimizer v1.0
+[17:30:27] [Server thread/INFO]: [EntityOptimizer] EntityOptimizer desactivado.
+[17:30:27] [Server thread/INFO]: [NetheriteLightning] Disabling NetheriteLightning v1.0
+[17:30:27] [Server thread/INFO]: [NetheriteLightning] NetheriteLightning deshabilitado.
+[17:30:27] [Server thread/INFO]: [Chunky] Disabling Chunky v1.4.28
+[17:30:27] [Server thread/INFO]: [NoPluginsv2] Disabling NoPluginsv2 v2.0
+[17:30:27] [Server thread/INFO]: [NoPluginsv2] BlockCommandsPlugin desactivado!
+[17:30:27] [Server thread/INFO]: [FakeLogin] Disabling FakeLogin v1.0
+[17:30:27] [Server thread/INFO]: [LightningHoe] Disabling LightningHoe v1.0
+[17:30:27] [Server thread/INFO]: [ItemFrameDuplicator] Disabling ItemFrameDuplicator v1.0
+[17:30:27] [Server thread/INFO]: [ItemFrameDuplicator] ItemFrameDuplicator desactivado.
+[17:30:27] [Server thread/INFO]: [RPGHealthDisplay] Disabling RPGHealthDisplay v1.0
+[17:30:27] [Server thread/INFO]: [RPGHealthDisplay] RPGHealthDisplay ha sido desactivado.
+[17:30:27] [Server thread/INFO]: [ChatManager] Disabling ChatManager v4.0.3
+[17:30:28] [Server thread/INFO]: [voicechat] Disabling voicechat v2.5.26
+[17:30:28] [Server thread/INFO]: [PrivateWarps] Disabling PrivateWarps v1.0
+[17:30:28] [Server thread/INFO]: [BetterTeams] Disabling BetterTeams v4.11.0
+[17:30:28] [Server thread/INFO]: [TAB] Disabling TAB v5.0.7
+[17:30:28] [Server thread/INFO]: [TAB] Disabled in 1ms
+[17:30:28] [Server thread/INFO]: [TrollMaster] Disabling TrollMaster v1.0
+[17:30:28] [Server thread/INFO]: [NoSleep] Disabling NoSleep v1.0
+[17:30:28] [Server thread/INFO]: [HerobrineTroll] Disabling HerobrineTroll v1.0
+[17:30:28] [Server thread/INFO]: [PlugManX] Disabling PlugManX v2.4.1
+[17:30:28] [Server thread/INFO]: [AuthMe] Disabling AuthMe v5.6.0-bCUSTOM
+[17:30:28] [Server thread/INFO]: [AuthMe] Waiting for 0 tasks to finish
+[17:30:28] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0-bCUSTOM disabled!
+[17:30:28] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.13+82fdc65
+[17:30:28] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[17:30:28] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.6
+[17:30:28] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.21.0-dev+167-4e64782
+[17:30:28] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.10+7004-768a436
+[17:30:28] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[17:30:28] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+167-4e64782
+[17:30:28] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[17:30:28] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[17:30:28] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.156
+[17:30:28] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[17:30:28] [Server thread/INFO]: [LuckPerms] Closing storage...
+[17:30:28] [Server thread/INFO]: [LuckPerms] Goodbye!
+[17:30:28] [Server thread/INFO]: Saving players
+[17:30:28] [Server thread/INFO]: Saving worlds
+[17:30:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[17:30:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[17:30:28] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[17:30:28] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[17:30:28] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 15 entity chunks, 0 poi chunks in world 'world' in 0.04s
+[17:30:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[17:30:28] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[17:30:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[17:30:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[17:30:28] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[17:30:28] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[17:30:28] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[17:30:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[17:30:28] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[17:30:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[17:30:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[17:30:28] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[17:30:28] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[17:30:28] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[17:30:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[17:30:28] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[17:30:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[17:30:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:30:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:30:28] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[17:30:28] [Server thread/INFO]: Waiting for I/O tasks to complete...
+[17:30:28] [Server thread/INFO]: All I/O tasks to complete
+[17:30:28] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[17:30:28] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
