@@ -1,1359 +1,227 @@
-[21:50:04] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.5.0-1025-azure (amd64)
-[21:50:04] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-187-main@1d5e5a5 (2025-02-28T19:53:30Z) for Minecraft 1.21.4
-[21:50:05] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[21:50:05] [ServerMain/INFO]: [PluginInitializerManager] Initialized 31 plugins
-[21:50:05] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (31):
- - AuthMe (5.6.0-bCUSTOM), BetterTeams (4.11.0), ChatManager (4.0.3), Chunky (1.4.28), DiscordSRV (1.29.0), EntityOptimizer (1.0), Essentials (2.21.0-dev+167-4e64782), EssentialsSpawn (2.21.0-dev+167-4e64782), FakeLogin (1.0), Geyser-Spigot (2.6.1-SNAPSHOT), HerobrineTroll (1.0), ItemFrameDuplicator (1.0), LightningHoe (1.0), LuckPerms (5.4.156), NetheriteLightning (1.0), NoPluginsv2 (2.0), NoSleep (1.0), PlaceholderAPI (2.11.6), PlugManX (2.4.1), PrivateWarps (1.0), RPGHealthDisplay (1.0), TAB (5.0.7), TrollMaster (1.0), Vault (1.7.3-b131), ViaBackwards (5.2.1), ViaRewind (4.0.5), ViaVersion (5.2.1), WorldEdit (7.3.10+7004-768a436), WorldGuard (7.0.13+82fdc65), floodgate (2.2.4-SNAPSHOT (b116-0e3163c)), voicechat (2.5.26)
-[21:50:10] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[21:50:12] [ServerMain/INFO]: Loaded 1370 recipes
-[21:50:12] [ServerMain/INFO]: Loaded 1481 advancements
-[21:50:12] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
-[21:50:12] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 251.7ms
-[21:50:12] [Server thread/INFO]: Starting minecraft server version 1.21.4
-[21:50:12] [Server thread/INFO]: Loading properties
-[21:50:13] [Server thread/INFO]: This server is running Paper version 1.21.4-187-main@1d5e5a5 (2025-02-28T19:53:30Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
-[21:50:13] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[21:50:13] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[21:50:13] [Server thread/INFO]: Using 4 threads for Netty based IO
-[21:50:13] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[21:50:13] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[21:50:14] [Server thread/INFO]: Default game type: SURVIVAL
-[21:50:14] [Server thread/INFO]: Generating keypair
-[21:50:14] [Server thread/INFO]: Starting Minecraft server on *:25565
-[21:50:14] [Server thread/INFO]: Using epoll channel type
-[21:50:14] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[21:50:14] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[21:50:15] [Server thread/WARN]: [org.bukkit.craftbukkit.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[21:50:22] [Server thread/WARN]: Legacy plugin PrivateWarps v1.0 does not specify an api-version.
-[21:50:22] [Server thread/WARN]: Legacy plugin FakeLogin v1.0 does not specify an api-version.
-[21:50:22] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.1
-[21:50:22] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.1 is now loaded. Registering protocol transformers and injecting...
-[21:50:23] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[21:50:23] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[21:50:23] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[21:50:23] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[21:50:23] [Server thread/INFO]: [ViaRewind] Registering protocols...
-[21:50:23] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.156
-[21:50:24] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
-[21:50:24] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+167-4e64782
-[21:50:24] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.2.1
-[21:50:24] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.10+7004-768a436
-[21:50:24] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@510f4190]
-[21:50:24] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.0-dev+167-4e64782
-[21:50:24] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
-[21:50:24] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[21:50:25] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
-[21:50:25] [Server thread/INFO]: [floodgate] Took 466ms to boot Floodgate
-[21:50:25] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.5
-[21:50:25] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.13+82fdc65
-[21:50:25] [Server thread/INFO]: [AuthMe] Loading server plugin AuthMe v5.6.0-bCUSTOM
-[21:50:25] [Server thread/INFO]: [PlugManX] Loading server plugin PlugManX v2.4.1
-[21:50:25] [Server thread/INFO]: [HerobrineTroll] Loading server plugin HerobrineTroll v1.0
-[21:50:25] [Server thread/INFO]: [NoSleep] Loading server plugin NoSleep v1.0
-[21:50:25] [Server thread/INFO]: [TrollMaster] Loading server plugin TrollMaster v1.0
-[21:50:25] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.0.7
-[21:50:25] [Server thread/INFO]: [BetterTeams] Loading server plugin BetterTeams v4.11.0
-[21:50:25] [Server thread/INFO]: [BetterTeams] Checking if the file config.yml is up to date
-[21:50:25] [Server thread/INFO]: [BetterTeams] File is up to date
-[21:50:25] [Server thread/INFO]: [PrivateWarps] Loading server plugin PrivateWarps v1.0
-[21:50:25] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.6.1-SNAPSHOT
-[21:50:25] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[21:50:25] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[21:50:25] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.5.26
-[21:50:25] [Server thread/INFO]: [ChatManager] Loading server plugin ChatManager v4.0.3
-[21:50:25] [Server thread/INFO]: [RPGHealthDisplay] Loading server plugin RPGHealthDisplay v1.0
-[21:50:25] [Server thread/INFO]: [DiscordSRV] Loading server plugin DiscordSRV v1.29.0
-[21:50:25] [Server thread/INFO]: [ItemFrameDuplicator] Loading server plugin ItemFrameDuplicator v1.0
-[21:50:25] [Server thread/INFO]: [LightningHoe] Loading server plugin LightningHoe v1.0
-[21:50:25] [Server thread/INFO]: [FakeLogin] Loading server plugin FakeLogin v1.0
-[21:50:25] [Server thread/INFO]: [NoPluginsv2] Loading server plugin NoPluginsv2 v2.0
-[21:50:25] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.28
-[21:50:25] [Server thread/INFO]: [NetheriteLightning] Loading server plugin NetheriteLightning v1.0
-[21:50:25] [Server thread/INFO]: [EntityOptimizer] Loading server plugin EntityOptimizer v1.0
-[21:50:25] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[21:50:25] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.156
-[21:50:26] [Server thread/INFO]:         __    
-[21:50:26] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.156
-[21:50:26] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[21:50:26] [Server thread/INFO]: 
-[21:50:26] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[21:50:26] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[21:50:27] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[21:50:27] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[21:50:27] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1405ms)
-[21:50:27] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[21:50:27] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[21:50:27] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[21:50:27] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[21:50:27] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[21:50:27] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.10+7004-768a436
-[21:50:27] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[21:50:27] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
-[21:50:27] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_4.PaperweightAdapter as the Bukkit adapter
-[21:50:28] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.5
-[21:50:28] [Server thread/INFO]: [PlugManX] Enabling PlugManX v2.4.1
-[21:50:28] [Server thread/WARN]: [PlugManX] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-[21:50:28] [Server thread/WARN]: [PlugManX] It seems like you're running on paper.
-[21:50:28] [Server thread/WARN]: [PlugManX] PlugManX cannot interact with paper-plugins, yet.
-[21:50:28] [Server thread/WARN]: [PlugManX] Also, if you encounter any issues, please join my discord: https://discord.gg/GxEFhVY6ff
-[21:50:28] [Server thread/WARN]: [PlugManX] Or create an issue on GitHub: https://github.com/TheBlackEntity/PlugMan
-[21:50:28] [Server thread/WARN]: [PlugManX] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-[21:50:29] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[21:50:29] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[21:50:29] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[21:50:29] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[21:50:29] [Server thread/INFO]: Preparing level "world"
-[21:50:30] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[21:50:30] [Server thread/INFO]: Preparing spawn area: 0%
-[21:50:30] [Server thread/INFO]: Preparing spawn area: 18%
-[21:50:31] [Server thread/INFO]: Time elapsed: 925 ms
-[21:50:31] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[21:50:31] [Server thread/INFO]: Preparing spawn area: 0%
-[21:50:31] [Server thread/INFO]: Time elapsed: 174 ms
-[21:50:31] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[21:50:31] [Server thread/INFO]: Preparing spawn area: 0%
-[21:50:31] [Server thread/INFO]: Time elapsed: 98 ms
-[21:50:31] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.1
-[21:50:31] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.4 (769)
-[21:50:31] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+167-4e64782
-[21:50:31] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[21:50:31] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[21:50:31] [Server thread/INFO]: [Essentials] Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
-[21:50:31] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
-[21:50:31] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
-[21:50:31] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
-[21:50:31] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
-[21:50:31] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
-[21:50:31] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
-[21:50:31] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
-[21:50:31] [Server thread/INFO]: [Essentials] Selected Reflection Spawner Block Provider as the provider for SpawnerBlockProvider
-[21:50:31] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
-[21:50:31] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
-[21:50:31] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
-[21:50:31] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
-[21:50:31] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
-[21:50:31] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
-[21:50:31] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
-[21:50:31] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
-[21:50:31] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
-[21:50:31] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
-[21:50:31] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
-[21:50:31] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
-[21:50:31] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
-[21:50:31] [Server thread/INFO]: [Essentials] Loaded 43465 items from items.json.
-[21:50:32] [Server thread/INFO]: [Essentials] Using locale en
-[21:50:32] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[21:50:32] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[21:50:32] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
-[21:50:32] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
-[21:50:32] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.1
-[21:50:32] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.0-dev+167-4e64782
-[21:50:32] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
-[21:50:32] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
-[21:50:32] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[21:50:32] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[21:50:33] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.13+82fdc65
-[21:50:33] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
-[21:50:33] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
-[21:50:33] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
-[21:50:33] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
-[21:50:33] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
-[21:50:33] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
-[21:50:33] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
-[21:50:33] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
-[21:50:33] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
-[21:50:33] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
-[21:50:33] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
-[21:50:33] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
-[21:50:33] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
-[21:50:33] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
-[21:50:33] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
-[21:50:33] [Server thread/INFO]: [WorldGuard] Loading region data...
-[21:50:34] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.6.0-bCUSTOM
-[21:50:34] [Server thread/INFO]: [AuthMe] SQLite Setup finished
-[21:50:34] [Server thread/INFO]: [AuthMe] Hooked into LuckPerms!
-[21:50:34] [Server thread/INFO]: [AuthMe] Hooked successfully into Essentials
-[21:50:34] [Server thread/WARN]: [AuthMe] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
-[21:50:34] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
-[21:50:34] [Server thread/INFO]: [HerobrineTroll] Enabling HerobrineTroll v1.0
-[21:50:34] [Server thread/INFO]: [NoSleep] Enabling NoSleep v1.0
-[21:50:34] [Server thread/INFO]: [TrollMaster] Enabling TrollMaster v1.0
-[21:50:34] [Server thread/INFO]: [TAB] Enabling TAB v5.0.7
-[21:50:34] [Server thread/INFO]: [TAB] Loaded NMS hook in 61ms
-[21:50:35] [Server thread/INFO]: [TAB] Enabled in 224ms
-[21:50:35] [Server thread/INFO]: [BetterTeams] Enabling BetterTeams v4.11.0
-[21:50:35] [Server thread/INFO]: [BetterTeams] Checking if the file es.yml is up to date
-[21:50:35] [Server thread/INFO]: [BetterTeams] File is up to date
-[21:50:35] [Server thread/INFO]: [BetterTeams] Checking if the file messages.yml is up to date
-[21:50:35] [Server thread/INFO]: [BetterTeams] File is up to date
-[21:50:35] [Server thread/INFO]: [BetterTeams] ==================================================================
-[21:50:35] [Server thread/INFO]: [BetterTeams] Messages are missing from your selected language, the following messages are using english:
-[21:50:35] [Server thread/INFO]: [BetterTeams] - create.minLength: &4That team name is too short
-[21:50:35] [Server thread/INFO]: [BetterTeams] - chest.check.self: &6Your team has claimed that chest
-[21:50:35] [Server thread/INFO]: [BetterTeams] - chest.check.notClaimed: &6That chest has not been claimed
-[21:50:35] [Server thread/INFO]: [BetterTeams] - chest.check.claimed: &6That chest is claimed by &a{0}
-[21:50:35] [Server thread/INFO]: [BetterTeams] - command.check: check
-[21:50:35] [Server thread/INFO]: [BetterTeams] If you are able to help with translation please join the discord server and make yourself known (https://discord.gg/JF9DNs3)
-[21:50:35] [Server thread/INFO]: [BetterTeams] A file called `missingmessages.txt` has been created within this plugins folder. To contribute to the community translations, translate the messages within it and submit it to the discord
-[21:50:35] [Server thread/INFO]: [BetterTeams] ==================================================================
-[21:50:35] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: betterTeams [4.11.0]
-[21:50:35] [Server thread/INFO]: Display team name config value: prefix
-[21:50:35] [Server thread/INFO]: Loading below name. Type: PREFIX
-[21:50:35] [Server thread/INFO]: teamManagement declared: com.booksaw.betterTeams.events.MCTeamManagement@2db25474
-[21:50:35] [Server thread/INFO]: [PrivateWarps] Enabling PrivateWarps v1.0*
-[21:50:35] [Server thread/INFO]: [PrivateWarps] PrivateWarpsPlugin activado!
-[21:50:35] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.6.1-SNAPSHOT
-[21:50:35] [Server thread/INFO]: [voicechat] Enabling voicechat v2.5.26
-[21:50:35] [Server thread/INFO]: [voicechat] Initializing compatibility for Bukkit version 1.21.4-R0.1
-[21:50:35] [Server thread/INFO]: [voicechat] Compatibility version 18
-[21:50:35] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
-[21:50:35] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: voicechat [2.5.26]
-[21:50:35] [Server thread/INFO]: [voicechat] Successfully registered PlaceholderAPI expansion
-[21:50:35] [Server thread/INFO]: [voicechat] Successfully added ViaVersion mappings
-[21:50:35] [Server thread/INFO]: [ChatManager] Enabling ChatManager v4.0.3
-[21:50:35] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: chatmanager [4.0.3]
-[21:50:35] [Server thread/INFO]: [RPGHealthDisplay] Enabling RPGHealthDisplay v1.0
-[21:50:35] [Server thread/INFO]: [RPGHealthDisplay] RPGHealthDisplay ha sido activado correctamente.
-[21:50:36] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.29.0
-[21:50:36] [Server thread/INFO]: [ItemFrameDuplicator] Enabling ItemFrameDuplicator v1.0
-[21:50:36] [Server thread/INFO]: [ItemFrameDuplicator] ItemFrameDuplicator activado.
-[21:50:36] [Server thread/INFO]: [LightningHoe] Enabling LightningHoe v1.0
-[21:50:36] [Server thread/INFO]: [FakeLogin] Enabling FakeLogin v1.0*
-[21:50:36] [Server thread/INFO]: [NoPluginsv2] Enabling NoPluginsv2 v2.0
-[21:50:36] [Server thread/INFO]: [NoPluginsv2] BlockCommandsPlugin activado!
-[21:50:36] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.28
-[21:50:36] [Server thread/INFO]: [NetheriteLightning] Enabling NetheriteLightning v1.0
-[21:50:36] [Server thread/INFO]: [EntityOptimizer] Enabling EntityOptimizer v1.0
-[21:50:36] [Server thread/INFO]: [EntityOptimizer] EntityOptimizer activado.
-[21:50:36] [Server thread/INFO]: [spark] Starting background profiler...
-[21:50:36] [pool-67-thread-1/INFO]: [DiscordSRV] DiscordSRV is up-to-date. (9d4734818ab27069d76f264a4cda74a699806770)
-[21:50:37] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[21:50:37] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[21:50:37] [Server thread/INFO]: [Geyser-Spigot] 
-[21:50:37] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.6.1-b782 (git-master-1c1684c)
-[21:50:37] [Server thread/INFO]: [Geyser-Spigot] 
-[21:50:37] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[21:50:37] [DiscordSRV - Initialization/INFO]: [DiscordSRV] [JDA] Login Successful!
-[21:50:37] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
-[21:50:37] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Finished Loading!
-[21:50:38] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Console forwarding assigned to channel TC:consola(1346179574676979782)
-[21:50:38] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Enabling Essentials hook
-[21:50:38] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Enabling LuckPerms hook
-[21:50:38] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Enabling PlaceholderAPI hook
-[21:50:40] [Server thread/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
-[21:50:40] [Server thread/INFO]: [Geyser-Spigot] Done (3.628s)! Run /geyser help for help!
-[21:50:40] [Server thread/INFO]: Done preparing level "world" (11.658s)
-[21:50:40] [Server thread/INFO]: Running delayed init tasks
-[21:50:40] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
-[21:50:40] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[21:50:40] [Craft Scheduler Thread - 1 - Essentials/INFO]: [Essentials] Fetching version information...
-[21:50:40] [Craft Scheduler Thread - 2 - AuthMe/INFO]: [AuthMe] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
-[21:50:40] [Craft Scheduler Thread - 2 - AuthMe/WARN]: [AuthMe] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
-[21:50:40] [Craft Scheduler Thread - 2 - AuthMe/INFO]: [AuthMe] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
-[21:50:40] [Craft Scheduler Thread - 2 - AuthMe/WARN]: [AuthMe] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
-[21:50:40] [Craft Scheduler Thread - 5 - Vault/INFO]: [Vault] Checking for Updates ... 
-[21:50:40] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[21:50:40] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: statistic [2.0.1]
-[21:50:40] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: luckperms [5.4-R2]
-[21:50:40] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: vault [1.8.3]
-[21:50:40] [Server thread/INFO]: 3 placeholder hook(s) registered!
-[21:50:41] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: discordsrv [1.29.0]
-[21:50:41] [Server thread/INFO]: Done (36.944s)! For help, type "help"
-[21:50:41] [Server thread/INFO]: [voicechat] Loading plugins
-[21:50:41] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
-[21:50:41] [Server thread/INFO]: [voicechat] Initializing plugins
-[21:50:41] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
-[21:50:41] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
-[21:50:41] [Craft Scheduler Thread - 5 - Vault/INFO]: [Vault] No new version available
-[21:50:41] [VoiceChatServerThread/INFO]: [voicechat] Voice host is 'need-glow.gl.at.ply.gg:1723'
-[21:50:41] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 1723
-[21:50:41] [Craft Scheduler Thread - 1 - Essentials/WARN]: [Essentials] You're 18 EssentialsX dev build(s) out of date!
-[21:50:41] [Craft Scheduler Thread - 1 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
-[21:50:41] [DiscordSRV - JDA Callback 0/INFO]: [DiscordSRV] Cleared all pre-existing slash commands in 1/1 guilds (0 cancelled)
-[21:51:10] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[21:51:40] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[21:52:10] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[21:52:40] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[21:53:10] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[21:53:22] [User Authenticator #0/INFO]: UUID of player Zarickson is d1be33e8-0f45-3b2d-8d80-cabf1ca7e6a5
-[21:53:24] [Server thread/INFO]: Zarickson joined the game
-[21:53:24] [Server thread/INFO]: Zarickson[/127.4.64.75:46833] logged in with entity id 523 at ([world]-253.5744618870884, 73.7434628802339, -332.39781928300874)
-[21:53:24] [Server thread/INFO]: [voicechat] Received secret request of Zarickson (18)
-[21:53:24] [Server thread/INFO]: [voicechat] Sent secret to Zarickson
-[21:53:25] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player d1be33e8-0f45-3b2d-8d80-cabf1ca7e6a5
-[21:53:26] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player d1be33e8-0f45-3b2d-8d80-cabf1ca7e6a5
-[21:53:26] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Zarickson (d1be33e8-0f45-3b2d-8d80-cabf1ca7e6a5) successfully connected to voice chat
-[21:53:30] [Craft Scheduler Thread - 9 - AuthMe/INFO]: [AuthMe] Zarickson logged in 127.4.64.75
-[21:53:40] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[21:54:10] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[21:54:40] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[21:54:48] [Server thread/INFO]: Named entity Zombie['❤ 3 / 20'/904, uuid='8708f49b-18f7-413e-8f16-b4c3a363a546', l='ServerLevel[world]', x=-202.50, y=64.00, z=-273.71, cpos=[-13, -18], tl=1330, v=true] died: ❤ 3 / 20 burned to death
-[21:55:10] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[21:55:40] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[21:56:10] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[21:56:40] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[21:57:10] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[21:57:40] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[21:58:10] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[21:58:40] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[21:59:10] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[21:59:14] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Owner] Claude > a
-[21:59:25] [Async Chat Thread - #0/INFO]: [Not Secure] [Miembro]  Zarickson > a
-[21:59:40] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:00:10] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:00:16] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Miembro] clara. > a
-[22:00:40] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:01:10] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:01:40] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:02:10] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:02:40] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:03:10] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:03:40] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:04:10] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:04:40] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:05:10] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:05:40] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:06:10] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:06:36] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:06:40] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:06:47] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:06:48] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:06:48] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:06:49] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:06:49] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:06:50] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:06:50] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:06:50] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:06:53] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:06:53] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:06:53] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:06:53] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:06:53] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:06:53] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:06:54] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:06:54] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:06:54] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:06:54] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:06:54] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:06:54] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:06:54] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:06:55] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:06:55] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:06:55] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:06:55] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:06:55] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:06:55] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:06:55] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:06:56] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:06:56] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:06:56] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:06:56] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:06:56] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:06:56] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:06:56] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:06:57] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:06:57] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:06:57] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:06:57] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:06:57] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:07:09] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:07:10] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:07:13] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:07:14] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:07:19] [Server thread/INFO]: Named entity Creeper['❤ 15 / 20'/2840, uuid='0253e451-18e9-4d72-bcdc-aaeb8b3e0fcd', l='ServerLevel[world]', x=-292.26, y=69.00, z=-341.64, cpos=[-19, -22], tl=994, v=true] died: ❤ 15 / 20 blew up
-[22:07:19] [Server thread/INFO]: Named entity Creeper['❤ 20 / 20'/3069, uuid='25ed7848-ca2c-4002-9b83-4bf66a8a1b57', l='ServerLevel[world]', x=-285.41, y=72.00, z=-343.54, cpos=[-18, -22], tl=358, v=true] died: ❤ 20 / 20 blew up
-[22:07:21] [Server thread/INFO]: Named entity Zombie['❤ 5 / 20'/2992, uuid='5563fbf1-90e2-43c3-a7c1-f3e38a3b8f37', l='ServerLevel[world]', x=-294.49, y=70.77, z=-335.39, cpos=[-19, -21], tl=518, v=true] died: ❤ 5 / 20 blew up
-[22:07:23] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:07:23] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:07:24] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:07:24] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:07:24] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:07:24] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:07:24] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:07:24] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:07:25] [Server thread/INFO]: Named entity Creeper['❤ 10 / 20'/2773, uuid='c23c361b-b926-4cc8-83bf-30bb723f0d2f', l='ServerLevel[world]', x=-286.82, y=72.00, z=-329.76, cpos=[-18, -21], tl=1844, v=true] died: ❤ 10 / 20 burned to death
-[22:07:25] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:07:25] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:07:25] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:07:25] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:07:26] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:07:26] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:07:26] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:07:26] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:07:26] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:07:37] [Server thread/INFO]: Zarickson issued server command: //set grass_block
-[22:07:40] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:08:04] [Server thread/INFO]: Zarickson issued server command: //set grass_block
-[22:08:09] [Server thread/INFO]: Zarickson issued server command: /sun
-[22:08:10] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:08:16] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:17] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:17] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:17] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:17] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:17] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:18] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:18] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:18] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:18] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:18] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:19] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:19] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:19] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:19] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:19] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:20] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:20] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:20] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:20] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:20] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:21] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:21] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:21] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:21] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:21] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:22] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:22] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:22] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:22] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:22] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:23] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:23] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:23] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:23] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:23] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:24] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:24] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:24] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:24] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:24] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:25] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:25] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:25] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:25] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:25] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:26] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:26] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:26] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:26] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:28] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:28] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:29] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:29] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:29] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:29] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:29] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:30] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:30] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:30] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:30] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:30] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:31] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:31] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:31] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:31] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:31] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:31] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:32] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:32] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:32] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:32] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:32] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:33] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:33] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:33] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:33] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:33] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:34] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:34] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:34] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:34] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:34] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:35] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:35] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:35] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:35] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:37] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:38] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:38] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:38] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:39] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:39] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:40] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:40] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:08:40] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:41] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:41] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:41] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:45] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:45] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:45] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:45] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:50] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:50] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:50] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:54] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:57] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:57] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:57] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:58] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:08:59] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:09:00] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:09:01] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:09:01] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:09:01] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:09:02] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:09:02] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:09:02] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:09:02] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:09:02] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:09:02] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:09:03] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:09:03] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:09:03] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:09:03] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:09:07] [Async Chat Thread - #1/INFO]: [Not Secure] [Miembro]  Zarickson > &3&LVAMOOS
-[22:09:09] [Async Chat Thread - #1/INFO]: [Not Secure] [Miembro]  Zarickson > &3&La
-[22:09:10] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:09:35] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:09:40] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:10:05] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:10:10] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:10:19] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:10:40] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:11:10] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:11:16] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:11:16] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:11:17] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:11:17] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:11:17] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:11:17] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:11:17] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:11:18] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:11:18] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:11:21] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:11:22] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:11:40] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:11:57] [Server thread/INFO]: Zarickson issued server command: //set 0
-[22:12:09] [Server thread/INFO]: Zarickson issued server command: //set grass_block
-[22:12:10] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:12:14] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:12:33] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:12:35] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:12:35] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:12:40] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:13:07] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:13:10] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:13:40] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:13:57] [Server thread/INFO]: Zarickson issued server command: //set grass_block
-[22:14:10] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:14:34] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:14:39] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:14:40] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:14:43] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:14:43] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:14:46] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:14:56] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:15:04] [Server thread/INFO]: Zarickson issued server command: //set grass_block
-[22:15:10] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:15:40] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:16:10] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:16:29] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:16:40] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:16:52] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:17:10] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:17:40] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:17:54] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:18:10] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:18:40] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:18:46] [Async Chat Thread - #4/INFO]: [Not Secure] [Miembro]  Zarickson > A
-[22:19:10] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:19:22] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:19:22] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:19:40] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:19:40] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:19:40] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:19:41] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:19:42] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:19:44] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:19:44] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:20:10] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:20:40] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:21:10] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:21:40] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:22:10] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:22:40] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:23:10] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:23:40] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:24:10] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:24:40] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:25:10] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:25:40] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:25:57] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Miembro] SrPaltihna > A
-[22:26:01] [Async Chat Thread - #5/INFO]: [Not Secure] [Miembro]  Zarickson > a
-[22:26:03] [Async Chat Thread - #5/INFO]: [Not Secure] [Miembro]  Zarickson > que lo que bro
-[22:26:10] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:26:40] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:27:10] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:27:10] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:27:11] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:27:11] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:27:11] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:27:12] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:27:12] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:27:13] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:27:21] [Async Chat Thread - #7/INFO]: [Not Secure] [Miembro]  Zarickson > ¡DIOS HA LLEGADO!
-[22:27:24] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:27:28] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:27:31] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:27:32] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:27:32] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:27:32] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:27:32] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:27:32] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:27:32] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:27:33] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:27:33] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:27:33] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:27:33] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:27:33] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:27:33] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:27:35] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:27:36] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:27:36] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:27:36] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:27:36] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:27:36] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:27:36] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:27:36] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:27:36] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:27:36] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:27:36] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:27:37] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:27:37] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:27:37] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:27:37] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:27:37] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:27:37] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:27:38] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:27:38] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:27:38] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:27:38] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:27:38] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:27:38] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:27:39] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:27:39] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:27:39] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:27:39] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:27:40] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:28:10] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:28:40] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:28:55] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Miembro] 911 > ?
-[22:29:10] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:29:22] [Async Chat Thread - #9/INFO]: [Not Secure] [Miembro]  Zarickson > VAMOs
-[22:29:34] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Miembro] 911 > ?
-[22:29:40] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:30:10] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:30:23] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:30:24] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:30:24] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:30:24] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:30:24] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:30:27] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:30:34] [Server thread/INFO]: Zarickson issued server command: /vanish
-[22:30:36] [Server thread/INFO]: Zarickson issued server command: /fakelogin true
-[22:30:40] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:31:10] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:31:40] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:32:10] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:32:40] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:33:10] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:33:36] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:33:36] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:33:39] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:33:40] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:33:40] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:33:40] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:33:40] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:33:41] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:33:41] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:33:41] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:33:41] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:33:41] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:33:45] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:34:10] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:34:17] [User Authenticator #1/INFO]: UUID of player 911 is 1aaef51b-fa79-39ec-a3af-c9c9723908ad
-[22:34:19] [Server thread/INFO]: 911 joined the game
-[22:34:19] [Server thread/INFO]: 911[/127.250.77.42:36971] logged in with entity id 9278 at ([world]72.5, 63.0, -57.5)
-[22:34:19] [Server thread/INFO]: 911 has made the advancement [Getting an Upgrade]
-[22:34:19] [Server thread/INFO]: [voicechat] Received secret request of 911 (18)
-[22:34:19] [Server thread/INFO]: [voicechat] Sent secret to 911
-[22:34:20] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 1aaef51b-fa79-39ec-a3af-c9c9723908ad
-[22:34:21] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 1aaef51b-fa79-39ec-a3af-c9c9723908ad
-[22:34:21] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player 911 (1aaef51b-fa79-39ec-a3af-c9c9723908ad) successfully connected to voice chat
-[22:34:27] [Server thread/INFO]: [AuthMe] 911 registered 127.250.77.42
-[22:34:27] [Craft Scheduler Thread - 40 - AuthMe/INFO]: [AuthMe] 911 logged in 127.250.77.42
-[22:34:40] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:35:10] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:35:30] [Server thread/INFO]: Zarickson issued server command: /lp user Zarickson parent set owner
-[22:35:30] [luckperms-command-executor/INFO]: [LP] LOG > (Zarickson) [U] (zarickson)
-[22:35:30] [luckperms-command-executor/INFO]: [LP] LOG > parent set owner
-[22:35:33] [Async Chat Thread - #11/INFO]: [Not Secure] [Owner]  Zarickson > &3&lBuenas
-[22:35:36] [Async Chat Thread - #11/INFO]: [Not Secure] [Owner]  Zarickson > Buenas
-[22:35:37] [Async Chat Thread - #12/INFO]: [Not Secure] [Owner]  Zarickson > XD
-[22:35:40] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:35:47] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Miembro] SrPaltihna > Buenas
-[22:35:54] [Async Chat Thread - #12/INFO]: [Not Secure] [Miembro]  911 > keloke
-[22:35:59] [Async Chat Thread - #12/INFO]: [Not Secure] [Miembro]  911 > tenes el vc?
-[22:36:05] [User Authenticator #2/INFO]: UUID of player Viviana_Zafra is e9b18143-9ad0-31c4-b65b-4210a3d20ca4
-[22:36:06] [Server thread/INFO]: Zarickson issued server command: /pl
-[22:36:07] [Server thread/INFO]: Viviana_Zafra joined the game
-[22:36:07] [Server thread/INFO]: Viviana_Zafra[/127.192.211.153:58617] logged in with entity id 9541 at ([world]71.5, 63.0, -53.5)
-[22:36:08] [Server thread/INFO]: Viviana_Zafra has made the advancement [Getting an Upgrade]
-[22:36:08] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Miembro] SrPaltihna > Nd
-[22:36:10] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:36:11] [Async Chat Thread - #12/INFO]: [Not Secure] [Miembro]  911 > oh no
-[22:36:26] [Server thread/INFO]: [AuthMe] Viviana_Zafra registered 127.192.211.153
-[22:36:26] [Craft Scheduler Thread - 46 - AuthMe/INFO]: [AuthMe] Viviana_Zafra logged in 127.192.211.153
-[22:36:29] [Server thread/INFO]: Zarickson issued server command: /invsee 911
-[22:36:35] [Async Chat Thread - #12/INFO]: [Not Secure] [Miembro]  Viviana_Zafra > olas
-[22:36:37] [Server thread/INFO]: Viviana_Zafra issued server command: /rtp
-[22:36:40] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:36:42] [Async Chat Thread - #12/INFO]: [Not Secure] [Owner]  Zarickson > horita conecto el microfono
-[22:36:45] [Async Chat Thread - #12/INFO]: [Not Secure] [Owner]  Zarickson > tu tenes 911?
-[22:36:52] [Async Chat Thread - #12/INFO]: [Not Secure] [Miembro]  911 > soy 911
-[22:36:57] [Async Chat Thread - #12/INFO]: [Not Secure] [Owner]  Zarickson > Xd
-[22:37:00] [Async Chat Thread - #12/INFO]: [Not Secure] [Miembro]  911 > quien e viviana
-[22:37:05] [Async Chat Thread - #12/INFO]: [Not Secure] [Owner]  Zarickson > No se
-[22:37:06] [Async Chat Thread - #12/INFO]: [Not Secure] [Miembro]  911 > zarickson?
-[22:37:08] [Async Chat Thread - #12/INFO]: [Not Secure] [Miembro]  Viviana_Zafra > Andrea
-[22:37:09] [Async Chat Thread - #12/INFO]: [Not Secure] [Owner]  Zarickson > a
-[22:37:10] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:37:12] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:37:18] [Async Chat Thread - #12/INFO]: [Not Secure] [Miembro]  911 > le di tab y no aparece nadie
-[22:37:26] [Async Chat Thread - #12/INFO]: [Not Secure] [Owner]  Zarickson > en tab no aparezco yo
-[22:37:26] [Async Chat Thread - #12/INFO]: [Not Secure] [Miembro]  911 > nadie tiene vc?
-[22:37:33] [Async Chat Thread - #11/INFO]: [Not Secure] [Miembro]  911 > verda
-[22:37:34] [Async Chat Thread - #11/INFO]: [Not Secure] [Owner]  Zarickson > yo lo activo dentro de un rato
-[22:37:40] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:37:47] [Async Chat Thread - #11/INFO]: [Not Secure] [Owner]  Zarickson > osea mi microfono
-[22:37:53] [Async Chat Thread - #12/INFO]: [Not Secure] [Miembro]  911 > o
-[22:38:03] [Server thread/INFO]: 911 issued server command: /tpa zarickson
-[22:38:10] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:38:11] [Async Chat Thread - #12/INFO]: [Not Secure] [Miembro]  911 > no apareces para el tpa
-[22:38:21] [Async Chat Thread - #12/INFO]: [Not Secure] [Owner]  Zarickson > por que ando en vanish
-[22:38:27] [Async Chat Thread - #12/INFO]: [Not Secure] [Miembro]  911 > oh
-[22:38:29] [Server thread/INFO]: Zarickson issued server command: /plugman unload NoPluginsv2
-[22:38:29] [Server thread/INFO]: [NoPluginsv2] Disabling NoPluginsv2 v2.0
-[22:38:29] [Server thread/INFO]: [NoPluginsv2] BlockCommandsPlugin desactivado!
-[22:38:31] [Server thread/INFO]: Zarickson issued server command: /pl
-[22:38:37] [Server thread/INFO]: Zarickson issued server command: /vanish
-[22:38:40] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:38:42] [Server thread/INFO]: Zarickson issued server command: /tpa
-[22:39:02] [Server thread/INFO]: Viviana_Zafra has made the advancement [Stone Age]
-[22:39:10] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:39:17] [Server thread/INFO]: 911 lost connection: Disconnected
-[22:39:17] [Server thread/INFO]: [voicechat] Disconnecting client 911
-[22:39:17] [Server thread/INFO]: 911 left the game
-[22:39:27] [Server thread/INFO]: Zarickson issued server command: /plugman load SkinsRestorer
-[22:39:27] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/SkinsRestorer.jar'...
-[22:39:30] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/SkinsRestorer.jar' in 2987ms.
-[22:39:30] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.5.3
-[22:39:30] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.5.3
-[22:39:30] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
-[22:39:31] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.4.
-[22:39:31] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
-[22:39:31] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[22:39:31] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.5.3]
-[22:39:31] [Server thread/INFO]: [SkinsRestorer] PlaceholderAPI expansion registered!
-[22:39:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4331ms or 86 ticks behind
-[22:39:32] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
-[22:39:32] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     +==================+
-[22:39:32] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[22:39:32] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |------------------|
-[22:39:32] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[22:39:32] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     +==================+
-[22:39:32] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
-[22:39:32] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     Version: 15.5.3
-[22:39:32] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     Commit: 86e796c
-[22:39:32] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     This is the latest version!
-[22:39:32] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
-[22:39:32] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[22:39:32] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[22:39:38] [Server thread/INFO]: Zarickson issued server command: /skin WalterWhite
-[22:39:45] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:39:49] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Owner] Claude > VAMOS
-[22:39:56] [Async Chat Thread - #13/INFO]: [Not Secure] [Miembro]  Viviana_Zafra > acomoda la variable
-[22:40:02] [Async Chat Thread - #13/INFO]: [Not Secure] [Miembro]  Viviana_Zafra > %online%
-[22:40:15] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:40:17] [User Authenticator #3/INFO]: UUID of player Sh1nnz_ is 8f00f4c8-19f5-3375-ab0b-b8160128f928
-[22:40:20] [Server thread/INFO]: Sh1nnz_ joined the game
-[22:40:20] [Server thread/INFO]: Sh1nnz_[/127.251.63.168:36093] logged in with entity id 10567 at ([world]67.5, 63.0, -46.5)
-[22:40:20] [Server thread/INFO]: Sh1nnz_ has made the advancement [Getting an Upgrade]
-[22:40:29] [Async Chat Thread - #13/INFO]: [Not Secure] [Owner]  Zarickson > Por cierto pueden crear sus team con /team create (nombre)
-[22:40:33] [Server thread/INFO]: [AuthMe] Sh1nnz_ registered 127.251.63.168
-[22:40:33] [Craft Scheduler Thread - 75 - AuthMe/INFO]: [AuthMe] Sh1nnz_ logged in 127.251.63.168
-[22:40:33] [Server thread/INFO]: Zarickson issued server command: /team
-[22:40:36] [Async Chat Thread - #13/INFO]: [Not Secure] [Owner]  Zarickson > igual para mas informacion coloquen /team
-[22:40:45] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:41:15] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:41:33] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Miembro] SrPaltihna > A
-[22:41:34] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Owner] Arcane > @SrPaltihna has reached level **1**. GG!
-[22:41:40] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/grimac-2.3.69.jar'...
-[22:41:41] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/grimac-2.3.69.jar' in 1643ms.
-[22:41:41] [Server thread/INFO]: [GrimAC] Loading server plugin GrimAC v2.3.69
-[22:41:42] [Server thread/INFO]: [GrimAC] Loading PacketEvents...
-[22:41:44] [Server thread/INFO]: [packetevents] Late injection detected, we missed packets so some functionality may break!
-[22:41:44] [Server thread/INFO]: [packetevents] Late injection detected, we missed packets so some functionality may break!
-[22:41:44] [Server thread/INFO]: [packetevents] Late injection detected, we missed packets so some functionality may break!
-[22:41:44] [Server thread/INFO]: [GrimAC] Enabling GrimAC v2.3.69
-[22:41:44] [Server thread/INFO]: [GrimAC] Registering singular bukkit event... (PistonEvent)
-[22:41:44] [Server thread/INFO]: [GrimAC] Registering packets...
-[22:41:44] [Server thread/INFO]: [GrimAC] Registering tick schedulers...
-[22:41:44] [Server thread/INFO]: [GrimAC] [ACF] Enabled Asynchronous Tab Completion Support!
-[22:41:44] [Server thread/INFO]: Grim Version: 2.3.69
-[22:41:44] [Server thread/ERROR]: [GrimAC] GrimAC has detected that you are using ViaVersion with the `fix-1_21-placement-rotation` option enabled.
-[22:41:44] [Server thread/ERROR]: [GrimAC] This option is known to cause issues with GrimAC and may result in false positives and bypasses.
-[22:41:44] [Server thread/ERROR]: [GrimAC] Please disable this option in your ViaVersion configuration to prevent these issues.
-[22:41:44] [Server thread/WARN]: [GrimAC] GrimAC has detected that you have installed ViaBackwards on a 1.21.2+ server.
-[22:41:44] [Server thread/WARN]: [GrimAC] This setup is currently unsupported and you will experience issues with older clients using vehicles.
-[22:41:44] [Server thread/WARN]: [GrimAC] GrimAC has detected that you have installed TAB with ViaVersion.
-[22:41:44] [Server thread/WARN]: [GrimAC] Please note that currently, TAB is incompatible as it sends illegal packets to players using versions newer than your server version.
-[22:41:44] [Server thread/WARN]: [GrimAC] You may be able to remedy this by setting `compensate-for-packetevents-bug` to true in the TAB config.
-[22:41:44] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: grim [2.3.69]
-[22:41:44] [Server thread/INFO]: [PlugMan] GrimAC has been loaded and enabled.
-[22:41:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4601ms or 92 ticks behind
-[22:41:45] [Craft Scheduler Thread - 78 - GrimAC/INFO]: New GrimAC version found! Version 2.3.70 is available to be downloaded here: https://modrinth.com/plugin/grimac
-[22:41:49] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:41:49] [Async Chat Thread - #15/INFO]: [Not Secure] [Miembro]  Viviana_Zafra > lagazo?
-[22:41:56] [Async Chat Thread - #15/INFO]: [Not Secure] [Owner]  Zarickson > Nop, estaba activando un plguin
-[22:41:58] [Async Chat Thread - #15/INFO]: [Not Secure] [Owner]  Zarickson > plugin*
-[22:42:06] [Async Chat Thread - #15/INFO]: [Not Secure] [Owner]  Zarickson > pero ya está lito
-[22:42:07] [Server thread/INFO]: Zarickson issued server command: /grim
-[22:42:10] [Server thread/INFO]: Zarickson issued server command: /grimac alerts
-[22:42:11] [Server thread/INFO]: Zarickson issued server command: /grimac alerts
-[22:42:12] [Async Chat Thread - #16/INFO]: [Not Secure] [Miembro]  Viviana_Zafra > activa el plugin de picar el arbol completo con solo picar la base
-[22:42:14] [Async Chat Thread - #16/INFO]: [Not Secure] [Miembro]  Sh1nnz_ > esto tiene cv?
-[22:42:15] [Server thread/INFO]: Zarickson issued server command: /grimac verbose
-[22:42:19] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:42:24] [Async Chat Thread - #15/INFO]: [Not Secure] [Owner]  Zarickson > Ok ahí voy
-[22:42:30] [Async Chat Thread - #15/INFO]: [Not Secure] [Owner]  Zarickson > Si tiene vc
-[22:42:49] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:42:59] [Async Chat Thread - #15/INFO]: [Not Secure] [Miembro]  Sh1nnz_ > q version de vc descargo
-[22:43:16] [Async Chat Thread - #15/INFO]: [Not Secure] [Owner]  Zarickson > Cual es tu version de mc?
-[22:43:19] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:43:21] [Async Chat Thread - #15/INFO]: [Not Secure] [Owner]  Zarickson > la que estas usando ahora
-[22:43:22] [Async Chat Thread - #15/INFO]: [Not Secure] [Miembro]  Sh1nnz_ > 1.21.4
-[22:43:28] [Async Chat Thread - #15/INFO]: [Not Secure] [Miembro]  Sh1nnz_ > vale
-[22:43:29] [Server thread/INFO]: Sh1nnz_ lost connection: Disconnected
-[22:43:29] [Server thread/INFO]: [voicechat] Disconnecting client Sh1nnz_
-[22:43:29] [Server thread/INFO]: Sh1nnz_ left the game
-[22:43:32] [Async Chat Thread - #15/INFO]: [Not Secure] [Owner]  Zarickson > Instala la ultima version de vc para esa version en mondrith
-[22:43:39] [Async Chat Thread - #15/INFO]: [Not Secure] [Miembro]  Viviana_Zafra > c fue
-[22:43:44] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /me seguro se lo fue a instalar
-[22:43:49] [Server thread/INFO]: [Not Secure] [Server] :,v
-[22:43:49] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:43:55] [Paper Plugin Remapper Thread - 4/INFO]: [PluginRemapper] Remapping plugin 'plugins/smoothtimber-legacy-1.27.3.jar'...
-[22:43:56] [Paper Plugin Remapper Thread - 4/INFO]: [PluginRemapper] Done remapping plugin 'plugins/smoothtimber-legacy-1.27.3.jar' in 215ms.
-[22:43:56] [Server thread/INFO]: [SmoothTimber] Loading server plugin SmoothTimber v1.27.3
-[22:43:56] [Server thread/INFO]: [SmoothTimber] Enabling SmoothTimber v1.27.3
-[22:43:56] [Server thread/INFO]: SmoothTimber || You're currently using the supported Minecraft Version 1.21.4 (Core v1_21x)
-[22:43:56] [Server thread/INFO]: SmoothTimber || Trying to enable compatibility addon 'PlaceholderApi' for plugin 'PlaceholderAPI'...
-[22:43:56] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: smoothtimber [1.27.3]
-[22:43:56] [Server thread/INFO]: SmoothTimber || Successfully enabled compatbility addon 'PlaceholderApi' for plugin 'PlaceholderAPI'...
-[22:43:56] [Server thread/INFO]: SmoothTimber || Trying to enable compatibility addon 'WorldGuard' for plugin 'WorldGuard'...
-[22:43:56] [Server thread/INFO]: SmoothTimber || Successfully enabled compatbility addon 'WorldGuard' for plugin 'WorldGuard'...
-[22:43:56] [Server thread/INFO]: [PlugMan] SmoothTimber has been loaded and enabled.
-[22:43:57] [Async Chat Thread - #15/INFO]: [Not Secure] [Owner]  Zarickson > listo
-[22:44:02] [Async Chat Thread - #15/INFO]: [Not Secure] [Owner]  Zarickson > prueba cortar arboles
-[22:44:05] [Server thread/INFO]: Zarickson issued server command: /tp Viviana_Zafra
-[22:44:05] [Async Chat Thread - #15/INFO]: [Not Secure] [Miembro]  Viviana_Zafra > voy
-[22:44:19] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:44:24] [Server thread/INFO]: Zarickson issued server command: /gm 0
-[22:44:29] [Async Chat Thread - #15/INFO]: [Not Secure] [Owner]  Zarickson > si funciona
-[22:44:32] [Async Chat Thread - #15/INFO]: [Not Secure] [Miembro]  Viviana_Zafra > vale
-[22:44:34] [Server thread/INFO]: Zarickson issued server command: /gm 1
-[22:44:37] [Async Chat Thread - #15/INFO]: [Not Secure] [Miembro]  Viviana_Zafra > gracias
-[22:44:37] [Server thread/INFO]: Named entity Bee['❤ 0 / 10'/12222, uuid='e219dc60-8831-49b3-884e-3ad5f1fad3bf', l='ServerLevel[world]', x=-232.26, y=72.08, z=-750.80, cpos=[-15, -47], tl=112, v=true] died: ❤ 0 / 10 was slain by KRATOS Zarickson
-[22:44:45] [Async Chat Thread - #15/INFO]: [Not Secure] [Owner]  Zarickson > por cierto, si es util el plugin de las vidas?
-[22:44:49] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:44:51] [Async Chat Thread - #16/INFO]: [Not Secure] [Owner]  Zarickson > Lo hice ahí a medias, y no sé si molesta
-[22:45:02] [Server thread/INFO]: Zarickson issued server command: /tp Viviana_Zafra
-[22:45:04] [Async Chat Thread - #16/INFO]: [Not Secure] [Miembro]  Viviana_Zafra > pera
-[22:45:19] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:45:49] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:45:51] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Owner] Claude > a
-[22:45:59] [Server thread/INFO]: Zarickson issued server command: /nosleep false
-[22:45:59] [Server thread/INFO]: Se puede dormir de nuevo. Los mobs han vuelto a la normalidad.
-[22:46:06] [Server thread/INFO]: Viviana_Zafra has made the advancement [Sweet Dreams]
-[22:46:14] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /me &3&la
-[22:46:19] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:46:21] [Server thread/INFO]: Viviana_Zafra has made the advancement [Monster Hunter]
-[22:46:21] [Server thread/INFO]: Named entity Zombie['❤ 0 / 20'/12728, uuid='8376c986-7e99-4aef-9e3c-7df4bffb235e', l='ServerLevel[world]', x=75.69, y=73.00, z=-768.26, cpos=[4, -49], tl=277, v=true] died: ❤ 0 / 20 was slain by Viviana_Zafra
-[22:46:43] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /me &3&lCADA 2 DIAS DEL JUEGO, SE ACTIVARA EL MODO NOSLEEP, CONSISTE EN QUE LOS MOBS SE VUELVEN EL DOBLE DE FUERTES RAPIDOS, Y NO PODRÁS DORMIR
-[22:46:44] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /me &3&lCADA 2 DIAS DEL JUEGO, SE ACTIVARA EL MODO NOSLEEP, CONSISTE EN QUE LOS MOBS SE VUELVEN EL DOBLE DE FUERTES RAPIDOS, Y NO PODRÁS DORMIR
-[22:46:44] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /me &3&lCADA 2 DIAS DEL JUEGO, SE ACTIVARA EL MODO NOSLEEP, CONSISTE EN QUE LOS MOBS SE VUELVEN EL DOBLE DE FUERTES RAPIDOS, Y NO PODRÁS DORMIR
-[22:46:46] [Async Chat Thread - #17/INFO]: [Not Secure] [Miembro]  Viviana_Zafra > pero no funca .-.
-[22:46:49] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:46:52] [Server thread/INFO]: Zarickson issued server command: /tp Viviana_Zafra
-[22:46:53] [Async Chat Thread - #17/INFO]: [Not Secure] [Owner]  Zarickson > a ve
-[22:46:58] [Server thread/INFO]: Zarickson issued server command: /gm 0
-[22:47:06] [Server thread/INFO]: Zarickson issued server command: /gm 1
-[22:47:10] [Server thread/INFO]: Zarickson issued server command: /gm 0
-[22:47:14] [Async Chat Thread - #17/INFO]: [Not Secure] [Owner]  Zarickson > si funciona
-[22:47:16] [Async Chat Thread - #17/INFO]: [Not Secure] [Owner]  Zarickson > whats
-[22:47:18] [Async Chat Thread - #17/INFO]: [Not Secure] [Miembro]  Viviana_Zafra > a
-[22:47:19] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:47:25] [Async Chat Thread - #17/INFO]: [Not Secure] [Miembro]  Viviana_Zafra > pero conmigo no
-[22:47:27] [Async Chat Thread - #17/INFO]: [Not Secure] [Owner]  Zarickson > deja me desopeo a ve
-[22:47:37] [Server thread/INFO]: Zarickson issued server command: /lp user Zarickson parent set default
-[22:47:37] [luckperms-command-executor/INFO]: [LP] LOG > (Zarickson) [U] (zarickson)
-[22:47:37] [luckperms-command-executor/INFO]: [LP] LOG > parent set default
-[22:47:40] [Server thread/INFO]: Zarickson issued server command: /deop Zarickson
-[22:47:40] [Server thread/INFO]: [KRATOS Zarickson: Made Zarickson no longer a server operator]
-[22:47:40] [Async Chat Thread - #17/INFO]: [Not Secure] [Miembro]  Zarickson > a
-[22:47:49] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:47:49] [Async Chat Thread - #17/INFO]: [Not Secure] [Miembro]  Zarickson > aah no funciona con usuarios normales
-[22:47:53] [Async Chat Thread - #17/INFO]: [Not Secure] [Miembro]  Viviana_Zafra > .-.
-[22:47:54] [Async Chat Thread - #17/INFO]: [Not Secure] [Miembro]  Zarickson > dejame dar los permisos
-[22:48:03] [Server thread/INFO]: Made Z a server operator
-[22:48:07] [Server thread/INFO]: Made Viviana_Zafra a server operator
-[22:48:08] [Server thread/INFO]: Made Z no longer a server operator
-[22:48:11] [Async Chat Thread - #18/INFO]: [Not Secure] [Miembro]  Viviana_Zafra > debes acomodar tambien la variable
-[22:48:13] [Server thread/INFO]: Zarickson issued server command: /lp editor
-[22:48:17] [Async Chat Thread - #17/INFO]: [Not Secure] [Miembro]  Zarickson > cual de todas?
-[22:48:19] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:48:20] [luckperms-command-executor/INFO]: [LP] Preparing a new editor session, please wait...
-[22:48:22] [luckperms-command-executor/INFO]: [LP] Click the link below to open the editor:
-[22:48:22] [luckperms-command-executor/INFO]: https://luckperms.net/editor/wqaWFsD1HT
-[22:48:24] [Async Chat Thread - #17/INFO]: [Not Secure] [Miembro]  Viviana_Zafra > %online%
-[22:48:29] [Async Chat Thread - #17/INFO]: [Not Secure] [Miembro]  Viviana_Zafra > del anuncio
-[22:48:35] [Async Chat Thread - #17/INFO]: [Not Secure] [Miembro]  Zarickson > Ah si
-[22:48:42] [Async Chat Thread - #17/INFO]: [Not Secure] [Miembro]  Viviana_Zafra > ahora si
-[22:48:49] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:48:54] [Async Chat Thread - #17/INFO]: [Not Secure] [Miembro]  Zarickson > ahora si?
-[22:48:56] [Async Chat Thread - #17/INFO]: [Not Secure] [Miembro]  Viviana_Zafra > falta invitar a full
-[22:48:57] [Async Chat Thread - #17/INFO]: [Not Secure] [Miembro]  Viviana_Zafra > se
-[22:49:02] [Async Chat Thread - #17/INFO]: [Not Secure] [Miembro]  Zarickson > Si eso es lo que voy a ahcer
-[22:49:09] [Async Chat Thread - #17/INFO]: [Not Secure] [Miembro]  Viviana_Zafra > igual estare on
-[22:49:16] [Async Chat Thread - #17/INFO]: [Not Secure] [Miembro]  Zarickson > bello, creaste ya tu team?
-[22:49:19] [Async Chat Thread - #17/INFO]: [Not Secure] [Miembro]  Viviana_Zafra > no
-[22:49:19] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:49:46] [Server thread/INFO]: Zarickson issued server command: /lp applyedits StguPGh1dV
-[22:49:49] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:49:52] [Server thread/INFO]: Zarickson issued server command: /lp applyedits StguPGh1dV
-[22:50:05] [luckperms-command-executor/INFO]: [LP] Web editor data was applied to group default successfully.
-[22:50:05] [luckperms-command-executor/INFO]: [LP] (1 addition and 0 deletions)
-[22:50:05] [luckperms-command-executor/INFO]: +  voicechat.speak (true)
-[22:50:16] [Async Chat Thread - #17/INFO]: [Not Secure] [Miembro]  Zarickson > tenes vc?
-[22:50:18] [Async Chat Thread - #18/INFO]: [Not Secure] [Miembro]  Viviana_Zafra > no
-[22:50:19] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:50:21] [Async Chat Thread - #18/INFO]: [Not Secure] [Miembro]  Zarickson > :,v
-[22:50:25] [Async Chat Thread - #18/INFO]: [Not Secure] [Miembro]  Viviana_Zafra > prefiero jugar tranquilamente
-[22:50:27] [Async Chat Thread - #18/INFO]: [Not Secure] [Miembro]  Zarickson > voy a ir invitando mas gente
-[22:50:33] [Async Chat Thread - #18/INFO]: [Not Secure] [Miembro]  Viviana_Zafra > vale
-[22:50:49] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:51:19] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:51:39] [luckperms-command-executor/INFO]: [LP] The changes received from the web editor are based on an initial session which has already been applied!
-[22:51:39] [luckperms-command-executor/INFO]: [LP] To avoid conflicts, you should never re-use the same editor session after the changes from it have been applied once already.
-[22:51:39] [luckperms-command-executor/INFO]: [LP] To ignore this warning and apply the changes anyway, run: /lp applyedits Brq81fBCk3 --force
-[22:51:46] [luckperms-command-executor/INFO]: [LP] Web editor data was applied to group default successfully.
-[22:51:46] [luckperms-command-executor/INFO]: [LP] (1 addition and 0 deletions)
-[22:51:46] [luckperms-command-executor/INFO]: +  smoothtimber.use (true)
-[22:51:49] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:52:01] [Async Chat Thread - #19/INFO]: [Not Secure] [Miembro]  Zarickson > ahora si funciona lo de los arboles vea?
-[22:52:06] [Async Chat Thread - #19/INFO]: [Not Secure] [Miembro]  Viviana_Zafra > pera
-[22:52:19] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:52:19] [Async Chat Thread - #19/INFO]: [Not Secure] [Miembro]  Viviana_Zafra > se
-[22:52:20] [Async Chat Thread - #19/INFO]: [Not Secure] [Miembro]  Zarickson > bello
-[22:52:23] [Server thread/INFO]: Zarickson issued server command: /gm 1
-[22:52:23] [Server thread/INFO]: [Essentials] Zarickson was denied access to command.
-[22:52:26] [Server thread/INFO]: Made Zarickson a server operator
-[22:52:27] [Server thread/INFO]: Zarickson issued server command: /gm 1
-[22:52:29] [Server thread/INFO]: Zarickson issued server command: /lp
-[22:52:35] [Server thread/INFO]: Zarickson issued server command: /lp user Zarickson parent set owner
-[22:52:35] [luckperms-command-executor/INFO]: [LP] LOG > (Zarickson) [U] (zarickson)
-[22:52:35] [luckperms-command-executor/INFO]: [LP] LOG > parent set owner
-[22:52:37] [Async Chat Thread - #19/INFO]: [Not Secure] [Owner]  Zarickson > a
-[22:52:40] [Server thread/INFO]: Zarickson issued server command: /vanish
-[22:52:40] [Async Chat Thread - #19/INFO]: [Not Secure] [Miembro]  Viviana_Zafra > xd?
-[22:52:42] [Server thread/INFO]: Zarickson issued server command: /gm spectator
-[22:52:44] [Async Chat Thread - #20/INFO]: [Not Secure] [Owner]  Zarickson > xd
-[22:52:49] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:53:03] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Owner] Claude > a
-[22:53:12] [Async Chat Thread - #20/INFO]: [Not Secure] [Miembro]  Viviana_Zafra > a
-[22:53:19] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:53:49] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:54:06] [Server thread/INFO]: Zarickson issued server command: /vanish
-[22:54:13] [Async Chat Thread - #21/INFO]: [Not Secure] [Owner]  Zarickson > w
-[22:54:19] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:54:49] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:55:19] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:55:49] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:55:56] [Server thread/INFO]: Viviana_Zafra issued server command: /top
-[22:56:04] [Server thread/INFO]: Zarickson issued server command: /top
-[22:56:07] [Server thread/INFO]: Zarickson issued server command: /top
-[22:56:12] [Server thread/INFO]: Zarickson issued server command: /warp
-[22:56:14] [Async Chat Thread - #23/INFO]: [Not Secure] [Owner]  Zarickson > Olvide algo
-[22:56:16] [Async Chat Thread - #23/INFO]: [Not Secure] [Owner]  Zarickson > Por ciertow
-[22:56:19] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:56:23] [Async Chat Thread - #23/INFO]: [Not Secure] [Miembro]  Viviana_Zafra > el top?
-[22:56:35] [Server thread/INFO]: Zarickson issued server command: /warp list
-[22:56:37] [Server thread/INFO]: Zarickson issued server command: /warp list
-[22:56:44] [Async Chat Thread - #23/INFO]: [Not Secure] [Owner]  Zarickson > el uso de los warps en un plugin que hice
-[22:56:49] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:56:49] [Async Chat Thread - #23/INFO]: [Not Secure] [Owner]  Zarickson > cada usuario puede hacer su propio war
-[22:56:54] [Async Chat Thread - #23/INFO]: [Not Secure] [Miembro]  Viviana_Zafra > ahh vale
-[22:56:58] [Async Chat Thread - #23/INFO]: [Not Secure] [Owner]  Zarickson > y puede invitar a otras personas a tpearse a su propio warp
-[22:57:03] [Async Chat Thread - #23/INFO]: [Not Secure] [Owner]  Zarickson > ya les explico los comandos
-[22:57:05] [Server thread/INFO]: Zarickson issued server command: /warpinfo
-[22:57:09] [Async Chat Thread - #23/INFO]: [Not Secure] [Miembro]  Viviana_Zafra > osea como un /warp team
-[22:57:17] [Async Chat Thread - #23/INFO]: [Not Secure] [Miembro]  Viviana_Zafra > o un sethome a base?
-[22:57:19] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:57:21] [Server thread/INFO]: Named entity Cow['❤ 0 / 10'/14154, uuid='9f763ec9-54c9-4ed7-acb3-0f76a820c7f5', l='ServerLevel[world]', x=474.23, y=64.00, z=-677.37, cpos=[29, -43], tl=2631, v=true] died: ❤ 0 / 10 was slain by Viviana_Zafra
-[22:57:24] [Async Chat Thread - #23/INFO]: [Not Secure] [Owner]  Zarickson > Sip algo así, básicamente solo tu puedes invitar a otros jugadores al tener acceso a tu warp
-[22:57:26] [Async Chat Thread - #23/INFO]: [Not Secure] [Owner]  Zarickson > Sip basicamente es eso
-[22:57:45] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Owner] Claude (replying to Bot minecraft) > algo ais
-[22:57:49] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:57:54] [Server thread/INFO]: Este comando solo puede ser usado por jugadores.
-[22:58:11] [Server thread/INFO]: Zarickson issued server command: /tp Zarickson
-[22:58:12] [Server thread/INFO]: Zarickson issued server command: /vanish
-[22:58:14] [Server thread/INFO]: Zarickson issued server command: /tp Viviana_Zafra
-[22:58:17] [Server thread/INFO]: Named entity Skeleton['❤ 0 / 20'/14841, uuid='e5359228-a01b-4db7-bee8-6f9829b26380', l='ServerLevel[world]', x=427.98, y=64.00, z=-767.92, cpos=[26, -48], tl=483, v=true] died: ❤ 0 / 20 was slain by Viviana_Zafra
-[22:58:18] [Server thread/INFO]: Zarickson issued server command: /herobrine Viviana_Zafra
-[22:58:19] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:58:24] [Server thread/INFO]: Zarickson issued server command: /herobrine Viviana_Zafra
-[22:58:27] [Server thread/INFO]: Zarickson issued server command: /herobrine Viviana_Zafra
-[22:58:30] [Async Chat Thread - #25/INFO]: [Not Secure] [Miembro]  Viviana_Zafra > a
-[22:58:30] [Server thread/INFO]: Zarickson issued server command: /herobrine Viviana_Zafra
-[22:58:38] [Async Chat Thread - #25/INFO]: [Not Secure] [Owner]  Zarickson > que paso
-[22:58:39] [Async Chat Thread - #25/INFO]: [Not Secure] [Owner]  Zarickson > xd
-[22:58:45] [Async Chat Thread - #25/INFO]: [Not Secure] [Owner]  Zarickson > te aparecio el herobrine troll
-[22:58:47] [Async Chat Thread - #25/INFO]: [Not Secure] [Owner]  Zarickson > xD
-[22:58:49] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:58:49] [Server thread/INFO]: Zarickson issued server command: /herobrine Viviana_Zafra
-[22:58:54] [Server thread/INFO]: Zarickson issued server command: /herobrine Viviana_Zafra
-[22:58:55] [Async Chat Thread - #25/INFO]: [Not Secure] [Miembro]  Viviana_Zafra > pero si eras vos xd
-[22:59:10] [Async Chat Thread - #26/INFO]: [Not Secure] [Owner]  Zarickson > JAJa te lo estoy invocando, no hace nada igual pero si asusta cuando estás nervioso xdd
-[22:59:19] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:59:38] [Async Chat Thread - #25/INFO]: [Not Secure] [Owner]  Zarickson > cuidado que dios puede llegar
-[22:59:39] [Server thread/INFO]: Zarickson issued server command: /gm 1
-[22:59:45] [Async Chat Thread - #25/INFO]: [Not Secure] [Miembro]  Viviana_Zafra > xd
-[22:59:45] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[22:59:49] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[22:59:57] [Async Chat Thread - #25/INFO]: [Not Secure] [Owner]  Zarickson > esta noche se activará el modo noslee
-[22:59:59] [Async Chat Thread - #25/INFO]: [Not Secure] [Owner]  Zarickson > nosleep
-[23:00:02] [Server thread/INFO]: Zarickson issued server command: /gm spectator
-[23:00:07] [Async Chat Thread - #25/INFO]: [Not Secure] [Miembro]  Viviana_Zafra > vale
-[23:00:09] [Server thread/INFO]: Zarickson issued server command: /nosleep true
-[23:00:09] [Server thread/INFO]: No se puede dormir! Los mobs se han vuelto más fuertes!
-[23:00:19] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[23:00:49] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[23:00:57] [Server thread/INFO]: ℹ Server Plugins (34):
-[23:00:57] [Server thread/INFO]: Bukkit Plugins:
-[23:00:57] [Server thread/INFO]:  - AuthMe, BetterTeams, ChatManager, Chunky, DiscordSRV, EntityOptimizer, Essentials, EssentialsSpawn, *FakeLogin, floodgate
-[23:00:57] [Server thread/INFO]:  Geyser-Spigot, GrimAC, HerobrineTroll, ItemFrameDuplicator, LightningHoe, LuckPerms, NetheriteLightning, NoPluginsv2, NoSleep, PlaceholderAPI
-[23:00:57] [Server thread/INFO]:  PlugManX, *PrivateWarps, RPGHealthDisplay, SkinsRestorer, SmoothTimber, TAB, TrollMaster, Vault, ViaBackwards, ViaRewind
-[23:00:57] [Server thread/INFO]:  ViaVersion, voicechat, WorldEdit, WorldGuard
-[23:01:03] [Server thread/INFO]: Zarickson issued server command: /privatewarp
-[23:01:06] [Server thread/INFO]: Zarickson issued server command: /privatewarps:warplist
-[23:01:13] [Server thread/INFO]: Zarickson issued server command: /privatewarps:warp
-[23:01:19] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[23:01:21] [Async Chat Thread - #27/INFO]: [Not Secure] [Owner]  Zarickson > Los comandos de los warps PRIVADOS son :
-[23:01:31] [Server thread/INFO]: Zarickson issued server command: /warp (nombre)
-[23:01:40] [Async Chat Thread - #27/INFO]: [Not Secure] [Owner]  Zarickson > ./warp nombre para crear un warp
-[23:01:44] [Async Chat Thread - #27/INFO]: [Not Secure] [Owner]  Zarickson > igual lo pondre en el DC
-[23:01:48] [Async Chat Thread - #27/INFO]: [Not Secure] [Owner]  Zarickson > por que aca se va a perder
-[23:01:49] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[23:01:51] [Async Chat Thread - #27/INFO]: [Not Secure] [Miembro]  Viviana_Zafra > mejor xd
-[23:02:19] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[23:02:49] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[23:02:50] [Server thread/INFO]: Zarickson issued server command: /delwarp
-[23:03:06] [Server thread/INFO]: Zarickson issued server command: /privatewarps:setwarpte
-[23:03:09] [Server thread/INFO]: Zarickson issued server command: /setwarp
-[23:03:14] [Server thread/INFO]: Zarickson issued server command: /warp a
-[23:03:16] [Server thread/INFO]: Zarickson issued server command: /warp create a
-[23:03:19] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[23:03:22] [Server thread/INFO]: Zarickson issued server command: /setwarp a
-[23:03:25] [Server thread/INFO]: Zarickson issued server command: /warp a
-[23:03:49] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[23:04:10] [Server thread/INFO]: Zarickson issued server command: /warpuser Zarickson a
-[23:04:16] [Server thread/INFO]: Zarickson issued server command: /warpuser a Viviana_Zafra
-[23:04:19] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[23:04:25] [Server thread/INFO]: Zarickson issued server command: /warpnouser Viviana_Zafra a
-[23:04:28] [Server thread/INFO]: Zarickson issued server command: /warpnouser Viviana_Zafra
-[23:04:29] [Server thread/INFO]: Named entity Sheep['❤ 0 / 8'/18593, uuid='a8c6bb33-4fb4-4a0a-bbd4-353d94028218', l='ServerLevel[world]', x=2018.12, y=66.00, z=-592.65, cpos=[126, -38], tl=1216, v=true] died: ❤ 0 / 8 was slain by Viviana_Zafra
-[23:04:32] [Server thread/INFO]: Zarickson issued server command: /warpnouser a Viviana_Zafra
-[23:04:38] [Server thread/INFO]: Zarickson issued server command: /warpuser
-[23:04:49] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[23:05:19] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[23:05:35] [Async Chat Thread - #29/INFO]: [Not Secure] [Owner]  Zarickson > listo
-[23:05:37] [Async Chat Thread - #29/INFO]: [Not Secure] [Owner]  Zarickson > en dc
-[23:05:37] [Async Chat Thread - #29/INFO]: [Not Secure] [Owner]  Zarickson > xd
-[23:05:40] [Async Chat Thread - #29/INFO]: [Not Secure] [Miembro]  Viviana_Zafra > xd
-[23:05:41] [Server thread/INFO]: Zarickson issued server command: /delwarp a
-[23:05:44] [Server thread/INFO]: Zarickson issued server command: /warplist
-[23:05:49] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[23:05:59] [Server thread/INFO]: Named entity Sheep['❤ 0 / 8'/19264, uuid='74de99dd-6842-480e-85ab-a0dc6562e7b2', l='ServerLevel[world]', x=1925.54, y=66.00, z=-421.41, cpos=[120, -27], tl=1753, v=true] died: ❤ 0 / 8 was slain by Viviana_Zafra
-[23:06:04] [Server thread/INFO]: Zarickson issued server command: /lp user Zarickson parent set default
-[23:06:04] [luckperms-command-executor/INFO]: [LP] LOG > (Zarickson) [U] (zarickson)
-[23:06:04] [luckperms-command-executor/INFO]: [LP] LOG > parent set default
-[23:06:07] [Server thread/INFO]: Zarickson issued server command: /gm 0
-[23:06:09] [Server thread/INFO]: Zarickson issued server command: /vanish
-[23:06:13] [Server thread/INFO]: Zarickson issued server command: /deop Zarickson
-[23:06:13] [Server thread/INFO]: [KRATOS Zarickson: Made Zarickson no longer a server operator]
-[23:06:15] [Server thread/INFO]: Zarickson issued server command: /setwarp a
-[23:06:18] [Server thread/INFO]: Zarickson issued server command: /warplist
-[23:06:19] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[23:06:20] [Server thread/INFO]: Zarickson issued server command: /warp
-[23:06:21] [Server thread/INFO]: Zarickson issued server command: /warps
-[23:06:29] [Server thread/INFO]: Zarickson issued server command: /privatewarps:warp
-[23:06:43] [Server thread/INFO]: Zarickson issued server command: /warp a
-[23:06:46] [Server thread/INFO]: Zarickson issued server command: /warpuser
-[23:06:49] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[23:06:50] [Server thread/INFO]: Zarickson issued server command: /delwarp a
-[23:06:52] [Server thread/INFO]: Zarickson issued server command: /tp
-[23:06:52] [Server thread/INFO]: [Essentials] Zarickson was denied access to command.
-[23:07:19] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[23:07:23] [Server thread/INFO]: Made Zarickson a server operator
-[23:07:26] [Server thread/INFO]: Zarickson issued server command: /gm 1
-[23:07:29] [Server thread/INFO]: Zarickson issued server command: /gm spectator
-[23:07:33] [Server thread/INFO]: Zarickson issued server command: /lp user Zarickson parent set owner
-[23:07:33] [luckperms-command-executor/INFO]: [LP] LOG > (Zarickson) [U] (zarickson)
-[23:07:33] [luckperms-command-executor/INFO]: [LP] LOG > parent set owner
-[23:07:49] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[23:08:09] [User Authenticator #4/INFO]: UUID of player pancho28xd is 33413895-de6f-375f-9f86-261fa1527748
-[23:08:11] [Server thread/INFO]: pancho28xd joined the game
-[23:08:11] [Server thread/INFO]: pancho28xd[/127.4.219.78:48587] logged in with entity id 21251 at ([world]64.5, 63.0, -49.5)
-[23:08:11] [Server thread/INFO]: pancho28xd has made the advancement [Getting an Upgrade]
-[23:08:17] [Server thread/INFO]: Zarickson issued server command: /tp pancho28xd
-[23:08:18] [Server thread/INFO]: pancho28xd lost connection: Disconnected
-[23:08:18] [Server thread/INFO]: [voicechat] Disconnecting client pancho28xd
-[23:08:18] [Server thread/INFO]: pancho28xd left the game
-[23:08:19] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[23:08:22] [Async Chat Thread - #31/INFO]: [Not Secure] [Miembro]  Viviana_Zafra > F
-[23:08:27] [Async Chat Thread - #31/INFO]: [Not Secure] [Owner]  Zarickson > XD
-[23:08:37] [Async Chat Thread - #31/INFO]: [Not Secure] [Owner]  Zarickson > no se logeo
-[23:08:43] [Async Chat Thread - #31/INFO]: [Not Secure] [Owner]  Zarickson > ah no si
-[23:08:43] [Async Chat Thread - #31/INFO]: [Not Secure] [Owner]  Zarickson > :v
-[23:08:49] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[23:09:19] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[23:09:30] [Async Chat Thread - #31/INFO]: [Not Secure] [Owner]  Zarickson > justo cuando necesito a mi pana el otro owner no está
-[23:09:35] [Async Chat Thread - #31/INFO]: [Not Secure] [Owner]  Zarickson > xD
-[23:09:37] [Async Chat Thread - #31/INFO]: [Not Secure] [Miembro]  Viviana_Zafra > xd
-[23:09:49] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[23:09:51] [Server thread/INFO]: Zarickson issued server command: /vanish
-[23:10:07] [Server thread/INFO]: Zarickson issued server command: /invsee Viviana_Zafra
-[23:10:19] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[23:10:34] [Server thread/INFO]: Zarickson issued server command: /gm 1
-[23:10:39] [Server thread/INFO]: ¡DIOS HA LLEGADO!
-[23:10:49] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[23:11:00] [Async Chat Thread - #33/INFO]: [Not Secure] [Owner]  Zarickson > hoy es el dia de no sleep
-[23:11:02] [Async Chat Thread - #33/INFO]: [Not Secure] [Miembro]  Viviana_Zafra > QUE ME IMPIDE MADAFAKING
-[23:11:09] [Async Chat Thread - #33/INFO]: [Not Secure] [Owner]  Zarickson > no podras dormir xd
-[23:11:12] [Async Chat Thread - #33/INFO]: [Not Secure] [Miembro]  Viviana_Zafra > xd
-[23:11:17] [Async Chat Thread - #33/INFO]: [Not Secure] [Owner]  Zarickson > mañana del juego, obvio, se quita
-[23:11:19] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[23:11:23] [Async Chat Thread - #33/INFO]: [Not Secure] [Owner]  Zarickson > pendiente con lo truenos
-[23:11:49] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[23:11:52] [Server thread/INFO]: Named entity Spider['❤ 0 / 64'/22537, uuid='d8d52a67-20de-4633-ba1f-37d2d9285830', l='ServerLevel[world]', x=2148.95, y=69.40, z=-94.69, cpos=[134, -6], tl=273, v=true] died: ❤ 0 / 64 was slain by Viviana_Zafra
-[23:12:04] [Server thread/INFO]: Named entity Zombie['❤ 0 / 640'/22371, uuid='17481604-d6ff-489f-8d6a-f0faf15fcdfc', l='ServerLevel[world]', x=2147.64, y=69.00, z=-89.42, cpos=[134, -6], tl=938, v=true] died: ❤ 0 / 640 was slain by Viviana_Zafra
-[23:12:14] [Server thread/INFO]: Zarickson issued server command: /tp Viviana_Zafra
-[23:12:16] [Server thread/INFO]: Zarickson issued server command: /gm spectator
-[23:12:19] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[23:12:39] [Async Chat Thread - #35/INFO]: [Not Secure] [Owner]  Zarickson > mm
-[23:12:44] [Server thread/INFO]: Zarickson issued server command: /gm 1
-[23:12:48] [Server thread/INFO]: Named entity Creeper['❤ 20 / 20'/22779, uuid='87182e1e-f44f-4397-8300-0d01ce606bd0', l='ServerLevel[world]', x=2163.50, y=71.00, z=-110.50, cpos=[135, -7], tl=506, v=true] died: ❤ 20 / 20 blew up
-[23:12:49] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[23:13:06] [Server thread/INFO]: Named entity Sheep['❤ 0 / 8'/22802, uuid='b27a636a-f258-4fd3-b822-2873563d207b', l='ServerLevel[world]', x=2084.74, y=70.42, z=-48.55, cpos=[130, -4], tl=460, v=true] died: ❤ 0 / 8 was slain by Viviana_Zafra
-[23:13:10] [Server thread/INFO]: Named entity Sheep['❤ 0 / 8'/22801, uuid='f6484874-0d99-4bc1-8bb9-57477d52761d', l='ServerLevel[world]', x=2089.01, y=69.00, z=-37.06, cpos=[130, -3], tl=540, v=true] died: ❤ 0 / 8 was slain by Viviana_Zafra
-[23:13:19] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[23:13:20] [Server thread/INFO]: Viviana_Zafra was slain by ❤ 15 / 2048
-[23:13:24] [Async Chat Thread - #35/INFO]: [Not Secure] [Owner]  Zarickson > ,/back
-[23:13:28] [Server thread/INFO]: Viviana_Zafra issued server command: /back
-[23:13:30] [Server thread/INFO]: Viviana_Zafra was slain by ❤ 16 / 2048
-[23:13:34] [Async Chat Thread - #35/INFO]: [Not Secure] [Miembro]  Viviana_Zafra > xd
-[23:13:36] [Server thread/INFO]: Viviana_Zafra issued server command: /back
-[23:13:36] [Server thread/INFO]: Viviana_Zafra was slain by ❤ 16 / 2048
-[23:13:37] [Server thread/INFO]: Zarickson issued server command: /tp Viviana_Zafra Zarickson
-[23:13:38] [Server thread/INFO]: Zarickson issued server command: /tp Viviana_Zafra Zarickson
-[23:13:43] [Server thread/INFO]: Viviana_Zafra was slain by ❤ 15 / 2048
-[23:13:49] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[23:13:54] [Server thread/INFO]: Viviana_Zafra issued server command: /back
-[23:14:04] [Server thread/INFO]: Zarickson issued server command: /invsee
-[23:14:06] [Server thread/INFO]: Zarickson issued server command: /invsee Viviana_Zafra
-[23:14:19] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[23:14:19] [Server thread/INFO]: Zarickson issued server command: /invsee Viviana_Zafra
-[23:14:28] [Server thread/INFO]: KRATOS Zarickson has made the advancement [Getting an Upgrade]
-[23:14:30] [Server thread/INFO]: Zarickson issued server command: /invsee
-[23:14:32] [Server thread/INFO]: Zarickson issued server command: /invsee Viviana_Zafra
-[23:14:38] [User Authenticator #5/INFO]: UUID of player pancho28xd is 33413895-de6f-375f-9f86-261fa1527748
-[23:14:39] [Server thread/INFO]: pancho28xd joined the game
-[23:14:39] [Server thread/INFO]: pancho28xd[/127.4.219.78:47801] logged in with entity id 23813 at ([world]-192.52705447351937, 63.0, -301.69999998807907)
-[23:14:41] [Server thread/INFO]: Zarickson issued server command: /invsee Viviana_Zafra
-[23:14:48] [Server thread/INFO]: pancho28xd lost connection: Disconnected
-[23:14:48] [Server thread/INFO]: [voicechat] Disconnecting client pancho28xd
-[23:14:48] [Server thread/INFO]: pancho28xd left the game
-[23:14:49] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[23:14:55] [Server thread/INFO]: Zarickson issued server command: /tp Viviana_Zafra
-[23:15:04] [Server thread/INFO]: Named entity Spider['❤ 0 / 32'/24076, uuid='f5300c7c-e9fb-404e-b924-a25745fbfc0d', l='ServerLevel[world]', x=2110.25, y=71.00, z=-162.58, cpos=[131, -11], tl=291, v=true] died: ❤ 0 / 32 was slain by Viviana_Zafra
-[23:15:19] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[23:15:46] [Server thread/INFO]: Zarickson issued server command: /invsee Viviana_Zafra
-[23:15:49] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
-[23:15:57] [Server thread/INFO]: Zarickson issued server command: /tp Viviana_Zafra
-[23:16:07] [Server thread/INFO]: Zarickson issued server command: /plugman unload EntityOptimizer
-[23:16:07] [Server thread/INFO]: [EntityOptimizer] Disabling EntityOptimizer v1.0
-[23:16:07] [Server thread/INFO]: [EntityOptimizer] EntityOptimizer desactivado.
-[23:16:09] [Async Chat Thread - #37/INFO]: [Not Secure] [Owner]  Zarickson > asd
-[23:16:17] [Async Chat Thread - #37/INFO]: [Not Secure] [Miembro]  Viviana_Zafra > me faltan mis papas
-[23:16:32] [Async Chat Thread - #37/INFO]: [Not Secure] [Miembro]  Viviana_Zafra > y la caña de azuca
-[23:16:44] [User Authenticator #6/INFO]: UUID of player claraaaa is 7a4e360d-5762-316e-8e20-0f2b002338ce
-[23:16:46] [Server thread/INFO]: claraaaa joined the game
-[23:16:46] [Server thread/INFO]: claraaaa[/127.88.168.22:40619] logged in with entity id 24368 at ([world]67.5, 63.0, -63.5)
-[23:16:46] [Server thread/INFO]: claraaaa has made the advancement [Getting an Upgrade]
-[23:16:52] [Server thread/INFO]: Zarickson issued server command: /tp claraaaa
-[23:17:02] [Server thread/INFO]: [AuthMe] claraaaa registered 127.88.168.22
-[23:17:02] [Craft Scheduler Thread - 155 - AuthMe/INFO]: [AuthMe] claraaaa logged in 127.88.168.22
-[23:17:05] [Async Chat Thread - #37/INFO]: [Not Secure] [Miembro]  claraaaa > hol
-[23:17:08] [Async Chat Thread - #37/INFO]: [Not Secure] [Miembro]  Viviana_Zafra > olas
-[23:17:09] [Async Chat Thread - #37/INFO]: [Not Secure] [Owner]  Zarickson > ¡Hola!
-[23:17:12] [Async Chat Thread - #37/INFO]: [Not Secure] [Miembro]  Viviana_Zafra > welcome
-[23:17:31] [Server thread/INFO]: claraaaa has made the advancement [Monster Hunter]
-[23:17:31] [Server thread/INFO]: Named entity Zombie['❤ 0 / 640'/24477, uuid='c242365c-e7d0-40cd-9f82-7d4fe9a592e0', l='ServerLevel[world]', x=-193.29, y=63.00, z=-294.32, cpos=[-13, -19], tl=844, v=true] died: ❤ 0 / 640 was slain by claraaaa
-[23:17:43] [Server thread/INFO]: Named entity Zombie['❤ 0 / 1280'/24478, uuid='63a4bdfa-ce3e-4676-8d92-2a5348348e77', l='ServerLevel[world]', x=-198.07, y=63.00, z=-294.98, cpos=[-13, -19], tl=1079, v=true] died: ❤ 0 / 1280 was slain by claraaaa
-[23:17:51] [Server thread/INFO]: Named entity Spider['❤ 0 / 2048'/24460, uuid='e49fa17e-8fc9-4075-a548-45bc4c07b3a6', l='ServerLevel[world]', x=-199.17, y=63.00, z=-298.85, cpos=[-13, -19], tl=1252, v=true] died: ❤ 0 / 2048 was slain by claraaaa
-[23:18:06] [Server thread/INFO]: Named entity Zombie['❤ 0 / 2048'/24446, uuid='421972b0-28c6-4faf-b1a0-a1e02aa0205d', l='ServerLevel[world]', x=-196.72, y=63.00, z=-304.65, cpos=[-13, -20], tl=1577, v=true] died: ❤ 0 / 2048 was blown up by ❤ 20 / 20
-[23:18:06] [Server thread/INFO]: Named entity Zombie['❤ 0 / 320'/24705, uuid='90b10849-a178-4540-af5c-bfbaaf6442e8', l='ServerLevel[world]', x=-196.57, y=63.00, z=-299.70, cpos=[-13, -19], tl=810, v=true] died: ❤ 0 / 320 was blown up by ❤ 20 / 20
-[23:18:33] [Server thread/INFO]: Named entity Zombie['❤ 0 / 2048'/24542, uuid='2bd5470e-95ac-491e-9eeb-0eb2cde50008', l='ServerLevel[world]', x=-200.17, y=63.00, z=-302.54, cpos=[-13, -19], tl=2053, v=true] died: ❤ 0 / 2048 was slain by claraaaa
-[23:18:35] [Server thread/INFO]: Zarickson issued server command: /nosleep false
-[23:18:35] [Server thread/INFO]: Se puede dormir de nuevo. Los mobs han vuelto a la normalidad.
-[23:18:40] [Async Chat Thread - #39/INFO]: [Not Secure] [Owner]  Zarickson > Listo ya se puede dormir
-[23:18:41] [Async Chat Thread - #39/INFO]: [Not Secure] [Owner]  Zarickson > xd
-[23:18:43] [Async Chat Thread - #39/INFO]: [Not Secure] [Miembro]  Viviana_Zafra > asd
-[23:18:48] [Server thread/INFO]: claraaaa lost connection: Disconnected
-[23:18:48] [Server thread/INFO]: [voicechat] Disconnecting client claraaaa
-[23:18:48] [Server thread/INFO]: claraaaa left the game
-[23:19:06] [Server thread/INFO]: Named entity Skeleton['❤ 0 / 80'/25002, uuid='2e06e8e1-75a2-446b-b93a-21790e6e6355', l='ServerLevel[world]', x=2121.61, y=62.00, z=-258.62, cpos=[132, -17], tl=620, v=true] died: ❤ 0 / 80 was slain by Viviana_Zafra
-[23:19:08] [Server thread/INFO]: Named entity Skeleton['Skeleton'/25043, uuid='d00aaa93-8aaa-48ee-af58-71c5692a4296', l='ServerLevel[world]', x=-173.85, y=70.00, z=-336.91, cpos=[-11, -22], tl=522, v=true] died: Skeleton burned to death
-[23:19:17] [Async Chat Thread - #39/INFO]: [Not Secure] [Owner]  Zarickson > a cambiar la estrategia
-[23:19:20] [Async Chat Thread - #39/INFO]: [Not Secure] [Owner]  Zarickson > para que se unan mas :v
-[23:19:23] [Async Chat Thread - #39/INFO]: [Not Secure] [Miembro]  Viviana_Zafra > de q
-[23:19:25] [Async Chat Thread - #39/INFO]: [Not Secure] [Miembro]  Viviana_Zafra > con mods??
-[23:19:45] [Async Chat Thread - #39/INFO]: [Not Secure] [Owner]  Zarickson > La estrategia para que vengan más, y no se aburran tanto
-[23:19:49] [Async Chat Thread - #39/INFO]: [Not Secure] [Owner]  Zarickson > tengo que pensar que poner
-[23:19:52] [Async Chat Thread - #39/INFO]: [Not Secure] [Owner]  Zarickson > que no aburra
-[23:19:52] [Async Chat Thread - #39/INFO]: [Not Secure] [Miembro]  Viviana_Zafra > con mods creo
-[23:20:05] [Async Chat Thread - #39/INFO]: [Not Secure] [Owner]  Zarickson > mods que agregue mas biomas?
-[23:20:06] [Async Chat Thread - #39/INFO]: [Not Secure] [Owner]  Zarickson > o algo ais
-[23:20:07] [Async Chat Thread - #39/INFO]: [Not Secure] [Owner]  Zarickson > no se
-[23:20:09] [Async Chat Thread - #39/INFO]: [Not Secure] [Miembro]  Viviana_Zafra > exacto
-[23:20:14] [Async Chat Thread - #39/INFO]: [Not Secure] [Owner]  Zarickson > he pensado en poner el nuke mod
-[23:20:17] [Async Chat Thread - #39/INFO]: [Not Secure] [Owner]  Zarickson > es decir bombas nucleares
-[23:20:19] [Async Chat Thread - #39/INFO]: [Not Secure] [Miembro]  Viviana_Zafra > pongale
-[23:20:20] [Async Chat Thread - #39/INFO]: [Not Secure] [Owner]  Zarickson > pero no sé JAJa
-[23:20:23] [Async Chat Thread - #39/INFO]: [Not Secure] [Miembro]  Viviana_Zafra > yo me la instalo
-[23:20:26] [Async Chat Thread - #39/INFO]: [Not Secure] [Miembro]  Viviana_Zafra > pero pa la 1.21.4
-[23:20:36] [Async Chat Thread - #39/INFO]: [Not Secure] [Owner]  Zarickson > claro obvio, voy a ver si existen esos mods para esta version
-[23:20:48] [Async Chat Thread - #39/INFO]: [Not Secure] [Miembro]  Viviana_Zafra > x mi te ayudo
-[23:23:10] [Async Chat Thread - #41/INFO]: [Not Secure] [Owner]  Zarickson > a
-[23:23:12] [Server thread/INFO]: Zarickson issued server command: /tp Viviana_Zafra
-[23:23:19] [Async Chat Thread - #41/INFO]: [Not Secure] [Miembro]  Viviana_Zafra > xd
-[23:24:22] [Async Chat Thread - #43/INFO]: [Not Secure] [Owner]  Zarickson > voy a agregar el mod de varias plantas
-[23:24:24] [Async Chat Thread - #43/INFO]: [Not Secure] [Owner]  Zarickson > digo biomas*
-[23:24:27] [Server thread/INFO]: Named entity Cow['❤ 0 / 10'/28535, uuid='f7677a33-645a-4a5a-8450-8786a7c2e154', l='ServerLevel[world]', x=1262.35, y=70.54, z=204.80, cpos=[78, 12], tl=1230, v=true] died: ❤ 0 / 10 was slain by Viviana_Zafra
-[23:24:29] [Async Chat Thread - #43/INFO]: [Not Secure] [Miembro]  Viviana_Zafra > vale
-[23:24:32] [Server thread/INFO]: Named entity Cow['❤ 0 / 10'/28533, uuid='236410b6-9104-4267-ae14-792d4a337aed', l='ServerLevel[world]', x=1262.75, y=66.53, z=209.45, cpos=[78, 13], tl=1330, v=true] died: ❤ 0 / 10 was slain by Viviana_Zafra
-[23:24:33] [Async Chat Thread - #44/INFO]: [Not Secure] [Owner]  Zarickson > apagaré el sv por un momento
-[23:24:35] [Async Chat Thread - #44/INFO]: [Not Secure] [Miembro]  Viviana_Zafra > ok
-[23:24:37] [Server thread/INFO]: Zarickson issued server command: /tp Viviana_Zafra
-[23:24:38] [Async Chat Thread - #44/INFO]: [Not Secure] [Miembro]  Viviana_Zafra > ponelo en dc
-[23:24:40] [Async Chat Thread - #44/INFO]: [Not Secure] [Miembro]  Viviana_Zafra > el mod
-[23:24:41] [Async Chat Thread - #44/INFO]: [Not Secure] [Owner]  Zarickson > ok si va
-[23:24:44] [Server thread/INFO]: Viviana_Zafra lost connection: Disconnected
-[23:24:44] [Server thread/INFO]: [voicechat] Disconnecting client Viviana_Zafra
-[23:24:44] [Server thread/INFO]: Viviana_Zafra left the game
-[23:24:48] [Server thread/INFO]: Stopping the server
-[23:24:49] [Server thread/INFO]: Stopping server
-[23:24:49] [Server thread/INFO]: [SmoothTimber] Disabling SmoothTimber v1.27.3
-[23:24:49] [Server thread/INFO]: [GrimAC] Disabling GrimAC v2.3.69
-[23:24:49] [Server thread/INFO]: [GrimAC] Terminating PacketEvents...
-[23:24:49] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.5.3
-[23:24:49] [Server thread/INFO]: [NetheriteLightning] Disabling NetheriteLightning v1.0
-[23:24:49] [Server thread/INFO]: [NetheriteLightning] NetheriteLightning deshabilitado.
-[23:24:49] [Server thread/INFO]: [Chunky] Disabling Chunky v1.4.28
-[23:24:49] [Server thread/INFO]: [FakeLogin] Disabling FakeLogin v1.0
-[23:24:49] [Server thread/INFO]: [LightningHoe] Disabling LightningHoe v1.0
-[23:24:49] [Server thread/INFO]: [ItemFrameDuplicator] Disabling ItemFrameDuplicator v1.0
-[23:24:49] [Server thread/INFO]: [ItemFrameDuplicator] ItemFrameDuplicator desactivado.
-[23:24:49] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.29.0
-[23:24:49] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] Shutdown completed in 152ms
-[23:24:49] [Server thread/INFO]: [RPGHealthDisplay] Disabling RPGHealthDisplay v1.0
-[23:24:49] [Server thread/INFO]: [RPGHealthDisplay] RPGHealthDisplay ha sido desactivado.
-[23:24:49] [Server thread/INFO]: [ChatManager] Disabling ChatManager v4.0.3
-[23:24:49] [Server thread/INFO]: [voicechat] Disabling voicechat v2.5.26
-[23:24:49] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.6.1-SNAPSHOT
-[23:24:49] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
-[23:24:49] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
-[23:24:49] [Server thread/INFO]: [PrivateWarps] Disabling PrivateWarps v1.0
-[23:24:49] [Server thread/INFO]: [BetterTeams] Disabling BetterTeams v4.11.0
-[23:24:49] [Server thread/INFO]: [TAB] Disabling TAB v5.0.7
-[23:24:49] [Server thread/INFO]: [TAB] Disabled in 0ms
-[23:24:49] [Server thread/INFO]: [TrollMaster] Disabling TrollMaster v1.0
-[23:24:49] [Server thread/INFO]: [NoSleep] Disabling NoSleep v1.0
-[23:24:49] [Server thread/INFO]: [HerobrineTroll] Disabling HerobrineTroll v1.0
-[23:24:49] [Server thread/INFO]: [PlugManX] Disabling PlugManX v2.4.1
-[23:24:49] [Server thread/INFO]: [AuthMe] Disabling AuthMe v5.6.0-bCUSTOM
-[23:24:49] [Server thread/INFO]: [AuthMe] Waiting for 0 tasks to finish
-[23:24:49] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0-bCUSTOM disabled!
-[23:24:49] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.13+82fdc65
-[23:24:49] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
-[23:24:49] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v4.0.5
-[23:24:49] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[23:24:49] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.6
-[23:24:49] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.21.0-dev+167-4e64782
-[23:24:49] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.10+7004-768a436
-[23:24:49] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[23:24:49] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.2.1
-[23:24:49] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+167-4e64782
-[23:24:49] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
-[23:24:49] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
-[23:24:49] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.156
-[23:24:49] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[23:24:49] [Server thread/INFO]: [LuckPerms] Closing storage...
-[23:24:49] [Server thread/INFO]: [LuckPerms] Goodbye!
-[23:24:49] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.2.1
-[23:24:49] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[23:24:49] [Server thread/INFO]: Saving players
-[23:24:49] [Server thread/INFO]: Zarickson lost connection: Server closed
-[23:24:49] [Server thread/INFO]: Zarickson left the game
-[23:24:49] [WebSocketConnectReadThread-162/INFO]: [Geyser-Spigot] The skin uploader has been closed
-[23:24:49] [Server thread/INFO]: Saving worlds
-[23:24:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[23:24:49] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[23:24:49] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[23:24:49] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[23:24:51] [Server thread/INFO]: [ChunkHolderManager] Saved 2236 block chunks, 1006 entity chunks, 17 poi chunks in world 'world' in 2.19s
-[23:24:51] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[23:24:51] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[23:24:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[23:24:51] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[23:24:51] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[23:24:51] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[23:24:51] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[23:24:51] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[23:24:51] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[23:24:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[23:24:51] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[23:24:51] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[23:24:51] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[23:24:51] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[23:24:51] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[23:24:51] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[23:24:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[23:24:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[23:24:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[23:24:51] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[23:24:51] [Server thread/INFO]: Waiting for I/O tasks to complete...
-[23:24:51] [Server thread/INFO]: All I/O tasks to complete
-[23:24:51] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[23:24:51] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[03Mar2025 23:37:00.801] [main/INFO] [FabricLoader/GameProvider/]: Loading Minecraft 1.21 Arclight arclight-1.21-1.0.0-SNAPSHOT-b3349e9 with Fabric Loader 0.15.11
+mainEx[03Mar2025 23:37:00.967] [main/INFO] [FabricLoader/]: Loading 41 mods:
+	- arclight 1.0.0-SNAPSHOT+b3349e9
+	- fabric-api 0.100.1+1.21
+	   |-- fabric-api-base 0.4.42+6573ed8c90
+	   |-- fabric-api-lookup-api-v1 1.6.65+b559734490
+	   |-- fabric-biome-api-v1 13.0.28+6fc22b9990
+	   |-- fabric-block-api-v1 1.0.22+0af3f5a790
+	   |-- fabric-block-view-api-v2 1.0.10+6573ed8c90
+	   |-- fabric-blockrenderlayer-v1 1.1.52+0af3f5a790
+	   |-- fabric-client-tags-api-v1 1.1.15+6573ed8c90
+	   |-- fabric-command-api-v1 1.2.48+f71b366f90
+	   |-- fabric-command-api-v2 2.2.27+6a6dfa1990
+	   |-- fabric-commands-v0 0.2.65+df3654b390
+	   |-- fabric-content-registries-v0 8.0.11+b559734490
+	   |-- fabric-convention-tags-v1 2.0.12+7f945d5b90
+	   |-- fabric-convention-tags-v2 2.2.1+d153f34490
+	   |-- fabric-crash-report-info-v1 0.2.29+0af3f5a790
+	   |-- fabric-data-attachment-api-v1 1.1.22+6a6dfa1990
+	   |-- fabric-data-generation-api-v1 20.2.6+16c4ae2590
+	   |-- fabric-dimensions-v1 4.0.0+6fc22b9990
+	   |-- fabric-entity-events-v1 1.6.12+6fc22b9990
+	   |-- fabric-events-interaction-v0 0.7.10+e633f88390
+	   |-- fabric-game-rule-api-v1 1.0.52+6573ed8c90
+	   |-- fabric-item-api-v1 11.0.0+afdfc92190
+	   |-- fabric-item-group-api-v1 4.1.0+00ab0a6390
+	   |-- fabric-key-binding-api-v1 1.0.47+0af3f5a790
+	   |-- fabric-keybindings-v0 0.2.45+df3654b390
+	   |-- fabric-lifecycle-events-v1 2.3.9+98a7dbbb90
+	   |-- fabric-loot-api-v2 3.0.9+6573ed8c90
+	   |-- fabric-message-api-v1 6.0.13+6573ed8c90
+	   |-- fabric-model-loading-api-v1 2.0.0+fe474d6b90
+	   |-- fabric-networking-api-v1 4.1.0+686dcdce90
+	   |-- fabric-object-builder-api-v1 15.1.10+d132107690
+	   |-- fabric-particles-v1 4.0.2+6573ed8c90
+	   |-- fabric-recipe-api-v1 5.0.8+6573ed8c90
+	   |-- fabric-registry-sync-v0 5.0.21+b9828ba390
+	   |-- fabric-renderer-api-v1 3.2.16+fe474d6b90
+	   |-- fabric-renderer-indigo 1.6.3+cc9f121a90
+	   |-- fabric-renderer-registries-v1 3.2.66+df3654b390
+	   |-- fabric-rendering-data-attachment-v1 0.3.48+73761d2e90
+	   |-- fabric-rendering-fluids-v1 3.1.6+b559734490
+	   |-- fabric-rendering-v0 1.1.69+df3654b390
+	   |-- fabric-rendering-v1 5.0.3+d132107690
+	   |-- fabric-resource-conditions-api-v1 4.2.1+d153f34490
+	   |-- fabric-resource-loader-v0 1.1.3+b559734490
+	   |-- fabric-screen-api-v1 2.0.24+b559734490
+	   |-- fabric-screen-handler-api-v1 1.3.78+b559734490
+	   |-- fabric-sound-api-v1 1.0.23+6573ed8c90
+	   |-- fabric-transfer-api-v1 5.1.12+b559734490
+	   \-- fabric-transitive-access-wideners-v1 6.0.12+6573ed8c90
+	- fabricloader 0.15.11
+	   \-- mixinextras 0.3.5
+	- java 21
+	- minecraft 1.21
+mainEx[03Mar2025 23:37:01.060] [main/INFO] [FabricLoader/Mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/workspaces/ZaricksonxD/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/sponge-mixin-0.13.3+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+mainEx[03Mar2025 23:37:01.132] [main/INFO] [FabricLoader/Mixin/]: Compatibility level set to JAVA_17
+mainEx[03Mar2025 23:37:02.154] [main/INFO] [Arclight/]: Using locale en_ and fallback locale en_us
+mainEx[03Mar2025 23:37:02.165] [main/INFO] [Arclight/]: 
+
+       ___           ___     __   /\
+      /   | ________/ (_)__ / /  / /
+     / /| |/ __/ __/ / / _ / _ \/__/
+    / ___ / / / /_/ / / / / // / /
+   /_/  |/_/  \__/_/_/\_ /_//_/ /
+                     /__/     \/
+
+    Version 诸王 (Feudal Kings) / arclight-1.21-1.0.0-SNAPSHOT-b3349e9
+    Build Date 2024-06-29 03:46:12
+
+mainEx[03Mar2025 23:37:03.655] [main/INFO] [FabricLoader/MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+mainEx[03Mar2025 23:37:12.994] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+mainEx[03Mar2025 23:37:13.970] [main/INFO] [net.minecraft.server.Main/]: No existing world data, creating new world
+mainEx[03Mar2025 23:37:14.737] [main/INFO] [net.minecraft.class_1863/]: Loaded 1290 recipes
+mainEx[03Mar2025 23:37:14.975] [main/INFO] [net.minecraft.class_163/]: Loaded 1399 advancements
+mainEx[03Mar2025 23:37:15.527] [main/INFO] [net.fabricmc.fabric.impl.biome.modification.BiomeModificationImpl/]: Applied 0 biome modifications to 0 of 64 new biomes in 1.574 ms
+mainEx[03Mar2025 23:37:15.535] [Server thread/INFO] [net.minecraft.class_3176/]: Starting minecraft server version 1.21
+Server threadEx[03Mar2025 23:37:15.536] [Server thread/INFO] [net.minecraft.class_3176/]: Loading properties
+Server threadEx[03Mar2025 23:37:15.536] [Server thread/INFO] [net.minecraft.class_3176/]: Default game type: SURVIVAL
+Server threadEx[03Mar2025 23:37:15.536] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+Server threadEx[03Mar2025 23:37:15.664] [Server thread/INFO] [net.minecraft.class_3176/]: Starting Minecraft server on *:25565
+Server threadEx[03Mar2025 23:37:15.760] [Server thread/INFO] [net.minecraft.class_3242/]: Using epoll channel type
+Server threadEx[03Mar2025 23:37:15.838] [Server thread/WARN] [net.minecraft.class_3176/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+Server threadEx[03Mar2025 23:37:15.838] [Server thread/WARN] [net.minecraft.class_3176/]: The server will make no attempt to authenticate usernames. Beware.
+Server threadEx[03Mar2025 23:37:15.838] [Server thread/WARN] [net.minecraft.class_3176/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+Server threadEx[03Mar2025 23:37:15.838] [Server thread/WARN] [net.minecraft.class_3176/]: To change this, set "online-mode" to "true" in the server.properties file.
+Server threadEx[03Mar2025 23:37:16.073] [Server thread/INFO] [Minecraft/]: This server is running Arclight version arclight-1.21-1.0.0-SNAPSHOT-b3349e9 (MC: 1.21) (Implementing API version 1.21-R0.1-SNAPSHOT)
+Server threadEx[03Mar2025 23:37:17.038] [Server thread/INFO] [Arclight/]: Registering for Bukkit ...
+Server threadEx[03Mar2025 23:37:17.073] [Server thread/INFO] [Arclight/]: Registered 0 new materials with 0 blocks and 0 items
+Server threadEx[03Mar2025 23:37:17.209] [Server thread/INFO] [Arclight/]: Registered 0 new entity types
+Server threadEx[03Mar2025 23:37:17.209] [Server thread/INFO] [Arclight/]: Registered 0 new villager professions
+Server threadEx[03Mar2025 23:37:17.210] [Server thread/INFO] [Arclight/]: Registered 0 new biomes
+Server threadEx[03Mar2025 23:37:17.222] [Server thread/INFO] [net.minecraft.class_2983/]: [STDOUT]: Server Ping Player Sample Count: 12
+Server threadEx[03Mar2025 23:37:17.224] [Server thread/INFO] [Minecraft/]: Using 4 threads for Netty based IO
+Server threadEx[03Mar2025 23:37:17.225] [Server thread/INFO] [Minecraft/]: Debug logging is enabled
+Server threadEx[03Mar2025 23:37:17.325] [Server thread/INFO] [net.minecraft.class_3176/]: Preparing level "world"
+Server threadEx[03Mar2025 23:37:17.338] [Server thread/INFO] [Arclight/]: Registered 0 new dimensions
+Server threadEx[03Mar2025 23:37:17.686] [Server thread/INFO] [Minecraft/]: -------- World Settings For [world] --------
+Server threadEx[03Mar2025 23:37:17.687] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
+Server threadEx[03Mar2025 23:37:17.688] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 6
+Server threadEx[03Mar2025 23:37:17.697] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+Server threadEx[03Mar2025 23:37:17.697] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
+Server threadEx[03Mar2025 23:37:17.698] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+Server threadEx[03Mar2025 23:37:17.698] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
+Server threadEx[03Mar2025 23:37:17.698] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+Server threadEx[03Mar2025 23:37:17.698] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
+Server threadEx[03Mar2025 23:37:17.698] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
+Server threadEx[03Mar2025 23:37:17.698] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
+Server threadEx[03Mar2025 23:37:17.698] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
+Server threadEx[03Mar2025 23:37:17.698] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
+Server threadEx[03Mar2025 23:37:17.698] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
+Server threadEx[03Mar2025 23:37:17.698] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
+Server threadEx[03Mar2025 23:37:17.699] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
+Server threadEx[03Mar2025 23:37:17.699] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
+Server threadEx[03Mar2025 23:37:17.699] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
+Server threadEx[03Mar2025 23:37:17.699] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
+Server threadEx[03Mar2025 23:37:17.699] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
+Server threadEx[03Mar2025 23:37:17.699] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
+Server threadEx[03Mar2025 23:37:17.699] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
+Server threadEx[03Mar2025 23:37:17.699] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
+Server threadEx[03Mar2025 23:37:17.699] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
+Server threadEx[03Mar2025 23:37:17.699] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
+Server threadEx[03Mar2025 23:37:17.699] [Server thread/INFO] [Minecraft/]: TwistingVines Growth Modifier: 100%
+Server threadEx[03Mar2025 23:37:17.699] [Server thread/INFO] [Minecraft/]: WeepingVines Growth Modifier: 100%
+Server threadEx[03Mar2025 23:37:17.699] [Server thread/INFO] [Minecraft/]: CaveVines Growth Modifier: 100%
+Server threadEx[03Mar2025 23:37:17.700] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+Server threadEx[03Mar2025 23:37:17.700] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+Server threadEx[03Mar2025 23:37:17.703] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+Server threadEx[03Mar2025 23:37:17.704] [Server thread/INFO] [Minecraft/]: View Distance: 10
+Server threadEx[03Mar2025 23:37:17.704] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
+Server threadEx[03Mar2025 23:37:17.704] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
+Server threadEx[03Mar2025 23:37:17.705] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
+Server threadEx[03Mar2025 23:37:17.705] [Server thread/INFO] [Minecraft/]: Simulation Distance: 10
+Server threadEx[03Mar2025 23:37:24.538] [Server thread/INFO] [Minecraft/]: -------- World Settings For [world/DIM1] --------
+Server threadEx[03Mar2025 23:37:24.538] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
+Server threadEx[03Mar2025 23:37:24.538] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 6
+Server threadEx[03Mar2025 23:37:24.538] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+Server threadEx[03Mar2025 23:37:24.538] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
+Server threadEx[03Mar2025 23:37:24.538] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+Server threadEx[03Mar2025 23:37:24.538] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
+Server threadEx[03Mar2025 23:37:24.538] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+Server threadEx[03Mar2025 23:37:24.538] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
+Server threadEx[03Mar2025 23:37:24.539] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
+Server threadEx[03Mar2025 23:37:24.539] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
+Server threadEx[03Mar2025 23:37:24.539] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
+Server threadEx[03Mar2025 23:37:24.539] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
+Server threadEx[03Mar2025 23:37:24.539] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
+Server threadEx[03Mar2025 23:37:24.539] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
+Server threadEx[03Mar2025 23:37:24.539] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
+Server threadEx[03Mar2025 23:37:24.539] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
+Server threadEx[03Mar2025 23:37:24.539] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
+Server threadEx[03Mar2025 23:37:24.539] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
+Server threadEx[03Mar2025 23:37:24.539] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
+Server threadEx[03Mar2025 23:37:24.539] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
+Server threadEx[03Mar2025 23:37:24.539] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
+Server threadEx[03Mar2025 23:37:24.539] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
+Server threadEx[03Mar2025 23:37:24.539] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
+Server threadEx[03Mar2025 23:37:24.539] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
+Server threadEx[03Mar2025 23:37:24.539] [Server thread/INFO] [Minecraft/]: TwistingVines Growth Modifier: 100%
+Server threadEx[03Mar2025 23:37:24.539] [Server thread/INFO] [Minecraft/]: WeepingVines Growth Modifier: 100%
+Server threadEx[03Mar2025 23:37:24.539] [Server thread/INFO] [Minecraft/]: CaveVines Growth Modifier: 100%
+Server threadEx[03Mar2025 23:37:24.539] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+Server threadEx[03Mar2025 23:37:24.539] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+Server threadEx[03Mar2025 23:37:24.539] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+Server threadEx[03Mar2025 23:37:24.539] [Server thread/INFO] [Minecraft/]: View Distance: 10
+Server threadEx[03Mar2025 23:37:24.539] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
+Server threadEx[03Mar2025 23:37:24.539] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
+Server threadEx[03Mar2025 23:37:24.539] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
+Server threadEx[03Mar2025 23:37:24.539] [Server thread/INFO] [Minecraft/]: Simulation Distance: 10
+Server threadEx[03Mar2025 23:37:24.566] [Server thread/INFO] [Minecraft/]: -------- World Settings For [world/DIM-1] --------
+Server threadEx[03Mar2025 23:37:24.566] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
+Server threadEx[03Mar2025 23:37:24.566] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 6
+Server threadEx[03Mar2025 23:37:24.566] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+Server threadEx[03Mar2025 23:37:24.567] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
+Server threadEx[03Mar2025 23:37:24.567] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+Server threadEx[03Mar2025 23:37:24.567] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
+Server threadEx[03Mar2025 23:37:24.567] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+Server threadEx[03Mar2025 23:37:24.567] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
+Server threadEx[03Mar2025 23:37:24.567] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
+Server threadEx[03Mar2025 23:37:24.567] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
+Server threadEx[03Mar2025 23:37:24.567] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
+Server threadEx[03Mar2025 23:37:24.567] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
+Server threadEx[03Mar2025 23:37:24.567] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
+Server threadEx[03Mar2025 23:37:24.567] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
+Server threadEx[03Mar2025 23:37:24.567] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
+Server threadEx[03Mar2025 23:37:24.567] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
+Server threadEx[03Mar2025 23:37:24.567] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
+Server threadEx[03Mar2025 23:37:24.567] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
+Server threadEx[03Mar2025 23:37:24.567] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
+Server threadEx[03Mar2025 23:37:24.567] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
+Server threadEx[03Mar2025 23:37:24.567] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
+Server threadEx[03Mar2025 23:37:24.567] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
+Server threadEx[03Mar2025 23:37:24.567] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
+Server threadEx[03Mar2025 23:37:24.567] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
+Server threadEx[03Mar2025 23:37:24.567] [Server thread/INFO] [Minecraft/]: TwistingVines Growth Modifier: 100%
+Server threadEx[03Mar2025 23:37:24.567] [Server thread/INFO] [Minecraft/]: WeepingVines Growth Modifier: 100%
+Server threadEx[03Mar2025 23:37:24.567] [Server thread/INFO] [Minecraft/]: CaveVines Growth Modifier: 100%
+Server threadEx[03Mar2025 23:37:24.567] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+Server threadEx[03Mar2025 23:37:24.568] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+Server threadEx[03Mar2025 23:37:24.568] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+Server threadEx[03Mar2025 23:37:24.568] [Server thread/INFO] [Minecraft/]: View Distance: 10
+Server threadEx[03Mar2025 23:37:24.568] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
+Server threadEx[03Mar2025 23:37:24.568] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
+Server threadEx[03Mar2025 23:37:24.568] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
+Server threadEx[03Mar2025 23:37:24.568] [Server thread/INFO] [Minecraft/]: Simulation Distance: 10
+Server threadEx[03Mar2025 23:37:24.606] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+Server threadEx[03Mar2025 23:37:24.701] [Worker-Main-3/INFO] [net.minecraft.class_3951/]: Preparing spawn area: 2%
+Worker-Main-3Ex[03Mar2025 23:37:25.115] [Worker-Main-2/INFO] [net.minecraft.class_3951/]: Preparing spawn area: 2%
+Worker-Main-2Ex[03Mar2025 23:37:25.634] [Worker-Main-2/INFO] [net.minecraft.class_3951/]: Preparing spawn area: 2%
+Worker-Main-2Ex[03Mar2025 23:37:26.123] [Worker-Main-3/INFO] [net.minecraft.class_3951/]: Preparing spawn area: 2%
+Worker-Main-3Ex[03Mar2025 23:37:26.740] [Worker-Main-2/INFO] [net.minecraft.class_3951/]: Preparing spawn area: 2%
+Worker-Main-2Ex[03Mar2025 23:37:27.107] [Worker-Main-2/INFO] [net.minecraft.class_3951/]: Preparing spawn area: 18%
+Worker-Main-2Ex[03Mar2025 23:37:27.618] [Worker-Main-1/INFO] [net.minecraft.class_3951/]: Preparing spawn area: 18%
+Worker-Main-1Ex[03Mar2025 23:37:28.125] [Worker-Main-3/INFO] [net.minecraft.class_3951/]: Preparing spawn area: 18%
+Worker-Main-3Ex[03Mar2025 23:37:28.646] [Worker-Main-2/INFO] [net.minecraft.class_3951/]: Preparing spawn area: 51%
+Worker-Main-2Ex[03Mar2025 23:37:29.118] [Worker-Main-2/INFO] [net.minecraft.class_3951/]: Preparing spawn area: 51%
+Worker-Main-2Ex[03Mar2025 23:37:29.610] [Worker-Main-3/INFO] [net.minecraft.class_3951/]: Preparing spawn area: 51%
+Worker-Main-3Ex[03Mar2025 23:37:30.092] [Server thread/INFO] [net.minecraft.class_3951/]: Time elapsed: 5486 ms
+Server threadEx[03Mar2025 23:37:30.093] [Server thread/INFO] [net.minecraft.class_3176/]: Done (12.768s)! For help, type "help"
+Server threadEx[03Mar2025 23:43:52.704] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+Server threadEx[03Mar2025 23:43:52.745] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+Server threadEx[03Mar2025 23:43:52.745] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+Server threadEx[03Mar2025 23:43:52.745] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+Server threadEx[03Mar2025 23:43:53.274] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+Server threadEx[03Mar2025 23:43:53.866] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world/DIM1]'/minecraft:the_end
+Server threadEx[03Mar2025 23:43:53.868] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world/DIM-1]'/minecraft:the_nether
+Server threadEx
