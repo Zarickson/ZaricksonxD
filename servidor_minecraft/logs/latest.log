@@ -338,3 +338,97 @@ java.lang.ClassCastException: class org.bukkit.craftbukkit.entity.CraftDrowned c
 [14:30:03] [Server thread/INFO]: Zarickson issued server command: /plugman unload NoPluginsv2
 [14:30:03] [Server thread/INFO]: [NoPluginsv2] Disabling NoPluginsv2 v2.0
 [14:30:03] [Server thread/INFO]: [NoPluginsv2] BlockCommandsPlugin desactivado!
+[14:30:24] [Server thread/INFO]: Zarickson issued server command: /tp Quesitos Zarickson
+[14:30:27] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[14:30:41] [Async Chat Thread - #7/INFO]: [Not Secure] <Quesitos> dios?
+[14:30:44] [Async Chat Thread - #7/INFO]: [Not Secure] <Zarickson> Xd
+[14:30:57] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[14:31:25] [Async Chat Thread - #7/INFO]: [Not Secure] <Zarickson> igual vamos a copiar esto y lo vamos a pegar en otro lao
+[14:31:27] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[14:31:34] [Async Chat Thread - #7/INFO]: [Not Secure] <Zarickson> esos hologramas estan bien raros ahí xd
+[14:31:37] [Async Chat Thread - #7/INFO]: [Not Secure] <Quesitos> bue, ta bien
+[14:31:41] [Async Chat Thread - #7/INFO]: [Not Secure] <Quesitos> JASJ
+[14:31:45] [Async Chat Thread - #7/INFO]: [Not Secure] <Quesitos> divinos
+[14:31:57] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[14:32:00] [Server thread/INFO]: Zarickson issued server command: //copy
+[14:32:07] [Async Chat Thread - #7/INFO]: [Not Secure] <Zarickson> me voy pa otr lugar random
+[14:32:12] [Async Chat Thread - #7/INFO]: [Not Secure] <Quesitos> bue
+[14:32:27] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[14:32:31] [Server thread/INFO]: Zarickson issued server command: //paste
+[14:32:40] [Server thread/INFO]: Zarickson issued server command: //undo
+[14:32:43] [Server thread/INFO]: Zarickson issued server command: //spawn
+[14:32:45] [Server thread/INFO]: Zarickson issued server command: /spawn
+[14:32:45] [Server thread/INFO]: Quesitos issued server command: /setspawn
+[14:32:57] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[14:33:18] [Server thread/INFO]: Zarickson issued server command: //copy
+[14:33:19] [Server thread/INFO]: Zarickson issued server command: //paste
+[14:33:23] [Async Chat Thread - #9/INFO]: [Not Secure] <Zarickson> asd
+[14:33:26] [Server thread/INFO]: Zarickson issued server command: //undo
+[14:33:27] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[14:33:29] [Server thread/INFO]: Zarickson issued server command: //copy
+[14:33:31] [Server thread/INFO]: Zarickson issued server command: //paste
+[14:33:34] [Server thread/INFO]: Zarickson issued server command: //undo
+[14:33:43] [Server thread/INFO]: Zarickson issued server command: /spawn
+[14:33:55] [Server thread/INFO]: Zarickson issued server command: //copy
+[14:33:57] [Server thread/INFO]: Zarickson issued server command: //paste
+[14:33:57] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[14:34:07] [Server thread/INFO]: Zarickson issued server command: //undo
+[14:34:10] [Server thread/INFO]: Zarickson issued server command: //paste
+[14:34:12] [Server thread/INFO]: Zarickson issued server command: //undo
+[14:34:27] [Server thread/INFO]: Zarickson issued server command: //copy
+[14:34:27] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[14:34:29] [Server thread/INFO]: Zarickson issued server command: //paste
+[14:34:35] [Server thread/INFO]: Zarickson issued server command: //undo
+[14:34:42] [Server thread/INFO]: Zarickson issued server command: //paste
+[14:34:51] [Server thread/INFO]: Zarickson issued server command: //undo
+[14:34:57] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[14:35:11] [Server thread/INFO]: Zarickson issued server command: //paste
+[14:35:18] [Server thread/INFO]: Zarickson issued server command: /tp Quesitos Zarickson
+[14:35:27] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[14:35:44] [Server thread/INFO]: Zarickson issued server command: /setspawn
+[14:35:57] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[14:36:12] [Async Chat Thread - #11/INFO]: [Not Secure] <Zarickson> ya lo terminaste de construir?
+[14:36:27] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[14:36:29] [Async Chat Thread - #11/INFO]: [Not Secure] <Quesitos> Creo que si, hay algo mas que necesites que le agregue
+[14:36:32] [Async Chat Thread - #11/INFO]: [Not Secure] <Quesitos> ?
+[14:36:44] [Async Chat Thread - #11/INFO]: [Not Secure] <Zarickson> mmm
+[14:36:48] [Async Chat Thread - #11/INFO]: [Not Secure] <Zarickson> que crees que seria mejor?
+[14:36:49] [Async Chat Thread - #11/INFO]: [Not Secure] <Zarickson> para el spawn
+[14:36:57] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[14:37:08] [Async Chat Thread - #11/INFO]: [Not Secure] <Quesitos> tmb depende de que tipo de spawn sera, como el de ultracraft? o uno amplio
+[14:37:26] [Async Chat Thread - #11/INFO]: [Not Secure] <Zarickson> y si pasamos esto en el aire?
+[14:37:27] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[14:37:30] [Async Chat Thread - #11/INFO]: [Not Secure] <Zarickson> dejame hacerlo rapido
+[14:37:31] [Server thread/INFO]: Zarickson issued server command: //undo
+[14:37:33] [Async Chat Thread - #11/INFO]: [Not Secure] <Quesitos> ookk
+[14:37:41] [Server thread/INFO]: Zarickson issued server command: //up 50
+[14:37:44] [Server thread/INFO]: Zarickson issued server command: /up 50
+[14:37:46] [Server thread/INFO]: Zarickson issued server command: /up 50
+[14:37:48] [Server thread/INFO]: Zarickson issued server command: //paste
+[14:37:52] [Server thread/INFO]: Quesitos issued server command: /tp
+[14:37:56] [Server thread/INFO]: Zarickson issued server command: //undo
+[14:37:57] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[14:38:07] [Server thread/INFO]: Quesitos issued server command: /tp Zarickson
+[14:38:19] [Server thread/INFO]: Zarickson issued server command: //cyl acacia
+[14:38:27] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[14:38:34] [Server thread/INFO]: Zarickson issued server command: //cyl oak_log 4 4
+[14:38:54] [Server thread/INFO]: Zarickson issued server command: //undo
+[14:38:57] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[14:39:00] [Server thread/INFO]: Zarickson issued server command: //cyl oak_log 50 50
+[14:39:21] [Async Chat Thread - #13/INFO]: [Not Secure] <Quesitos> watafa mano JASJ
+[14:39:27] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[14:39:30] [Async Chat Thread - #13/INFO]: [Not Secure] <Zarickson> XD
+[14:39:33] [Server thread/INFO]: Zarickson issued server command: //paste
+[14:39:42] [Async Chat Thread - #13/INFO]: [Not Secure] <Quesitos> en otros tiempos esto me hubiera reventado la PC
+[14:39:45] [Async Chat Thread - #13/INFO]: [Not Secure] <Zarickson> Si Xd
+[14:39:49] [Async Chat Thread - #13/INFO]: [Not Secure] <Zarickson> pon antorchas en todos lados
+[14:39:52] [Async Chat Thread - #13/INFO]: [Not Secure] <Zarickson> para que no aparezcan mobs
+[14:39:55] [Async Chat Thread - #13/INFO]: [Not Secure] <Quesitos> bue
+[14:39:57] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[14:40:00] [Server thread/INFO]: Zarickson issued server command: /time set day
+[14:40:18] [Server thread/INFO]: Zarickson issued server command: //set oak_log
+[14:40:18] [Server thread/INFO]: Named entity Zombie['❤ 20 / 20'/5594, uuid='4d103d8c-fcc0-4e7d-ab09-5e245d9cb6fa', l='ServerLevel[world]', x=-182.16, y=218.00, z=-258.78, cpos=[-12, -17], tl=918, v=true] died: ❤ 20 / 20 burned to death
+[14:40:18] [Server thread/INFO]: Named entity Zombie['❤ 20 / 20'/5585, uuid='5c360e1e-40c3-4f21-bf57-ed3b59a338a5', l='ServerLevel[world]', x=-195.72, y=218.00, z=-313.25, cpos=[-13, -20], tl=953, v=true] died: ❤ 20 / 20 burned to death
+[14:40:19] [Server thread/INFO]: Named entity Zombie['❤ 17 / 20'/5584, uuid='75858be7-a3f3-4a1c-afe6-1435cc73b7bf', l='ServerLevel[world]', x=-204.78, y=218.00, z=-271.20, cpos=[-13, -17], tl=988, v=true] died: ❤ 17 / 20 burned to death
+[14:40:19] [Server thread/INFO]: Named entity Skeleton['Skeleton'/5458, uuid='1d2a3332-909b-4c7c-b0bb-ee47075cf85c', l='ServerLevel[world]', x=-174.98, y=218.00, z=-284.45, cpos=[-11, -18], tl=1388, v=true] died: Skeleton burned to death
+[14:40:19] [Server thread/INFO]: Named entity Zombie['❤ 20 / 20'/5577, uuid='1d6dff27-684d-447f-ac9f-e26a158c4223', l='ServerLevel[world]', x=-184.06, y=218.00, z=-248.03, cpos=[-12, -16], tl=1028, v=true] died: ❤ 20 / 20 burned to death

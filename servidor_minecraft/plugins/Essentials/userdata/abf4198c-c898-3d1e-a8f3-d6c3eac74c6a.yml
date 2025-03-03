@@ -11,7 +11,7 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 0
+  lastteleport: 1741012687342
   lastheal: 0
   mute: 0
   jail: 0
@@ -23,11 +23,11 @@ last-account-name: Quesitos
 lastlocation:
   world: 8cddc2d8-6cc0-4564-b2fd-f2fc7646369c
   world-name: world
-  x: 119.28519878311728
-  y: 64.0
-  z: -76.08916321374572
-  yaw: -132.62750244140625
-  pitch: 16.34851837158203
+  x: -210.9624305294738
+  y: 78.42958949694828
+  z: -301.52103010453925
+  yaw: 155.88450622558594
+  pitch: 44.4408073425293
 logoutlocation:
   world: 8cddc2d8-6cc0-4564-b2fd-f2fc7646369c
   world-name: world
