@@ -251,3 +251,90 @@ java.lang.ClassCastException: class org.bukkit.craftbukkit.entity.CraftDrowned c
 [14:19:34] [Async Chat Thread - #0/INFO]: [Not Secure] <Zarickson> perame
 [14:19:37] [Async Chat Thread - #0/INFO]: [Not Secure] <Quesitos> okk
 [14:19:57] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[14:20:27] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[14:20:57] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[14:21:27] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[14:21:57] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[14:22:23] [Async Chat Thread - #2/INFO]: [Not Secure] <Zarickson> ando haciendo un bot de discord para que puedas abrir tu el sv en caso de que yo no esté
+[14:22:27] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[14:22:37] [Async Chat Thread - #2/INFO]: [Not Secure] <Quesitos> vava, graxx
+[14:22:45] [Server thread/INFO]: Named entity Skeleton['❤ 0 / 20'/1686, uuid='0d87cc8c-514b-45b2-9935-209087930dc7', l='ServerLevel[world]', x=81.36, y=63.00, z=-50.34, cpos=[5, -4], tl=3955, v=true] died: ❤ 0 / 20 was slain by Zarickson
+[14:22:51] [Server thread/INFO]: Named entity Zombie['❤ 0 / 20'/1387, uuid='b62ac954-95c6-4aa1-ac9c-2b2105e7ec83', l='ServerLevel[world]', x=89.97, y=63.00, z=-45.85, cpos=[5, -3], tl=6225, v=true] died: ❤ 0 / 20 was slain by Zarickson
+[14:22:57] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[14:23:06] [Server thread/INFO]: Named entity Zombie['❤ 0 / 20'/1933, uuid='2fca3115-50dd-41cd-8746-93335e346129', l='ServerLevel[world]', x=115.22, y=64.00, z=-39.83, cpos=[7, -3], tl=1306, v=true] died: ❤ 0 / 20 was slain by Zarickson
+[14:23:27] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[14:23:30] [Server thread/INFO]: [Not Secure] [Server] a
+[14:23:33] [Server thread/INFO]: [Not Secure] [Server] &3&lPIREE
+[14:23:39] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /me &3&la
+[14:23:46] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /me &3&lQUESO CON CeBOLLA
+[14:23:50] [Async Chat Thread - #2/INFO]: [Not Secure] <Quesitos> ahh
+[14:23:57] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[14:24:04] [Async Chat Thread - #2/INFO]: [Not Secure] <Quesitos> aaa
+[14:24:07] [Async Chat Thread - #2/INFO]: [Not Secure] <Quesitos> de locosss
+[14:24:27] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[14:24:57] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[14:25:09] [Server thread/INFO]: Named entity Creeper['❤ 0 / 20'/1881, uuid='73df9243-656e-4547-9a56-d3fabd63d6aa', l='ServerLevel[world]', x=113.26, y=65.00, z=-57.30, cpos=[7, -4], tl=4363, v=true] died: ❤ 0 / 20 was slain by Zarickson
+[14:25:27] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[14:25:57] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[14:25:58] [User Authenticator #2/INFO]: UUID of player Zarickson is d1be33e8-0f45-3b2d-8d80-cabf1ca7e6a5
+[14:25:58] [Server thread/INFO]: Disconnecting Zarickson (/127.4.64.75:60917): The same username is already playing on the server!
+[14:25:58] [Server thread/INFO]: Zarickson (/127.4.64.75:60917) lost connection: The same username is already playing on the server!
+[14:25:58] [Server thread/INFO]: Zarickson lost connection: Disconnected
+[14:25:58] [Server thread/INFO]: [voicechat] Disconnecting client Zarickson
+[14:25:58] [Server thread/INFO]: Zarickson left the game
+[14:26:08] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /me au
+[14:26:13] [User Authenticator #2/INFO]: UUID of player Zarickson is d1be33e8-0f45-3b2d-8d80-cabf1ca7e6a5
+[14:26:13] [Server thread/INFO]: Zarickson[/127.4.64.75:40507] logged in with entity id 2408 at ([world]108.53244687588003, 64.0, -63.24617834159853)
+[14:26:21] [Craft Scheduler Thread - 19 - AuthMe/INFO]: [AuthMe] Zarickson logged in 127.4.64.75
+[14:26:27] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[14:26:32] [Async Chat Thread - #5/INFO]: [Not Secure] <Zarickson> por cierto implementé un comando, se llama /fakelogin (false o true)
+[14:26:43] [Async Chat Thread - #5/INFO]: [Not Secure] <Zarickson> Si pones true, lo que pasará es que cada vez que te conectes
+[14:26:44] [Async Chat Thread - #5/INFO]: [Not Secure] <Zarickson> no aparecerá
+[14:26:52] [Async Chat Thread - #5/INFO]: [Not Secure] <Zarickson> así para que los jugadores crean que no hay nadie
+[14:26:57] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[14:26:58] [Async Chat Thread - #5/INFO]: [Not Secure] <Quesitos> alaa
+[14:27:01] [Async Chat Thread - #5/INFO]: [Not Secure] <Quesitos> a ver pera
+[14:27:06] [Server thread/INFO]: Quesitos issued server command: /fakelogin
+[14:27:18] [Async Chat Thread - #5/INFO]: [Not Secure] <Zarickson> ./fakelogin true
+[14:27:25] [Server thread/INFO]: Quesitos issued server command: /fakelogin true
+[14:27:27] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[14:27:33] [Async Chat Thread - #5/INFO]: [Not Secure] <Zarickson> ahora sal
+[14:27:33] [Server thread/INFO]: Quesitos issued server command: /fakelogin false
+[14:27:34] [Async Chat Thread - #5/INFO]: [Not Secure] <Zarickson> y entra
+[14:27:36] [Server thread/INFO]: Quesitos issued server command: /fakelogin true
+[14:27:38] [Server thread/INFO]: Quesitos lost connection: Disconnected
+[14:27:38] [Server thread/INFO]: [voicechat] Disconnecting client Quesitos
+[14:27:38] [Server thread/INFO]: Quesitos left the game
+[14:27:51] [User Authenticator #3/INFO]: UUID of player Quesitos is abf4198c-c898-3d1e-a8f3-d6c3eac74c6a
+[14:27:52] [Server thread/INFO]: Quesitos[/127.66.197.61:49125] logged in with entity id 2619 at ([world]96.36187080252549, 63.0, -57.10031055924392)
+[14:27:56] [Async Chat Thread - #5/INFO]: [Not Secure] <Zarickson> y no me sale que entraste
+[14:27:57] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[14:28:05] [Craft Scheduler Thread - 24 - AuthMe/INFO]: [AuthMe] Quesitos used the wrong password
+[14:28:05] [Server thread/INFO]: Quesitos lost connection: Wrong password!
+[14:28:05] [Server thread/INFO]: [voicechat] Disconnecting client Quesitos
+[14:28:05] [Server thread/INFO]: Quesitos left the game
+[14:28:13] [User Authenticator #3/INFO]: UUID of player Quesitos is abf4198c-c898-3d1e-a8f3-d6c3eac74c6a
+[14:28:14] [Server thread/INFO]: Quesitos[/127.66.197.61:47923] logged in with entity id 2673 at ([world]96.01442925268083, 63.0, -57.106060319946316)
+[14:28:16] [Async Chat Thread - #5/INFO]: [Not Secure] <Zarickson> ves?
+[14:28:17] [Craft Scheduler Thread - 23 - AuthMe/INFO]: [AuthMe] Quesitos logged in 127.66.197.61
+[14:28:19] [Async Chat Thread - #5/INFO]: [Not Secure] <Quesitos> sisi
+[14:28:20] [Async Chat Thread - #5/INFO]: [Not Secure] <Zarickson> xd
+[14:28:24] [Async Chat Thread - #6/INFO]: [Not Secure] <Quesitos> jasj GODD
+[14:28:27] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[14:28:29] [Async Chat Thread - #6/INFO]: [Not Secure] <Zarickson> pon /vanish
+[14:28:30] [Server thread/INFO]: Quesitos issued server command: /fakelogin false
+[14:28:34] [Server thread/INFO]: Zarickson issued server command: /vanish
+[14:28:44] [Async Chat Thread - #6/INFO]: [Not Secure] <Zarickson> listo, cuando un usuario normal entre
+[14:28:45] [Async Chat Thread - #6/INFO]: [Not Secure] <Zarickson> no nos verá
+[14:28:56] [Async Chat Thread - #6/INFO]: [Not Secure] <Quesitos> godd
+[14:28:57] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[14:29:00] [Async Chat Thread - #6/INFO]: [Not Secure] <Quesitos> re admins
+[14:29:01] [Server thread/INFO]: Zarickson issued server command: /invsee Quesitos
+[14:29:13] [Server thread/INFO]: Zarickson issued server command: /invsee Quesitos
+[14:29:21] [Async Chat Thread - #6/INFO]: [Not Secure] <Zarickson> XDD
+[14:29:27] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[14:29:50] [Server thread/INFO]: Zarickson issued server command: /tp Quesitos Zarickson
+[14:29:57] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[14:30:03] [Server thread/INFO]: Zarickson issued server command: /plugman unload NoPluginsv2
+[14:30:03] [Server thread/INFO]: [NoPluginsv2] Disabling NoPluginsv2 v2.0
+[14:30:03] [Server thread/INFO]: [NoPluginsv2] BlockCommandsPlugin desactivado!
