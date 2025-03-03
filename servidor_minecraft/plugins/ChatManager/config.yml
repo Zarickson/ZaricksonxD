@@ -450,33 +450,31 @@ Messages:
   # after the player joins the server (fx. TAB plugin)
   Async: false
 
-  First_Join:
-    Welcome_Message:
-      Enable: false
-      # The sound that will be sent to everyone on the server when a broadcasted message is sent.
-      # Set toggle to false
-      sound:
-        toggle: false
-        value: 'ENTITY_PLAYER_LEVELUP'
-        pitch: 1.0
-        volume: 1.0
-      First_Join_Message: "&eWelcome to &b{server_name} %luckperms_prefix% {player}&e!"
+First_Join:
+  Welcome_Message:
+    Enable: true
+    # Sonido cuando un nuevo jugador entra por primera vez.
+    sound:
+      toggle: true
+      value: 'ENTITY_PLAYER_LEVELUP'
+      pitch: 1.2
+      volume: 1.0
+    First_Join_Message: "&e¡Bienvenido a &b{server_name}, &r%luckperms_prefix% {player}&e! 🎉"
 
-    Actionbar_Message:
-      Enable: false
-      First_Join_Message: "&eWelcome to &b{server_name} %luckperms_prefix% {player}&e!"
+  Actionbar_Message:
+    Enable: true
+    First_Join_Message: "&a¡Bienvenido, &b{player}&a! Disfruta tu aventura en &e{server_name}&a. 🚀"
 
-    Title_Message:
-      Enable: false
-      #The time it takes for the title to fade into the screen.
-      Fade_In: 40
-      #The time it takes for the title to stay on the screen.
-      Stay: 20
-      #The time it takes for the title to fade out of the screen.
-      Fade_Out: 40
-      First_Join_Message:
-        Header: "&eWelcome"
-        Footer: "&b{player} to {server_name}"
+  Title_Message:
+    Enable: true
+    # Duraciones para el efecto de título en pantalla.
+    Fade_In: 40
+    Stay: 60
+    Fade_Out: 40
+    First_Join_Message:
+      Header: "&6🌟 ¡Bienvenido! 🌟"
+      Footer: "&b{player}, disfruta tu aventura en &e{server_name}!"
+
 
   Join_Quit_Messages:
     Join_Message:

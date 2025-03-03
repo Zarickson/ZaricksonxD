@@ -1,86 +1,87 @@
 Auto_Broadcast:
   Global_Messages:
-    Enable: false
+    Enable: true
     Header_And_Footer: true
     Interval: 30
-    Prefix: "&7[&6AutoBroadcast&7] &r"
-    Header: "&7*&7&m--------------------------------&7*"
-    Footer: "&7*&7&m--------------------------------&7*"
+    Prefix: "&7[&6Anuncio&7] &r"
+    Header: "&7★&m--------------------------------&7★"
+    Footer: "&7★&m--------------------------------&7★"
     sound:
-      toggle: false
-      value: 'ENTITY_PLAYER_LEVELUP'
-      pitch: 1
+      toggle: true
+      value: 'ENTITY_EXPERIENCE_ORB_PICKUP'
+      pitch: 1.2
       volume: 1
     Messages:
-      - "{prefix}&7Auto-Broadcast chat message."
-      - "{prefix}&7Plugin created by H1DD3NxN1NJA."
-      - "{prefix}&7Hello &c{player} &7there are &c{online} &7players online."
+      - "{prefix}&eRecuerda seguir las reglas del servidor. ¡Diviértete!"
+      - "{prefix}&bNo olvides unirte a nuestro Discord: &9<enlace>"
+      - "{prefix}&aHola &c{player}&a, actualmente hay &c%online% &a jugadores en línea."
+      - "{prefix}&6¡Explora, construye y haz historia en nuestro mundo!"
+
   Per_World_Messages:
-    Enable: false
+    Enable: true
     Header_And_Footer: true
     Interval: 60
-    Prefix: "&7[&6AutoBroadcast&7] &r"
-    Header: "&7*&7&m--------------------------------&7*"
-    Footer: "&7*&7&m--------------------------------&7*"
+    Prefix: "&7[&6Anuncio&7] &r"
+    Header: "&7★&m--------------------------------&7★"
+    Footer: "&7★&m--------------------------------&7★"
     sound:
-      toggle: false
+      toggle: true
       value: 'ENTITY_PLAYER_LEVELUP'
-      pitch: 1
+      pitch: 1.1
       volume: 1
     Messages:
       world:
-        - "{prefix}&aWelcome to the server!"
-        - "{prefix}&aHope you enjoy our server!"
-        - "{prefix}&aJoin our discord <Link>"
-        - "{prefix}&aThis server is running the plugin ChatManager by H1DD3NxN1NJA"
-        - "{prefix}&bYou can edit these in the ChatManager > AutoBroadcast.yml"
+        - "{prefix}&a¡Bienvenido al servidor! Disfruta tu estadía. 🏡"
+        - "{prefix}&b¿Necesitas ayuda? Usa &e/ayuda &bpara ver los comandos."
+        - "{prefix}&6Únete a nuestra comunidad en Discord: &9<enlace>"
+        - "{prefix}&aExplora, construye y crea tu propia historia. 🌍"
       world_nether:
-        - "{prefix}&7The nether is a scary place"
-        - "{prefix}&aWelcome to the server!"
-        - "{prefix}&aHope you enjoy our server!"
-        - "{prefix}&aJoin our discord <Link>"
-        - "{prefix}&aThis server is running the plugin ChatManager by H1DD3NxN1NJA"
-        - "{prefix}&bYou can edit these in the ChatManager > AutoBroadcast.yml"
+        - "{prefix}&c⚠️ ¡El Nether es peligroso! Prepárate bien antes de entrar."
+        - "{prefix}&aNo olvides recolectar cuarzo y verrugas del Nether. 🔥"
+        - "{prefix}&bConstruye tu base segura, los ghasts están al acecho. 👀"
       world_the_end:
-        - "{prefix}&aThe end is a scary place"
-        - "{prefix}&aWatch out for the ender dragon!"
-        - "{prefix}&cDon't make eye contact with the enderman!"
+        - "{prefix}&d⚠️ ¡Cuidado! El Dragón del End te está observando..."
+        - "{prefix}&cNo mires directamente a los enderman, o te arrepentirás."
+        - "{prefix}&aDerrota al dragón y reclama tu huevo como trofeo. 🏆"
+
   Actionbar_Messages:
-    Enable: false
-    Interval: 60
-    Prefix: "&7[&6AutoBroadcast&7] &r"
+    Enable: true
+    Interval: 45
+    Prefix: "&7[&6Anuncio&7] &r"
     sound:
-      toggle: false
-      value: 'ENTITY_PLAYER_LEVELUP'
-      pitch: 1.0
+      toggle: true
+      value: 'BLOCK_NOTE_BLOCK_PLING'
+      pitch: 1.5
       volume: 1.0
     Messages:
-      - "{prefix}&7Auto-Broadcast action bar message."
-      - "{prefix}&7Plugin created by H1DD3NxN1NJA."
-      - "{prefix}&7Hello &c{player} &7there are &c{online} &7players online."
+      - "{prefix}&e¡No olvides votar por el servidor para recibir recompensas!"
+      - "{prefix}&bDisfruta del juego y respeta a los demás jugadores. ✨"
+      - "{prefix}&aRecuerda proteger tus construcciones con &6/claim"
+
   Title_Messages:
-    Enable: false
-    Interval: 60
+    Enable: true
+    Interval: 90
     sound:
-      toggle: false
-      value: 'ENTITY_PLAYER_LEVELUP'
+      toggle: true
+      value: 'ENTITY_ENDER_DRAGON_GROWL'
       pitch: 1.0
       volume: 1.0
-    Title: "&cTitle"
+    Title: "&6¡Bienvenido!"
     Messages:
-      - "&7Auto-Broadcast title message."
-      - "&7Plugin created by H1DD3NxN1NJA."
-      - "&7Hello &c{player} &7there are &c{online} &7players online."
-  Bossbar_Messages: # 1.9+
-    Enable: false
-    Interval: 60
+      - "&7Explora, construye y diviértete en nuestro servidor."
+      - "&eRecuerda leer las reglas antes de comenzar tu aventura."
+      - "&b¡Invita a tus amigos y crezcan juntos en este mundo!"
+
+  Bossbar_Messages:
+    Enable: true
+    Interval: 75
     sound:
-      toggle: false
-      value: 'ENTITY_PLAYER_LEVELUP'
-      pitch: 1.0
+      toggle: true
+      value: 'ENTITY_WITHER_SPAWN'
+      pitch: 1.2
       volume: 1.0
-    Bar_Time: 10 # How long the boss bar stays on for.
+    Bar_Time: 10
     Messages:
-      - "&7Auto-Broadcast bossbar message."
-      - "&7Plugin created by H1DD3NxN1NJA."
-      - "&7Hello &c{player} &7there are &c{online} &7players online."
+      - "&7🔥 &6¡Nuevos eventos cada semana! Participa y gana premios."
+      - "&b💎 Recuerda recolectar recursos para mejorar tu equipo."
+      - "&c⚠️ Evita el PvP en zonas seguras o podrías ser sancionado."

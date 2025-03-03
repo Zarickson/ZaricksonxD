@@ -350,3 +350,88 @@
 [16:30:30] [Async Chat Thread - #3/INFO]: [Not Secure] [Owner]  Quesitos > como funciona eso?
 [16:30:36] [Async Chat Thread - #3/INFO]: [Not Secure] [Owner]  Zarickson > ./team create (nombre)
 [16:30:39] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[16:30:42] [Server thread/INFO]: Quesitos issued server command: /team
+[16:30:43] [Async Chat Thread - #3/INFO]: [Not Secure] [Owner]  Zarickson > y luego si quieres tus colores
+[16:30:45] [Async Chat Thread - #3/INFO]: [Not Secure] [Owner]  Zarickson > ejemplo
+[16:30:50] [Async Chat Thread - #3/INFO]: [Not Secure] [Owner]  Quesitos > ala, eso es para hacer facciones?
+[16:30:51] [Async Chat Thread - #3/INFO]: [Not Secure] [Owner]  Zarickson > ./team color (color)
+[16:30:52] [Async Chat Thread - #3/INFO]: [Not Secure] [Owner]  Zarickson > si
+[16:30:54] [Server thread/INFO]: Zarickson issued server command: /team
+[16:31:09] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[16:31:12] [Server thread/INFO]: Zarickson issued server command: /tab reload
+[16:31:12] [Server thread/INFO]: [TAB] Disabled in 1ms
+[16:31:12] [Server thread/INFO]: [TAB] Enabled in 18ms
+[16:31:39] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[16:32:09] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[16:32:39] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[16:33:09] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[16:33:39] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[16:34:09] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[16:34:12] [Server thread/INFO]: Zarickson issued server command: /tab reload
+[16:34:12] [Server thread/INFO]: [TAB] Disabled in 1ms
+[16:34:12] [Server thread/INFO]: [TAB] Enabled in 27ms
+[16:34:13] [Async Chat Thread - #4/INFO]: [Not Secure] [Owner]  Quesitos > aa
+[16:34:16] [Async Chat Thread - #4/INFO]: [Not Secure] [Owner]  Quesitos > opa
+[16:34:16] [Server thread/INFO]: Zarickson issued server command: /team create a
+[16:34:20] [Server thread/INFO]: Zarickson issued server command: /team create KRATOS
+[16:34:39] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[16:34:56] [Server thread/INFO]: Zarickson issued server command: /tab reload
+[16:34:56] [Server thread/INFO]: [TAB] Disabled in 1ms
+[16:34:56] [Server thread/INFO]: [TAB] Enabled in 13ms
+[16:35:09] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[16:35:39] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[16:35:43] [Server thread/INFO]: Zarickson issued server command: /papi ecloud download Statistic
+[16:35:43] [placeholderapi-io-#1/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[16:35:46] [Server thread/INFO]: Zarickson issued server command: /papi reload
+[16:35:46] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[16:35:46] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[16:35:47] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: statistic [2.0.1]
+[16:35:47] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: luckperms [5.4-R2]
+[16:35:47] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: vault [1.8.3]
+[16:36:02] [Server thread/INFO]: Zarickson issued server command: /tab reload
+[16:36:02] [Server thread/INFO]: [TAB] Disabled in 2ms
+[16:36:02] [Server thread/INFO]: [TAB] Enabled in 18ms
+[16:36:03] [Async Chat Thread - #6/INFO]: [Not Secure] [Owner]  Zarickson > asd
+[16:36:09] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[16:36:11] [Async Chat Thread - #7/INFO]: [Not Secure] [Owner]  Quesitos > que tal CrystalCraft?
+[16:36:13] [Async Chat Thread - #7/INFO]: [Not Secure] [Owner]  Quesitos > JASJSA
+[16:36:15] [Async Chat Thread - #7/INFO]: [Not Secure] [Owner]  Zarickson > JAJA
+[16:36:15] [Async Chat Thread - #7/INFO]: [Not Secure] [Owner]  Zarickson > xd
+[16:36:25] [Async Chat Thread - #7/INFO]: [Not Secure] [Owner]  Zarickson > creo que ya todo está listo no?
+[16:36:30] [Async Chat Thread - #7/INFO]: [Not Secure] [Owner]  Quesitos > ala
+[16:36:34] [Async Chat Thread - #7/INFO]: [Not Secure] [Owner]  Quesitos > ya protegiste?
+[16:36:37] [Async Chat Thread - #7/INFO]: [Not Secure] [Owner]  Zarickson > solo dejame colocar algunos cosas en español y ya
+[16:36:39] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[16:36:41] [Async Chat Thread - #7/INFO]: [Not Secure] [Owner]  Zarickson > falta eso tambien proteger xd
+[16:36:42] [Async Chat Thread - #7/INFO]: [Not Secure] [Owner]  Quesitos > okk
+[16:36:45] [Async Chat Thread - #7/INFO]: [Not Secure] [Owner]  Quesitos > eso eso jasj
+[16:37:09] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[16:37:19] [Server thread/INFO]: Quesitos issued server command: /tp zarickson quesitos
+[16:37:24] [Async Chat Thread - #7/INFO]: [Not Secure] [Owner]  Quesitos > ou
+[16:37:30] [Async Chat Thread - #7/INFO]: [Not Secure] [Owner]  Quesitos > ese mensaje que JASJ
+[16:37:37] [Async Chat Thread - #7/INFO]: [Not Secure] [Owner]  Zarickson > XD
+[16:37:39] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[16:37:40] [Server thread/INFO]: Quesitos issued server command: /tp zarickson
+[16:37:45] [Async Chat Thread - #7/INFO]: [Not Secure] [Owner]  Quesitos > coño pero
+[16:37:46] [Async Chat Thread - #7/INFO]: [Not Secure] [Owner]  Quesitos > coño pero
+[16:37:49] [Server thread/INFO]: Quesitos issued server command: /tp zarickson
+[16:37:51] [Async Chat Thread - #7/INFO]: [Not Secure] [Owner]  Quesitos > JASJ
+[16:38:00] [Server thread/INFO]: Zarickson issued server command: /chatmanager reload
+[16:38:03] [Async Chat Thread - #7/INFO]: [Not Secure] [Owner]  Quesitos > ala vee
+[16:38:07] [Async Chat Thread - #7/INFO]: [Not Secure] [Owner]  Quesitos > que goddd
+[16:38:09] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[16:38:39] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[16:39:06] [Server thread/INFO]: Zarickson issued server command: /chatmanager reload
+[16:39:09] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[16:39:14] [Server thread/INFO]: Zarickson lost connection: Disconnected
+[16:39:14] [Server thread/INFO]: [voicechat] Disconnecting client Zarickson
+[16:39:14] [Server thread/INFO]: KRATOS Zarickson left the game
+[16:39:16] [User Authenticator #2/INFO]: UUID of player Zarickson is d1be33e8-0f45-3b2d-8d80-cabf1ca7e6a5
+[16:39:17] [Server thread/INFO]: Zarickson joined the game
+[16:39:17] [Server thread/INFO]: Zarickson[/127.4.64.75:39019] logged in with entity id 3134 at ([world]-170.999649347505, 69.0, -297.8197812172125)
+[16:39:20] [Craft Scheduler Thread - 22 - AuthMe/INFO]: [AuthMe] Zarickson logged in 127.4.64.75
+[16:39:39] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[16:39:57] [Server thread/INFO]: Zarickson issued server command: /chatmanager reload
+[16:40:09] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.
+[16:40:35] [Async Chat Thread - #8/INFO]: [Not Secure] [Owner]  Quesitos > god
+[16:40:39] [Server thread/INFO]: [EntityOptimizer] Se han eliminado los ítems del suelo.

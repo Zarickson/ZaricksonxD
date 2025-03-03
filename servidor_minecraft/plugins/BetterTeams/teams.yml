@@ -1,4 +1,6 @@
 storageType: YAML
-teamNameLookup: []
-playerLookup: []
+teamNameLookup:
+- kratos:ac950755-38d8-491b-a1f8-1a7f4e09e1ac
+playerLookup:
+- d1be33e8-0f45-3b2d-8d80-cabf1ca7e6a5:ac950755-38d8-491b-a1f8-1a7f4e09e1ac
 chestClaims: []
