@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.88.168.22
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1741043928900
+  login: 1741043806644
+money: '0'
+last-account-name: claraaaa
+lastlocation:
+  world: 8cddc2d8-6cc0-4564-b2fd-f2fc7646369c
+  world-name: world
+  x: 67.5
+  y: 63.0
+  z: -63.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: 8cddc2d8-6cc0-4564-b2fd-f2fc7646369c
+  world-name: world
+  x: -192.21702536475883
+  y: 63.1875
+  z: -301.6496487701875
+  yaw: -68.82501220703125
+  pitch: -23.451269149780273

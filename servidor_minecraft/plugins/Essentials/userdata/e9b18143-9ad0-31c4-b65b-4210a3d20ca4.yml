@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.192.211.153
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1741043634648
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1741044284499
+  login: 1741041367958
+money: '0'
+last-account-name: Viviana_Zafra
+lastlocation:
+  world: 8cddc2d8-6cc0-4564-b2fd-f2fc7646369c
+  world-name: world
+  x: -192.67083918216915
+  y: 63.0
+  z: -301.4942791335537
+  yaw: -85.94505310058594
+  pitch: 2.6421806812286377
+logoutlocation:
+  world: 8cddc2d8-6cc0-4564-b2fd-f2fc7646369c
+  world-name: world
+  x: 1266.913330754696
+  y: 71.0
+  z: 205.35554451763593
+  yaw: -116.10775756835938
+  pitch: 6.645195960998535

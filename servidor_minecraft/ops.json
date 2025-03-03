@@ -10,5 +10,11 @@
     "name": "Quesitos",
     "level": 4,
     "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "e9b18143-9ad0-31c4-b65b-4210a3d20ca4",
+    "name": "Viviana_Zafra",
+    "level": 4,
+    "bypassesPlayerLimit": false
   }
 ]

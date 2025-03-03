@@ -11,28 +11,28 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1741014993432
+  lastteleport: 1741044277514
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1741025176702
-  login: 1741025142763
+  logout: 1741044289369
+  login: 1741038804209
 money: '0'
 last-account-name: Zarickson
 logoutlocation:
   world: 8cddc2d8-6cc0-4564-b2fd-f2fc7646369c
   world-name: world
-  x: -253.5744618870884
-  y: 73.7434628802339
-  z: -332.39781928300874
-  yaw: 101.51593017578125
-  pitch: 25.950077056884766
+  x: 1262.064167904741
+  y: 69.7492699271767
+  z: 212.31676128855378
+  yaw: -150.67633056640625
+  pitch: -9.329344749450684
 lastlocation:
   world: 8cddc2d8-6cc0-4564-b2fd-f2fc7646369c
   world-name: world
-  x: -226.95073910263253
-  y: 282.21921331299177
-  z: -311.7135740513189
-  yaw: -120.5721435546875
-  pitch: -75.45000457763672
+  x: 1365.300000011921
+  y: 84.73925324347195
+  z: 177.8113854754723
+  yaw: 135.14988708496094
+  pitch: 31.875019073486328
