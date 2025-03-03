@@ -150,3 +150,6 @@
 [03-03 14:51:09]: [FINE] Zarickson logged in 127.4.64.75
 [03-03 14:53:44]: [FINE] Zarickson logged in 127.4.64.75
 [03-03 14:53:59]: [FINE] Quesitos logged in 127.66.197.61
+[03-03 15:45:05]: [FINE] Zarickson logged in 127.4.64.75
+[03-03 15:46:38]: [INFO] Vault plugin enabled, dynamically updating permissions hooks!
+[03-03 15:46:38]: [INFO] Hooked into LuckPerms!
