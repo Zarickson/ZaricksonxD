@@ -507,7 +507,8 @@ First_Join:
     
     Actionbar_Message:
       Enable: true
-      Message: "&eWelcome back to &b{server_name} %luckperms_prefix% {player}&e!"
+      Message: "&6⚡ ¡Bienvenido de vuelta a &b{server_name}, %luckperms_prefix% {player}&6! ⚡"
+
     
     Title_Message:
       Enable: false
@@ -611,17 +612,18 @@ Mentions:
 # When players join your server, welcome them with a Message of the Day.
 #=================================================================================================#
 MOTD:
-  Enable: false
-  # How long to wait before displaying after login in seconds?
+  Enable: true
+  # Tiempo de espera antes de mostrar el mensaje después de iniciar sesión (en segundos).
   Delay: 2
   Message:
-    - "&7&m------------------------------------"
-    - "&aWelcome to the server &b{player}&a!"
+    - "&8&m----------------------------------------"
+    - "&6✨ ¡Bienvenido al servidor, &b{player}&6! ✨"
     - ""
-    - "&aIf you need any help please message any online staff member."
+    - "&aSi necesitas ayuda, contacta a un miembro del staff."
     - ""
-    - "&aYou can change this message in the ChatManager - Config.yml"
-    - "&7&m------------------------------------"
+    - "&7🔧 Puedes personalizar este mensaje en &eChatManager - Config.yml"
+    - "&8&m----------------------------------------"
+
 
 #=================================================================================================#
 # Mute Chat.

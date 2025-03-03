@@ -1,0 +1,8 @@
+# Please translate these messages and then submit them to the Booksaw Development (https://discord.gg/JF9DNs3) in the #messages-submissions channel for a special rank
+# Your translations will be included in the next update
+# When you are done translating, run '/teama importmessages' to include the translated messages in your main file
+create.minLength: &4That team name is too short
+chest.check.self: &6Your team has claimed that chest
+chest.check.notClaimed: &6That chest has not been claimed
+chest.check.claimed: &6That chest is claimed by &a{0}
+command.check: check

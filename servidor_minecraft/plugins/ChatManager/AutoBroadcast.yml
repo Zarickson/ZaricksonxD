@@ -45,7 +45,7 @@ Auto_Broadcast:
         - "{prefix}&aDerrota al dragón y reclama tu huevo como trofeo. 🏆"
 
   Actionbar_Messages:
-    Enable: true
+    Enable: false
     Interval: 45
     Prefix: "&7[&6Anuncio&7] &r"
     sound:
@@ -59,7 +59,7 @@ Auto_Broadcast:
       - "{prefix}&aRecuerda proteger tus construcciones con &6/claim"
 
   Title_Messages:
-    Enable: true
+    Enable: false
     Interval: 90
     sound:
       toggle: true
@@ -76,7 +76,7 @@ Auto_Broadcast:
     Enable: true
     Interval: 75
     sound:
-      toggle: true
+      toggle: false
       value: 'ENTITY_WITHER_SPAWN'
       pitch: 1.2
       volume: 1.0
